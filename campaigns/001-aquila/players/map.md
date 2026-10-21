@@ -25,3 +25,7 @@ Der Weg zum Steinbruch ist allgemein bekannt; was sich dort befindet, wisst ihr 
 ## Von Livia erklärt – Speicherpunkt 5
 
 Das Wasser kommt aus der Morgenquelle, läuft durch den Aquädukt und wird über Leitungen beim Mühlentor in die Stadt geführt. Dort kann der Zufluss kontrolliert werden. Zum Mühlentor etwa 30 Minuten, zum Steinbruch über den Hafen insgesamt etwa 45 Minuten. Eine Verbindung der aktuellen Störung zum Steinbruch ist noch nicht bewiesen.
+
+## Getrennt erfahren – Speicherpunkt 8
+
+Cäsar kennt den Wartungsweg vom Mühlentor zum Verteilerhaus durch die Wache. Augustus weiß durch Neria, dass dort die Schieber liegen; die genaue Wegbeschreibung hat sie ihm erst angeboten. Keine dieser neuen Informationen ist bisher zwischen den Helden ausgetauscht worden.

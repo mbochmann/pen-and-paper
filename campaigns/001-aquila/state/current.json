@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "campaign_id": "aquila-001",
-  "revision": 7,
-  "last_event_id": "event-000007",
-  "updated_at": "2026-10-21T16:28:12.211Z",
+  "revision": 8,
+  "last_event_id": "event-000008",
+  "updated_at": "2026-10-21T16:34:47.646Z",
   "phase": "playing",
   "session": 1,
   "game_time": {
@@ -158,7 +158,7 @@
       "known_by": [
         "pc-1"
       ],
-      "revealed_text": "Cäsar hört bei Ankunft am Mühlentor Wasser oben im Aquädukt rauschen. Er hat die Kontrollöffnung noch nicht geprüft; genaue Wassermenge und Verlauf nicht bestätigt.",
+      "revealed_text": "Cäsar hat mit der Wache die Kontrollöffnung geprüft: klarer laufender Zufluss aus Richtung der Hügel im oberen Kanal, aber leere tiefere Stadtzuleitung. Die Wache erklärt, dass dazwischen das Verteilerhaus liegt, und zeigt den Wartungsweg. Genaue Ursache der Unterbrechung weiterhin nicht selbst beobachtet.",
       "interpretation": "observation"
     },
     {
@@ -176,7 +176,7 @@
       "known_by": [
         "pc-2"
       ],
-      "revealed_text": "Neria identifiziert sich gegenüber Augustus. Nach Stegbruch sitzt sie mit schmerzendem Knöchel sicher im trockenen Wartungsraum fest. Sie sagt, jemand habe Schieber verstellt, sodass Wasser ins Steinbruchbecken statt zur Stadt laufe; heute früh habe sie Wagen am Becken gehört. Kein Tätername genannt.",
+      "revealed_text": "Neria identifiziert sich gegenüber Augustus. Nach Stegbruch sitzt sie mit schmerzendem Knöchel sicher im trockenen Wartungsraum fest. Sie sagt, jemand habe Schieber verstellt, sodass Wasser ins Steinbruchbecken statt zur Stadt laufe; heute früh habe sie Wagen am Becken gehört. Kein Tätername genannt. Augustus hat sie anschließend sicher befreit. Sie sitzt nun im Steinbruch neben der Mauer; der Knöchel schmerzt weiter. Sie nennt das Verteilerhaus als Ort der Schieber und bietet eine Wegbeschreibung an.",
       "interpretation": "observation"
     }
   ],
@@ -190,9 +190,9 @@
     },
     {
       "npc_id": "npc-neria",
-      "attitude": "open",
-      "location_id": "loc-cistern",
-      "notes": "Augustus hat sie vom Rand aus geortet und als Neria kennengelernt. Sitzt sicher mit schmerzendem Knöchel im trockenen Raum nach Stegbruch. Hat verstellte Schieber und Wasserumleitung zum Becken sowie morgens gehörte Wagen genannt. Noch nicht gerettet. Cäsar weiß von diesem Gespräch nichts."
+      "attitude": "trusted",
+      "location_id": "loc-quarry",
+      "notes": "Von Augustus am Arm erfolgreich aus dem trockenen Wartungsraum hochgezogen (Probe 8 gegen 7). Sitzt sicher neben Mauer im Steinbruch, Knöchel weiterhin schmerzhaft. Nennt Verteilerhaus als Ort der Schieber und bietet Wegbeschreibung an. Bittet, Gehilfin Livia über ihren Aufenthaltsort zu informieren. Keine Nachricht gesendet; nicht automatisch mitgereist."
     },
     {
       "npc_id": "npc-marcellus",
@@ -234,7 +234,7 @@
       "npc_id": "npc-gatekeeper",
       "attitude": "neutral",
       "location_id": "loc-gate",
-      "notes": "Cäsar hat Brunnenausfall und Hilfe für Livia erklärt. Gestattet Inspektion unter eigener Begleitung und nennt Schutz vor Beschädigung als Motiv. Treppe frei; noch keine konkrete Untersuchung oder unbeaufsichtigte Erlaubnis."
+      "notes": "Begleitet Cäsar bei Prüfung am Mühlentor. Zeigt auf Grundlage sichtbaren Zuflusses und trockener Stadtleitung den Wartungsweg zum dazwischenliegenden Verteilerhaus. Noch keine Reise dorthin oder weitere Begleitung zugesagt."
     }
   ],
   "world_changes": [
@@ -365,6 +365,30 @@
       "visibility": "public",
       "key": "act-one-completed",
       "value": true
+    },
+    {
+      "id": "change-000008-neria-rescued",
+      "text": "Augustus hat Neria ohne Mutverlust am Arm aus dem Wartungsraum gezogen. Sie ist im Steinbruch, gehbehindert; Livia und Cäsar noch nicht informiert.",
+      "source_event_id": "event-000008",
+      "visibility": "public",
+      "key": "neria-rescued",
+      "value": true
+    },
+    {
+      "id": "change-000008-distributor-route-known-pc-1",
+      "text": "Cäsar kennt durch Inspektion und Wache den sichtbaren Wartungsweg vom Mühlentor zum Verteilerhaus; noch nicht gegangen.",
+      "source_event_id": "event-000008",
+      "visibility": "public",
+      "key": "distributor-route-known-pc-1",
+      "value": true
+    },
+    {
+      "id": "change-000008-distributor-offer-pc-2",
+      "text": "Neria bietet Augustus eine Wegbeschreibung zum Verteilerhaus an. Noch keine Route erklärt oder Begleitung festgelegt.",
+      "source_event_id": "event-000008",
+      "visibility": "public",
+      "key": "distributor-offer-pc-2",
+      "value": true
     }
   ],
   "quests": [
@@ -375,7 +399,7 @@
     },
     {
       "quest_id": "quest-rescue",
-      "status": "active",
+      "status": "completed",
       "reward_granted": false
     },
     {
@@ -430,8 +454,8 @@
     },
     {
       "id": "thread-neria",
-      "summary": "Augustus hat Neria gefunden; schmerzender Knöchel nach Stegbruch, sicher im trockenen Raum. Rettungsmethode offen. Cäsar und Livia noch nicht informiert.",
-      "status": "open",
+      "summary": "Augustus hat Neria sicher gerettet; Knöchel schmerzt weiterhin. Cäsar und Livia noch nicht informiert.",
+      "status": "resolved",
       "visibility": "public"
     },
     {
@@ -445,16 +469,28 @@
       "summary": "Augustus hat die Rufende als Neria im trockenen Wartungsraum identifiziert.",
       "status": "resolved",
       "visibility": "public"
+    },
+    {
+      "id": "thread-distributor",
+      "summary": "Cäsar kennt den Wartungsweg zum Verteilerhaus; Augustus kann ihn von Neria erfahren. Beiden fehlen eigenständig geprüfte Details der Schieber. Nächste Schritte noch offen.",
+      "status": "open",
+      "visibility": "public"
+    },
+    {
+      "id": "thread-inform-livia",
+      "summary": "Neria bittet Augustus, Livia ihren Aufenthaltsort mitzuteilen. Kein Brief geschrieben und keine Taube verschickt.",
+      "status": "open",
+      "visibility": "public"
     }
   ],
   "pending_action": null,
   "pending_roll": null,
   "challenge": null,
-  "pending_prompt": "Cäsar: Was möchtest du an der Wasserleitung untersuchen? Augustus: Wie möchtest du Neria heraushelfen?",
+  "pending_prompt": "Cäsar, folgst du der Leitung zum Verteilerhaus? Augustus, was möchtest du mit Neria als Nächstes tun?",
   "spotlight": {
     "last_actor_id": "pc-2",
     "next_actor_id": "pc-1"
   },
-  "last_narration": "**Cäsar – am Mühlentor**\n\nDu setzt deine Redekunst ein und erklärst ruhig euer Anliegen: Der Brunnen ist ausgefallen, und du hilfst Livia, die Ursache zu finden.\n\nDie Wache hört zu. „Livia? Dann sag das doch gleich. Ich muss verhindern, dass jemand hier oben etwas beschädigt.“ Sie gibt die Treppe frei. „Du darfst nachsehen. Ich komme mit.“\n\nDein sachliches Auftreten genügt; dafür brauchst du weder einen Würfelwurf noch dein besonderes Talent zu verbrauchen. Oben liegen die Kontrollöffnung und ein kleiner Prüfkasten.\n\n**Augustus – am Steinbruch**\n\nAuf deinen Ruf kommt sofort eine Antwort: „Beim zerbrochenen Steg! Schau über die Kante!“\n\nDu folgst der Stimme und entdeckst eine Frau in einem trockenen Wartungsraum, ungefähr eine Körperlänge unter dir. Neben ihr steht eine Lampe. Sie hält ihren Knöchel; hinter ihr erkennst du eine geschlossene seitliche Tür.\n\n„Ich bin Neria. Der Steg ist unter mir gebrochen. Mein Fuß macht nicht mit, aber hier unten bin ich sicher.“\n\nSie deutet zum Wasserbecken. „Jemand hat die Schieber verstellt. Das Wasser läuft jetzt hierher statt zur Stadt! Und heute früh habe ich Wagen am Becken gehört.“\n\nSie schaut zu dir hinauf. „Kannst du mir heraushelfen?“",
-  "last_resolution": "Cäsar erhält durch sachliche Redekunst Zugang unter Begleitung der Wache. Augustus ortet Neria sicher im trockenen Wartungsraum und erfährt von den verstellten Schiebern; Rettungsmethode noch offen. Erster Ermittlungsmeilenstein erreicht."
+  "last_narration": "**Cäsar – am Mühlentor**\n\nMit der Wache steigst du zur Kontrollöffnung. Im oberen Kanal strömt klares Wasser aus Richtung der Hügel heran. Die tiefer liegende Zuleitung zur Stadt ist dagegen leer.\n\n„Wasser kommt also an“, sagt die Wache. „Aber zur Stadt gelangt es nicht. Dazwischen liegt das Verteilerhaus.“ Sie zeigt dir einen schmalen Wartungsweg, der der Leitung folgt.\n\nDu weißt jetzt: Der Fehler liegt nicht einfach am Adlerbrunnen. Du müsstest weiter oben bei der Verteilung nachsehen.\n\n**Augustus – am Steinbruch**\n\n*Kraftprobe: 3 + 3 + 2 Kraft = 8. Ziel 7 – geschafft.*\n\nDu legst dich flach an die stabile Kante und streckst Neria den Arm entgegen. Sie richtet sich vorsichtig auf dem gesunden Bein auf und greift zu.\n\nDu ziehst, während sie sich mit der freien Hand am Rand abstützt. Einen angespannten Moment später ist sie oben und setzt sich neben die Mauer.\n\n„Danke“, sagt sie und atmet tief durch. „Allein wäre ich da nicht herausgekommen.“ Ihr Knöchel schmerzt noch, aber sie ist befreit. Du verlierst keinen Mut.\n\n„Die Schieber sind im Verteilerhaus. Ich kann dir den Weg erklären. Und meine Gehilfin Livia sollte erfahren, dass ich hier bin.“",
+  "last_resolution": "Cäsar prüft Zufluss und Stadtzuleitung und erfährt den Weg zum Verteilerhaus. Augustus rettet Neria mit Kraftprobe 8 gegen 7 ohne Mutverlust; sie bleibt gehbehindert. Kommunikation und nächster Weg noch offen."
 }

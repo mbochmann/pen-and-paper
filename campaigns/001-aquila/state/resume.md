@@ -1,13 +1,13 @@
-# Übergabe – Revision 7
+# Übergabe – Revision 8
 
-- Letztes Event: `event-000007`; zwei parallele Szenen, globaler Einstieg `scene-03` / `loc-gate`, Cäsar. Augustus `scene-05`, am sicheren Rand über `loc-cistern` im Steinbruch; nicht hinabgeklettert.
-- Cäsar wollte die Wache durch Erlerntes überzeugen. Als normale Redekunst und sachliche Erklärung (Brunnenausfall, Hilfe für Livia) ausgeführt. Wache erlaubt Inspektion unter Begleitung. Kein Wurf, kein automatischer Talentverbrauch. Er hat noch weder Kontrollöffnung noch Prüfkasten untersucht. Wache will Schäden vermeiden.
-- Augustus ruft, folgt Antwort sicher zur Öffnung und sieht Neria: trockener Wartungsraum etwa eine Körperlänge tiefer, kaputter Steg, Knöchel schmerzt, Lampe, geschlossene seitliche Wartungstür. Sie ist sicher und ansprechbar. Noch nicht gerettet.
-- Neria hat verstellte Schieber und Umleitung hierher statt Stadt benannt sowie morgens gehörte Wagen. `clue-neria` nur Augustus. Kein Tätername, keine vollständige Bedienanleitung. Keine Blockade von Hinweisen hinter Rettungsprobe.
-- Erster Meilenstein erreicht: `quest-investigate` completed/reward_granted. Beide jetzt 1 Fortschrittspunkt, Glück 2. Nicht erneut gewähren. Wissen weiter getrennt; Cäsar und Livia nicht informiert.
-- Rettung aktiv, konkrete Methode offen. Sichere Materiallösung ohne Wurf; riskante Improvisation erst mit angekündigter Probe/Kosten. Verfügbare Vorräte tatsächlich prüfen: kein Seil bei Augustus; 2 Taubenkörbe, Stab, Schild usw. Seitentür oder Leiter als alternative Wege zugänglich. Keine magisch neu auftauchende Ausrüstung.
-- Mut beide 4, Glück beide 2, je 6/6 Plätze und je 2 Tauben unverbraucht; 12 gemeinsame Sesterzen. Knappheit 1/6, Vertuschung 0/4, keine weitere Phase.
+- Letztes Event: `event-000008`; Gruppe getrennt, global `scene-03` / `loc-gate` mit Cäsar und Wache. Augustus `scene-05` / `loc-quarry`, nun Neria neben ihm oben.
+- Cäsar hat den Wasserlauf geprüft: oben laufender klarer Zufluss aus Richtung Quelle, unten Stadtleitung leer. Wache benennt dazwischenliegendes Verteilerhaus und zeigt Wartungsweg. Noch nicht dorthin gegangen, keine Schieber angefasst. Cäsar kennt Nerias Erlebnisse nicht.
+- Augustus' angekündigte Kraftprobe 7: echte Rohwürfel 3/3, Kraft +2, Ergebnis 8. `roll-000008-pc-2` vollständig abgehandelt. **Nicht erneut würfeln.** Kein Glückseinsatz, kein Mutverlust. Neria sicher am Arm hochgezogen, jetzt im Steinbruch neben Mauer; Knöchel schmerzt weiter.
+- Neria nennt Verteilerhaus und bietet Wegbeschreibung. Bitte, Livia über ihren Aufenthaltsort zu informieren. Noch keine Taube geschickt, kein Briefinhalt erfunden, kein Aufbruch und keine NSC-Begleitung beschlossen.
+- `quest-rescue` completed. Akt I früher abgeschlossen; beide 1 Fortschrittspunkt/2 Glück. Keine neue Akt-II-Belohnung: sichere Schieberprozedur und konkrete weitere Lösung noch nicht erarbeitet.
+- Beide 4 Mut, je 2 Tauben und 6/6 Plätze; 12 gemeinsame Sesterzen. Uhren Knappheit 1/6, Vertuschung 0/4, Phase 1. Keine weitere Reisezeit.
+- Perspektiven getrennt halten. Bei nächsten Schritten Standorte/Szenen aktualisieren. Bisher keine aktuellen Informationen bei Livia.
 
 ## Exakte nächste Frage
 
-Cäsar: Was möchtest du an der Wasserleitung untersuchen? Augustus: Wie möchtest du Neria heraushelfen?
+Cäsar, folgst du der Leitung zum Verteilerhaus? Augustus, was möchtest du mit Neria als Nächstes tun?
