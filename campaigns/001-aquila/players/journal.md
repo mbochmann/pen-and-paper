@@ -1,13 +1,15 @@
 # Unser Abenteuerjournal
 
-**Speicherpunkt 2 – Der Adlerbrunnen verstummt.**
+**Speicherpunkt 3 – Platz am Brunnen.**
 
-Cäsar, der Redner, und Augustus, der Schildwächter, kennen sich aus dem Rednerstudium. Augustus musste das Studium abbrechen, weil er nicht so gut darin war. Beide haben 4 Mut und 2 Glück; die gemeinsame Geldbörse enthält 12 Sesterzen. Die Spielleitung übernimmt die Würfel mit einem Zufallswerkzeug.
+Cäsar und Augustus kennen sich aus dem Rednerstudium. Auf dem Forum von Valdora ist kurz vor den Adlerspielen der Adlerbrunnen versiegt; zuletzt kam roter Sand heraus. Seine Herkunft ist unbekannt.
 
-Wir stehen am Vormittag vor den Adlerspielen auf dem Forum von Valdora. Neben einem Brotkarren streitet ein Bäcker mit einem Maultier um einen Lorbeerkranz. Der Adlerbrunnen versiegt plötzlich; mit dem letzten Wasser kommt roter Sand heraus. Was das bedeutet, wissen wir nicht.
+Cäsar hat einige Schaulustige abgelenkt, damit am Brunnen Platz entsteht. Ein Bäcker fragt ihn, ob die beiden den Brunnen reparieren können: Ohne Wasser könne er morgen kein Brot backen.
 
-Eine junge Handwerkerin namens Livia bittet uns, beim Anheben einer schweren Steinplatte am Brunnen zu helfen. Sie möchte darunter nach dem Wasser sehen. Wir haben noch nicht geantwortet.
+Augustus hat Livia gefragt, wie man die Steinabdeckung anheben könnte. Sie zeigt zwei Griffmulden und bietet an, gegenüber anzupacken und die Platte gemeinsam daneben abzusetzen. **Die Platte wurde noch nicht angehoben.**
 
-**Nächste Frage:** Cäsar, was sagst oder tust du? Augustus, wie reagierst du?
+Beide Helden haben weiterhin 4 Mut und 2 Glück, die gemeinsame Geldbörse 12 Sesterzen. Keine Würfelprobe und kein Zeitphasenschritt.
 
-Unser [Figurenblatt](party.md) enthält Werte, Talente und Ausrüstung.
+**Nächste Frage:** Augustus, hebst du mit Livia die Platte an? Cäsar, was antwortest du dem Bäcker?
+
+[Figurenblatt](party.md)

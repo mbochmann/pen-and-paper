@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "campaign_id": "aquila-001",
-  "revision": 2,
-  "last_event_id": "event-000002",
-  "updated_at": "2026-10-21T16:01:28.722Z",
+  "revision": 3,
+  "last_event_id": "event-000003",
+  "updated_at": "2026-10-21T16:06:09+00:00",
   "phase": "playing",
   "session": 1,
   "game_time": {
@@ -130,7 +130,7 @@
       "npc_id": "npc-livia",
       "attitude": "open",
       "location_id": "loc-forum",
-      "notes": "Hat sich am Brunnen als Livia vorgestellt und beide Helden um Hilfe beim Anheben der Steinabdeckung gebeten. Beruf und weitere Hintergründe noch nicht erläutert."
+      "notes": "Hat Augustus die zwei Griffmulden an der Abdeckung gezeigt und bietet an, sie gemeinsam anzuheben und neben der Öffnung abzulegen. Wartet auf seine Entscheidung."
     },
     {
       "npc_id": "npc-neria",
@@ -166,7 +166,7 @@
       "npc_id": "npc-bato",
       "attitude": "open",
       "location_id": "loc-forum",
-      "notes": "Bäcker mit Brotkarren und Maultier von beiden gesehen; sein Name ist der Gruppe noch unbekannt."
+      "notes": "Hat sich an Cäsar gewandt und gefragt, ob er und Augustus den Brunnen reparieren können; ohne Wasser könne er morgen kein Brot backen. Sein Name wurde noch nicht genannt."
     },
     {
       "npc_id": "npc-flavia",
@@ -175,7 +175,24 @@
       "notes": "Vorbereiteter Ausgangszustand; der Gruppe noch nicht begegnet."
     }
   ],
-  "world_changes": [],
+  "world_changes": [
+    {
+      "id": "change-000003-crowd",
+      "text": "Cäsar hat die Aufmerksamkeit mehrerer naher Schaulustiger gewonnen. Augustus und Livia haben vorübergehend Platz an der Abdeckung. Keine dauerhafte Ablenkung garantiert.",
+      "source_event_id": "event-000003",
+      "visibility": "public",
+      "key": "crowd-distracted",
+      "value": true
+    },
+    {
+      "id": "change-000003-cover",
+      "text": "Livia hat zwei Griffmulden an der Brunnenabdeckung gezeigt. Sie bietet gemeinsames Anheben und Ablegen an. Die Platte ist noch geschlossen.",
+      "source_event_id": "event-000003",
+      "visibility": "public",
+      "key": "fountain-cover-open",
+      "value": false
+    }
+  ],
   "quests": [
     {
       "quest_id": "quest-investigate",
@@ -233,7 +250,7 @@
     },
     {
       "id": "thread-fountain",
-      "summary": "Der Adlerbrunnen ist versiegt. Livia bittet um Hilfe mit einer Steinabdeckung. Die Reaktionen beider Helden stehen aus.",
+      "summary": "Abdeckung noch geschlossen. Livia hat Augustus eine einfache gemeinsame Hebemethode gezeigt. Cäsar beschäftigt die nahen Schaulustigen; der Bäcker fragt ihn nach den Reparaturaussichten.",
       "status": "open",
       "visibility": "public"
     }
@@ -241,11 +258,11 @@
   "pending_action": null,
   "pending_roll": null,
   "challenge": null,
-  "pending_prompt": "Cäsar, was sagst oder tust du? Augustus, wie reagierst du?",
+  "pending_prompt": "Augustus, hebst du mit Livia die Platte an? Cäsar, was antwortest du dem Bäcker?",
   "spotlight": {
-    "last_actor_id": null,
-    "next_actor_id": null
+    "last_actor_id": "pc-2",
+    "next_actor_id": "pc-1"
   },
-  "last_narration": "Über dem Forum von Valdora flattern rote Festtücher. Es riecht nach warmem Brot und Rosmarin. Morgen beginnen die Adlerspiele, und schon jetzt drängen sich Händler und Reisende zwischen den Säulen.\n\nCäsar trägt seine Wachstafel bei sich, Augustus seinen kleinen Schild. Ihr kennt euch aus dem Rednerstudium. Augustus musste es abbrechen, weil ihm das Reden nicht so gut lag. Eure gemeinsame Geschichte führt euch heute auf diesen belebten Platz.\n\nNeben einem Brotkarren versucht ein Bäcker, einem Maultier einen angeknabberten Lorbeerkranz abzunehmen. „Der ist für den Sieger!“, schimpft er.\n\nDann hört ihr ein raues Gurgeln.\n\nDer bronzene Adler auf dem großen Brunnen spuckt einen letzten Schwall Wasser und roten Sand. Danach versiegt der Strahl. Eine Frau hält ihren leeren Krug darunter und klopft gegen den Stein. Ringsum werden die Gespräche leiser.\n\nEine junge Handwerkerin kniet am Brunnen nieder und prüft den Auslauf. Dann blickt sie zu euch.\n\n„Ich bin Livia. Könnt ihr mir kurz helfen? Die Abdeckung hier ist schwer.“ Sie zeigt auf eine Steinplatte am Fuß des Brunnens. „Ich möchte sehen, ob darunter noch Wasser ankommt.“",
-  "last_resolution": "Figurenerschaffung abgeschlossen; gemeinsame Startmünzen einmalig ausgegeben. Auftakt am Adlerbrunnen eröffnet; die Helden haben noch nicht auf Livias Bitte reagiert."
+  "last_narration": "Cäsar zieht die Aufmerksamkeit der nächsten Schaulustigen auf sich. Mehrere wenden sich vom Brunnen ab und hören ihm zu. Das verschafft Augustus und Livia etwas Platz. Für diese kurze Ablenkung ist kein Würfelwurf nötig.\n\nDer Bäcker kommt mit dem zerzausten Lorbeerkranz in der Hand näher. „Gehört der kräftige Mann zu dir?“, fragt er Cäsar und deutet auf Augustus. „Meinst du, ihr bekommt den Brunnen wieder hin? Ohne Wasser kann ich morgen kein Brot backen.“\n\nWährenddessen streicht Livia den Staub vom Rand der Steinplatte. Darunter kommen zwei breite Griffmulden zum Vorschein.\n\n„Hier können wir anpacken“, erklärt sie Augustus. „Du auf dieser Seite, ich gegenüber. Wir heben sie gemeinsam ein Stück an und setzen sie daneben auf dem Pflaster ab. Allein ist sie mir zu schwer.“\n\nSie geht auf die andere Seite und wartet, bis du bereit bist. Die Platte ist noch geschlossen.",
+  "last_resolution": "Cäsar lenkt die nahe stehenden Schaulustigen kurz ab. Augustus erhält auf seine Frage eine Erklärung zum gemeinsamen Anheben. Die Platte bleibt geschlossen; keine Hebehandlung vorweggenommen."
 }
