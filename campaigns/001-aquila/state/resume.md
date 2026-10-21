@@ -1,33 +1,31 @@
-# Wiederaufnahme – Revision 11
+# Wiederaufnahme – Revision 12
 
-Letztes Ereignis: event-000011. Spiel läuft, keine offene Probe.
+Letztes Ereignis: event-000012. Spiel läuft; keine offene Probe.
 
-Cäsar lehnt Glücksneuwurf ab: 6 gegen9, wenige Helfer mit eigenem Handwerkzeug, keine großen Leihgaben. Augustus stellt gleichzeitig nach sicherer Entlastung den Stadtzufluss wieder her. Ohne neue Probe/Phase. Knappheitsuhr3 eingefroren. AktII belohnt; beide2 Fortschritt,2 Glück. Täter unbekannt.
+Cäsar verteilt drei kleine Brote und entlässt Helfer;1 Sesterze bezahlt,11 verbleiben. Augustus kehrt zum Forum zurück, Livia bringt Neria parallel sicher dorthin. Eine Reisephase auf4; Knappheitsuhr3 bleibt inaktiv. Gemeinsame Planung: Neria nennt gehörten Namen Sextus, Bato berichtet frühe Wasserwagen am Hafen. Ermittlung aktiv, noch kein Täterbeweis/Route gewählt.
 
-Cäsar am Forum (scene-02), Augustus im Verteilerhaus (scene-06). Zeitphase3, beide parallelen Handlungen aufgelöst; nicht erneut abbuchen. Knappheitsuhr3 inaktiv, Vertuschungsuhr0 unverändert. Q/S offen, R geschlossen. Keil auf trockenem Steg, nicht eingesteckt/untersucht. Kein Täter bekannt. Cäsar kennt den sichtbaren Erfolg am Brunnen, nicht automatisch Augustus' einzelne Handgriffe. Augustus kennt Cäsars Rekrutierungsergebnis nicht.
+Beide Figuren am Forum (scene-02) mit Livia, Neria, Bato und Cassia. Neria sitzt sicher, Knöchel weiterhin verletzt. Abholung und Taubenempfang bestätigt; Taube3 weiter im Werkstattschlag, keine Vogelrückgabe erfolgt. Beide je4 Mut/2 Glück/2 unverbrauchte Fortschrittspunkte;11 gemeinsame Sesterzen. Ausrüstung unverändert. Keine neue Belohnung oder Steigerung.
 
-Gemeinsame12 Münzen, je4 Mut/2 Glück/2 Fortschritt, Ausrüstung unverändert. Steigerung nicht gewählt. quest-plan einmalig belohnt, quest-water abgeschlossen; quest-finale noch nicht abgeschlossen/belohnt. Keine automatische Entscheidung über weitere Ermittlungen oder Kanalbau.
-
-GM: Livia mit Tragehilfe bei Neria im Steinbruch eingetroffen; Rücktransport und Empfangsbestätigung an Helden noch offen. Taube3 im Werkstattschlag, Augustus nur noch Taube4.
+Q/S offen, R geschlossen. Holzkeil am trockenen Steg im Verteilerhaus zurückgelassen. Zeitphase4, Knappheitsuhr3 inaktiv; Vertuschungsuhr0 unverändert, Marcellus nicht automatisch informiert. Keine formelle Untersuchung durch Cassia begonnen. Neria und Bato nennen Sextus als Spur, nicht als bewiesenen Täter. Keine Bekanntgabe des Auftraggebers. Arbeitsanweisung und Vertrag noch nicht gezeigt. Nächster Ort/Vorgehen noch nicht gewählt.
 
 ## Zuletzt erzählt
 
-**Augustus:** Du schließt den Zufluss. Das Rauschen wird leiser, während das Wasser durch die Reserveleitung abläuft. Sobald der Pegel unter der roten Marke liegt, schlägst du den Keil heraus. Er fällt klappernd auf den trockenen Steg.
+**Cäsar:** Der Bäcker stellt sich als Bato vor und legt drei kleine Brote auf seinen Tresen. Du gibst jedem deiner Helfer eines und bedankst dich. Sie schultern ihre Werkzeuge und gehen zufrieden nach Hause.
 
-Um das Wasser wieder zur Stadt zu führen, schließt du die nun freie Reserve-Schütze, öffnest den Stadtschieber und lässt den Zufluss langsam wieder ein. Wasser schießt durch die bisher trockene Rinne.
+**Die Brote kosten zusammen 1 Sesterze. Euch bleiben 11.**
 
-**Es funktioniert. Dein sicherer Plan gelingt ohne Würfelprobe.** Der Keil liegt noch neben dir.
+**Augustus:** Als du das Forum erreichst, plätschert der Adlerbrunnen wieder. Kurz darauf kommen Livia und ihre Helfer mit Neria an. Sie setzen die Wassermeisterin behutsam auf eine Bank.
 
-**Cäsar:** Du nimmst das Würfelergebnis an und behältst deine beiden Glückspunkte. Einige Helfer stehen mit Schaufeln und anderem Handwerkzeug bereit. Wagen, Ochsen und Amphoren werden dir vorerst nicht zugesagt.
+„Deine Taube ist angekommen“, sagt Livia. Neria streckt ihren schmerzenden Fuß aus. „Und ohne deinen kräftigen Arm säße ich noch immer da unten.“
 
-Da gluckert es hinter dir. Aus dem Schnabel des steinernen Adlers spritzt Wasser – erst stoßweise, dann in einem kräftigen Strahl. Der Bäcker hält seinen Becher darunter. Menschen lachen erleichtert und heben ihre Krüge.
+Als du nach den Hintergründen fragst, wird sie ernst. „Am Steinbruch habe ich nicht nur Wagen gehört. Jemand rief den Namen **Sextus**. Denjenigen, der die Schieber verstellen ließ, habe ich nicht gesehen.“
 
-Deine Helfer schauen zu dir. „Sollen wir trotzdem mit dem Becken anfangen?“
+Bato bleibt neben euch stehen. „Sextus, der Fuhrmann? Den findet ihr am **Hafen**. Dort standen schon vor Sonnenaufgang zwei Wasserwagen bereit – da lief unser Brunnen noch!“
 
-Die Versorgung ist wiederhergestellt. Wer sie absichtlich unterbrochen hat, bleibt ungeklärt.
+Livia blickt von einem zum anderen. „Dann sollten wir herausfinden, wer diese Fahrten bestellt hat.“
 
-**Meilenstein erreicht:** Ihr habt jetzt jeweils **2 Fortschrittspunkte**. Damit könnt ihr bei Gelegenheit eine Eigenschaft um 1 erhöhen, höchstens auf +3.
+Ihr habt eine konkrete Spur. Ob Sextus die Umleitung kannte oder lediglich einen Auftrag ausführte, ist noch offen.
 
 ## Exakte offene Frage
 
-Cäsar: Was möchtest du mit deinen Helfern als Nächstes tun? Augustus: Was tust du jetzt im Verteilerhaus?
+Cäsar und Augustus: Wie möchtet ihr weiter ermitteln – Sextus am Hafen befragen oder zunächst hier weitere Fragen stellen?

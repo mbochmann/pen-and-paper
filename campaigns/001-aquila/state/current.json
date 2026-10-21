@@ -1,21 +1,23 @@
 {
   "schema_version": 1,
   "campaign_id": "aquila-001",
-  "revision": 11,
-  "last_event_id": "event-000011",
-  "updated_at": "2026-10-21T17:00:24.366Z",
+  "revision": 12,
+  "last_event_id": "event-000012",
+  "updated_at": "2026-10-21T17:06:48.019Z",
   "phase": "playing",
   "session": 1,
   "game_time": {
     "day": 1,
-    "phase": 3,
-    "label": "Tag 1, Vormittag; parallele Handlungen abgeschlossen, Wasser wiederhergestellt"
+    "phase": 4,
+    "label": "Tag 1, später Vormittag; Rückkehr und gemeinsame Spurensuche am Forum"
   },
   "scene_id": "scene-02",
   "location_id": "loc-forum",
   "present_npc_ids": [
     "npc-bato",
-    "npc-cassia"
+    "npc-cassia",
+    "npc-livia",
+    "npc-neria"
   ],
   "settings": {
     "dice_mode": "tool",
@@ -128,7 +130,7 @@
   ],
   "party": {
     "bond": "Cäsar und Augustus kennen sich aus dem Rednerstudium. Augustus musste das Studium abbrechen, weil er nicht so gut darin war.",
-    "coins": 12,
+    "coins": 11,
     "starting_resources_granted": true,
     "item_ids": []
   },
@@ -177,9 +179,20 @@
       "clue_id": "clue-neria",
       "discovered_event_id": "event-000007",
       "known_by": [
+        "pc-1",
         "pc-2"
       ],
-      "revealed_text": "Neria identifiziert sich gegenüber Augustus. Nach Stegbruch sitzt sie mit schmerzendem Knöchel sicher im trockenen Wartungsraum fest. Sie sagt, jemand habe Schieber verstellt, sodass Wasser ins Steinbruchbecken statt zur Stadt laufe; heute früh habe sie Wagen am Becken gehört. Kein Tätername genannt. Augustus hat sie anschließend sicher befreit. Sie sitzt nun im Steinbruch neben der Mauer; der Knöchel schmerzt weiter. Sie nennt das Verteilerhaus als Ort der Schieber und bietet eine Wegbeschreibung an.",
+      "revealed_text": "Neria berichtet nun beiden am Forum: Sie entdeckte verstellte Schütze, Wasser floss ins Steinbruchbecken statt zur Stadt. Nach Stegbruch im trockenen Wartungsraum gefangen, hörte sie früh Wagen und den Namen Sextus rufen. Sie hat den Auftraggeber nicht gesehen. Augustus befreite sie; Livia brachte sie nach Taubennachricht mit Tragehilfe zurück. Knöchel weiterhin verletzt. Name Sextus erst in event-000012 genannt und Aussage Cäsar zugänglich gemacht.",
+      "interpretation": "observation"
+    },
+    {
+      "clue_id": "clue-wagons",
+      "discovered_event_id": "event-000012",
+      "known_by": [
+        "pc-1",
+        "pc-2"
+      ],
+      "revealed_text": "Bato berichtet beiden am Forum: Zwei leere Wasserwagen standen am Hafen schon vor Sonnenaufgang bereit, als der Brunnen noch lief. Er nennt Sextus als dort ansprechbaren Fuhrmann. Eigene Beobachtung Batos, noch nicht am Hafen überprüft; keine Täterschaft bewiesen.",
       "interpretation": "observation"
     }
   ],
@@ -188,14 +201,14 @@
     {
       "npc_id": "npc-livia",
       "attitude": "open",
-      "location_id": "loc-quarry",
-      "notes": "GM: In derselben bereits gebuchten Reisephase trifft Livia mit freiwilliger Tragehilfe bei Neria ein. Abholung beginnt, Rückweg noch nicht vollzogen; beide Helden noch ohne Bestätigung. Taube3 bleibt im Werkstattschlag."
+      "location_id": "loc-forum",
+      "notes": "Hat Neria mit Tragehilfe sicher zurückgebracht, bestätigt Taubenempfang. Bespricht mit beiden Helden die Aufklärung und schlägt vor, den Auftraggeber der Wasserfahrten zu ermitteln. Kennt Täter nicht. Schriftliche Arbeitsanweisung weiterhin in Werkstatt, noch nicht gezeigt."
     },
     {
       "npc_id": "npc-neria",
       "attitude": "trusted",
-      "location_id": "loc-quarry",
-      "notes": "Sicher am Steinbruchbecken, Knöchel schmerzt. Livia und freiwillige Helfer sind zur angeforderten Abholung eingetroffen; Rücktransport steht noch aus."
+      "location_id": "loc-forum",
+      "notes": "Sitzt sicher am Forum nach Rücktransport durch Livia und Helfer; Knöchel weiter verletzt. Dankt Augustus. Berichtet beiden von verstellten Schützen, Wagen am Steinbruch und dem dort gehörten Namen Sextus. Hat Auftraggeber nicht gesehen."
     },
     {
       "npc_id": "npc-marcellus",
@@ -219,13 +232,13 @@
       "npc_id": "npc-cassia",
       "attitude": "neutral",
       "location_id": "loc-forum",
-      "notes": "Hat Cäsars Bericht über Umleitung gehört, sieht nun Wasser zurückkehren. Verantwortlicher unbekannt; noch kein offizielles Verfahren eröffnet."
+      "notes": "Bleibt am Forum. Kennt öffentlichen technischen Befund und Wasserwiederkehr. Kein namentlicher Vorwurf oder formelles Verfahren eingeleitet; keine automatische Information an Marcellus."
     },
     {
       "npc_id": "npc-bato",
-      "attitude": "open",
+      "attitude": "trusted",
       "location_id": "loc-forum",
-      "notes": "Am Forum; Name den Helden noch unbekannt. Sieht nach Cäsars Aufruf den Brunnen wieder fließen und füllt einen Becher. Keine Wagen zugesagt."
+      "notes": "Name beiden nun bekannt. Verkauft Cäsar drei kleine Brote für zusammen1 Sesterze für dessen Helfer. Erzählt beim Planungsgespräch: zwei leere Wasserwagen vor Sonnenaufgang bereit, Brunnen lief damals noch; Sextus als Fuhrmann am Hafen ansprechbar. Kennt keine Täterschaft."
     },
     {
       "npc_id": "npc-flavia",
@@ -656,6 +669,102 @@
       "visibility": "gm",
       "key": "neria-pickup-status",
       "value": "help-arrived-quarry"
+    },
+    {
+      "id": "change-000012-1",
+      "text": "Die zuvor wenigen Helfer werden als drei freiwillige Handwerker konkretisiert; keine individuellen neuen NSC. Jeder erhält von Cäsar ein kleines Brot.",
+      "source_event_id": "event-000012",
+      "visibility": "public",
+      "key": "relief-helpers-count",
+      "value": 3
+    },
+    {
+      "id": "change-000012-2",
+      "text": "Cäsar kauft bei Bato drei kleine Brote für zusammen1 Sesterze (einmaliger Spielpreis) und verschenkt alle an die Helfer. Gemeinschaftskasse12 auf11; kein Inventarzugang.",
+      "source_event_id": "event-000012",
+      "visibility": "public",
+      "key": "bread-thanks-paid",
+      "value": 1
+    },
+    {
+      "id": "change-000012-3",
+      "text": "Cäsar bedankt sich und entlässt alle Helfer nach Hause. Ihr eigenes Werkzeug nehmen sie mit. Kein Kanal oder Becken gebaut.",
+      "source_event_id": "event-000012",
+      "visibility": "public",
+      "key": "relief-recruitment",
+      "value": "dismissed-with-thanks"
+    },
+    {
+      "id": "change-000012-4",
+      "text": "Augustus kehrt über den bekannten Wartungsweg in die Stadt zum Forum zurück.",
+      "source_event_id": "event-000012",
+      "visibility": "public",
+      "key": "pc-2-location",
+      "value": "loc-forum"
+    },
+    {
+      "id": "change-000012-5",
+      "text": "Augustus trifft Cäsar wieder; gemeinsames Gespräch über die Hintergründe.",
+      "source_event_id": "event-000012",
+      "visibility": "public",
+      "key": "pc-2-scene",
+      "value": "scene-02"
+    },
+    {
+      "id": "change-000012-6",
+      "text": "Beide Figuren wieder am Forum. Keine fremden Entscheidungen zu Ermittlungsroute oder Steigerung vorweggenommen.",
+      "source_event_id": "event-000012",
+      "visibility": "public",
+      "key": "party-split",
+      "value": false
+    },
+    {
+      "id": "change-000012-7",
+      "text": "Livia und ihre Tragehelfer bringen Neria während derselben Reisephase zurück in die Stadt. Am Forum sitzt sie sicher; Knöchel weiterhin verletzt.",
+      "source_event_id": "event-000012",
+      "visibility": "public",
+      "key": "neria-collected",
+      "value": true
+    },
+    {
+      "id": "change-000012-8",
+      "text": "Livia bestätigt Augustus den Empfang seiner Taubennachricht. Neria dankt für Rettung und Abholung; beide Figuren erleben ihre Rückkehr.",
+      "source_event_id": "event-000012",
+      "visibility": "public",
+      "key": "neria-pickup-status",
+      "value": "completed-forum"
+    },
+    {
+      "id": "change-000012-9",
+      "text": "Augustus beginnt mit Livia, Neria und Cäsar ein Gespräch zur Suche nach Verantwortlichen. Neria nennt den gehörten Namen Sextus; Bato seine frühzeitige Wagenbeobachtung. Livia schlägt die Frage nach dem Auftraggeber vor.",
+      "source_event_id": "event-000012",
+      "visibility": "public",
+      "key": "investigation-planning",
+      "value": true
+    },
+    {
+      "id": "change-000012-10",
+      "text": "Der Bäcker stellt sich beim Brotkauf als Bato vor.",
+      "source_event_id": "event-000012",
+      "visibility": "public",
+      "key": "bato-name-known",
+      "value": true
+    },
+    {
+      "id": "change-000012-11",
+      "text": "Neria hörte beim Steinbruch den Namen Sextus rufen, hat den Veranlasser nicht gesehen. Bato kennt Sextus als Fuhrmann am Hafen und sah dort zwei leere Wasserwagen vor Sonnenaufgang, als der Brunnen noch lief. Hinweis, kein Schuldbeweis.",
+      "source_event_id": "event-000012",
+      "visibility": "public",
+      "key": "sextus-lead-known",
+      "value": true
+    },
+    {
+      "id": "change-000012-12",
+      "text": "Augustus' Rückkehr und Nerias Rücktransport laufen parallel; eine angekündigte Zeitphase insgesamt. Versorgung bleibt gesichert, kein neuer Knappheitsdruck.",
+      "source_event_id": "event-000012",
+      "visibility": "public",
+      "key": "pc-2-action-window",
+      "value": "resolved-phase-3-to-4"
     }
   ],
   "quests": [
@@ -681,7 +790,7 @@
     },
     {
       "quest_id": "quest-accountability",
-      "status": "unseen",
+      "status": "active",
       "reward_granted": false
     },
     {
@@ -721,7 +830,7 @@
     },
     {
       "id": "thread-neria",
-      "summary": "Neria sicher aus Wartungsraum gerettet, wartet gehbehindert am Becken. Augustus hat Abholbitte an Livia geschickt.",
+      "summary": "Neria sicher zurück am Forum mit Livia; Abholbitte angekommen und erfüllt, beiden Helden jetzt bestätigt. Knöchel weiterhin verletzt.",
       "status": "resolved",
       "visibility": "public"
     },
@@ -739,25 +848,25 @@
     },
     {
       "id": "thread-distributor",
-      "summary": "Sicher repariert: QUELLE offen, STADT offen, RESERVE geschlossen. Augustus noch im Verteilerhaus, Keil auf trockenem Steg.",
+      "summary": "Versorgung sicher repariert. Augustus zurück am Forum. Entfernter Keil blieb am trockenen Bedienungssteg, nicht mitgenommen oder weiter untersucht.",
       "status": "resolved",
       "visibility": "public"
     },
     {
       "id": "thread-inform-livia",
-      "summary": "Augustus hat Abholbitte per Taube versendet. Für Helden Empfang und Abholung noch unbestätigt.",
-      "status": "open",
+      "summary": "Neria sicher zurück am Forum mit Livia; Abholbitte angekommen und erfüllt, beiden Helden jetzt bestätigt. Knöchel weiterhin verletzt.",
+      "status": "resolved",
       "visibility": "public"
     },
     {
       "id": "thread-relief-plan",
-      "summary": "Wenige Helfer mit eigenem Handwerkzeug gewonnen; keine größeren Leihgaben, kein Bau. Wasser wieder da. Cäsar entscheidet selbst, ob/wie sein Vorsorgeplan weitergeht.",
-      "status": "open",
+      "summary": "Cäsar verabschiedet die drei Helfer mit je einem Brot (zusammen1 Sesterze). Kein Bau begonnen; derzeit keine weitere Notversorgungsarbeit beauftragt.",
+      "status": "resolved",
       "visibility": "public"
     },
     {
       "id": "thread-responsibility",
-      "summary": "Wer hat die absichtliche Umleitung veranlasst und warum? Noch keine Person belegt; weitere Aufklärung freiwillig.",
+      "summary": "Gemeinsame Planung mit Neria/Livia: Name Sextus bei Wagen am Steinbruch gehört; Bato sah Wasserwagen vor dem Ausfall und nennt Hafen als Kontakt. Auftraggeber unbekannt, Vorgehen noch nicht gewählt.",
       "status": "open",
       "visibility": "public"
     }
@@ -765,11 +874,11 @@
   "pending_action": null,
   "pending_roll": null,
   "challenge": null,
-  "pending_prompt": "Cäsar: Was möchtest du mit deinen Helfern als Nächstes tun? Augustus: Was tust du jetzt im Verteilerhaus?",
+  "pending_prompt": "Cäsar und Augustus: Wie möchtet ihr weiter ermitteln – Sextus am Hafen befragen oder zunächst hier weitere Fragen stellen?",
   "spotlight": {
     "last_actor_id": "pc-2",
     "next_actor_id": "pc-1"
   },
-  "last_narration": "**Augustus:** Du schließt den Zufluss. Das Rauschen wird leiser, während das Wasser durch die Reserveleitung abläuft. Sobald der Pegel unter der roten Marke liegt, schlägst du den Keil heraus. Er fällt klappernd auf den trockenen Steg.\n\nUm das Wasser wieder zur Stadt zu führen, schließt du die nun freie Reserve-Schütze, öffnest den Stadtschieber und lässt den Zufluss langsam wieder ein. Wasser schießt durch die bisher trockene Rinne.\n\n**Es funktioniert. Dein sicherer Plan gelingt ohne Würfelprobe.** Der Keil liegt noch neben dir.\n\n**Cäsar:** Du nimmst das Würfelergebnis an und behältst deine beiden Glückspunkte. Einige Helfer stehen mit Schaufeln und anderem Handwerkzeug bereit. Wagen, Ochsen und Amphoren werden dir vorerst nicht zugesagt.\n\nDa gluckert es hinter dir. Aus dem Schnabel des steinernen Adlers spritzt Wasser – erst stoßweise, dann in einem kräftigen Strahl. Der Bäcker hält seinen Becher darunter. Menschen lachen erleichtert und heben ihre Krüge.\n\nDeine Helfer schauen zu dir. „Sollen wir trotzdem mit dem Becken anfangen?“\n\nDie Versorgung ist wiederhergestellt. Wer sie absichtlich unterbrochen hat, bleibt ungeklärt.\n\n**Meilenstein erreicht:** Ihr habt jetzt jeweils **2 Fortschrittspunkte**. Damit könnt ihr bei Gelegenheit eine Eigenschaft um 1 erhöhen, höchstens auf +3.",
-  "last_resolution": "Cäsar lehnt Glücksneuwurf ab: 6 gegen9, wenige Helfer mit eigenem Handwerkzeug, keine großen Leihgaben. Augustus stellt gleichzeitig nach sicherer Entlastung den Stadtzufluss wieder her. Ohne neue Probe/Phase. Knappheitsuhr3 eingefroren. AktII belohnt; beide2 Fortschritt,2 Glück. Täter unbekannt."
+  "last_narration": "**Cäsar:** Der Bäcker stellt sich als Bato vor und legt drei kleine Brote auf seinen Tresen. Du gibst jedem deiner Helfer eines und bedankst dich. Sie schultern ihre Werkzeuge und gehen zufrieden nach Hause.\n\n**Die Brote kosten zusammen 1 Sesterze. Euch bleiben 11.**\n\n**Augustus:** Als du das Forum erreichst, plätschert der Adlerbrunnen wieder. Kurz darauf kommen Livia und ihre Helfer mit Neria an. Sie setzen die Wassermeisterin behutsam auf eine Bank.\n\n„Deine Taube ist angekommen“, sagt Livia. Neria streckt ihren schmerzenden Fuß aus. „Und ohne deinen kräftigen Arm säße ich noch immer da unten.“\n\nAls du nach den Hintergründen fragst, wird sie ernst. „Am Steinbruch habe ich nicht nur Wagen gehört. Jemand rief den Namen **Sextus**. Denjenigen, der die Schieber verstellen ließ, habe ich nicht gesehen.“\n\nBato bleibt neben euch stehen. „Sextus, der Fuhrmann? Den findet ihr am **Hafen**. Dort standen schon vor Sonnenaufgang zwei Wasserwagen bereit – da lief unser Brunnen noch!“\n\nLivia blickt von einem zum anderen. „Dann sollten wir herausfinden, wer diese Fahrten bestellt hat.“\n\nIhr habt eine konkrete Spur. Ob Sextus die Umleitung kannte oder lediglich einen Auftrag ausführte, ist noch offen.",
+  "last_resolution": "Cäsar verteilt drei kleine Brote und entlässt Helfer;1 Sesterze bezahlt,11 verbleiben. Augustus kehrt zum Forum zurück, Livia bringt Neria parallel sicher dorthin. Eine Reisephase auf4; Knappheitsuhr3 bleibt inaktiv. Gemeinsame Planung: Neria nennt gehörten Namen Sextus, Bato berichtet frühe Wasserwagen am Hafen. Ermittlung aktiv, noch kein Täterbeweis/Route gewählt."
 }

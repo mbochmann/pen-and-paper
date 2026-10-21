@@ -1,6 +1,6 @@
 # Cäsar und Augustus
 
-Stand: Speicherpunkt 11. Aktuelle veränderliche Werte stehen verbindlich in `state/current.json`; dieses Blatt bei Änderungen aktualisieren.
+Stand: Speicherpunkt 12. Aktuelle veränderliche Werte stehen verbindlich in `state/current.json`; dieses Blatt bei Änderungen aktualisieren.
 
 | Eigenschaft | Cäsar – Redner | Augustus – Schildwächter |
 |---|---:|---:|
@@ -20,7 +20,7 @@ Stand: Speicherpunkt 11. Aktuelle veränderliche Werte stehen verbindlich in `st
 
 **Augustus’ Ausrüstung:** Wasserflasche, Reiseproviant, kleiner Schild, Übungsstab; Leih-Brieftaube 4 mit Transportkorb und Nachrichtenzetteln sowie leerer Korb von Taube 3. 6 von 6 Plätzen.
 
-**Gemeinsam:** 12 Sesterzen. Alle Tauben haben Livias Werkstatt als Heimatschlag. Taube 3 ist mit der Abholbitte versendet; Empfang und Abholung für die Helden noch unbestätigt.
+**Gemeinsam:** 11 Sesterzen. Alle Tauben haben Livias Werkstatt als Heimatschlag. Taube 3 ist im Werkstattschlag. Livia bestätigt den Empfang; Neria wurde sicher zum Forum zurückgebracht. Kein Vogel zurückgegeben.
 
 **Vorgeschichte:** Beide kennen sich aus dem Rednerstudium. Augustus musste es abbrechen, weil er darin nicht gut war. Das ist Teil der Geschichte und verursacht keine zusätzlichen Abzüge auf seine Werte.
 

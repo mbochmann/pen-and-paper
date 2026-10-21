@@ -1,15 +1,15 @@
 # Unser Abenteuerjournal
 
-**Speicherpunkt 11 – Wasser für Valdora.**
+**Speicherpunkt 12 – Eine Spur zum Hafen.**
 
-Augustus hat den Zufluss gesperrt, den Pegel unter die rote Marke sinken lassen und den Keil entfernt. Anschließend Reserve geschlossen, Stadt geöffnet und Quelle langsam wieder geöffnet. Die Stadtleitung führt wieder Wasser. Der Keil liegt noch im Verteilerhaus; Augustus bleibt dort.
+Die Wasserversorgung funktioniert wieder. Cäsar hat die drei freiwilligen Helfer mit je einem kleinen Brot verabschiedet; zusammen kosteten diese1 Sesterze. Kein Kanal oder Sammelbecken gebaut.
 
-Cäsar hat den Wurf 1 + 3 + Herz2 = 6 gegen9 ohne Neuwurf angenommen. Wenige Helfer mit eigenem Handwerkzeug sind bereit. Wagen, Ochsen und Amphoren wurden nicht zugesagt; Kanal und Sammelbecken noch nicht gebaut. Am Forum sieht Cäsar jetzt den Adlerbrunnen wieder fließen. Was aus seinem Vorsorgeplan wird, entscheidet er selbst.
+Augustus ist zum Forum zurückgekehrt. Livia hat seine Taubennachricht erhalten und Neria mit Helfern sicher zurückgebracht. Ihr Knöchel schmerzt noch. Gemeinsam beginnt das Gespräch über die Verantwortlichen.
 
-Die parallelen Handlungen kosten keine zusätzliche Zeitphase. Wer die Umleitung veranlasst hat, ist weiterhin unbekannt. Die Figuren haben ihre getrennten Erlebnisse noch nicht ausgetauscht.
+Neria berichtet beiden: Am Steinbruch hörte sie Wagen und den Namen **Sextus**. Den Auftraggeber hat sie nicht gesehen. Der Bäcker stellt sich als **Bato** vor und berichtet, dass am Hafen zwei Wasserwagen vor Sonnenaufgang bereitstanden, als der Brunnen noch lief. Dort sei Sextus als Fuhrmann zu finden. Das ist eine Spur, kein Schuldbeweis. Livia regt an, nach dem Auftraggeber der Fahrten zu fragen.
 
-Beide: 4 Mut, 2 Glück, **2 Fortschrittspunkte**. Zwei Punkte erlauben +1 auf eine Eigenschaft, höchstens +3; noch nicht ausgegeben. Gemeinsame12 Sesterzen. Ausrüstung unverändert. Augustus' Abholbitte für Neria bleibt für die Helden ohne Bestätigung.
+Alle am Forum; nächster Schritt offen. Der entfernte Keil blieb im Verteilerhaus. Je4 Mut,2 Glück und2 unverbrauchte Fortschrittspunkte; **11 gemeinsame Sesterzen**. Ausrüstung unverändert.
 
-**Nächste Frage:** Cäsar: Was möchtest du mit deinen Helfern als Nächstes tun? Augustus: Was tust du jetzt im Verteilerhaus?
+**Nächste Frage:** Cäsar und Augustus: Wie möchtet ihr weiter ermitteln – Sextus am Hafen befragen oder zunächst hier weitere Fragen stellen?
 
 [Figurenblatt](party.md)
