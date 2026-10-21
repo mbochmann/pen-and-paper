@@ -1,13 +1,15 @@
-# Übergabe – Revision 8
+# Übergabe – Revision 9
 
-- Letztes Event: `event-000008`; Gruppe getrennt, global `scene-03` / `loc-gate` mit Cäsar und Wache. Augustus `scene-05` / `loc-quarry`, nun Neria neben ihm oben.
-- Cäsar hat den Wasserlauf geprüft: oben laufender klarer Zufluss aus Richtung Quelle, unten Stadtleitung leer. Wache benennt dazwischenliegendes Verteilerhaus und zeigt Wartungsweg. Noch nicht dorthin gegangen, keine Schieber angefasst. Cäsar kennt Nerias Erlebnisse nicht.
-- Augustus' angekündigte Kraftprobe 7: echte Rohwürfel 3/3, Kraft +2, Ergebnis 8. `roll-000008-pc-2` vollständig abgehandelt. **Nicht erneut würfeln.** Kein Glückseinsatz, kein Mutverlust. Neria sicher am Arm hochgezogen, jetzt im Steinbruch neben Mauer; Knöchel schmerzt weiter.
-- Neria nennt Verteilerhaus und bietet Wegbeschreibung. Bitte, Livia über ihren Aufenthaltsort zu informieren. Noch keine Taube geschickt, kein Briefinhalt erfunden, kein Aufbruch und keine NSC-Begleitung beschlossen.
-- `quest-rescue` completed. Akt I früher abgeschlossen; beide 1 Fortschrittspunkt/2 Glück. Keine neue Akt-II-Belohnung: sichere Schieberprozedur und konkrete weitere Lösung noch nicht erarbeitet.
-- Beide 4 Mut, je 2 Tauben und 6/6 Plätze; 12 gemeinsame Sesterzen. Uhren Knappheit 1/6, Vertuschung 0/4, Phase 1. Keine weitere Reisezeit.
-- Perspektiven getrennt halten. Bei nächsten Schritten Standorte/Szenen aktualisieren. Bisher keine aktuellen Informationen bei Livia.
+- Letztes Event `event-000009`, Sitzung 1, `scene-06`, `loc-distributor`; beide wieder zusammen, keine NSC vor Ort. Phase 2, Knappheit 2/6, Vertuschung 0/4.
+- Cäsar kam über Wartungsweg vom Mühlentor; Wache blieb dort. Augustus hat Neria um Wegbeschreibung gebeten und kam über sicheren äußeren Wartungspfad. Keine Reise/Rettungsaktion mehr offen.
+- Augustus hat Taube 3 mit Abholbitte für Neria (gerettet, Knöchel, am Becken im Steinbruch) zu Livia geschickt. Korb bleibt leer bei ihm, Taube 4 weiter dabei. Cäsar hat Tauben 1/2. Je 6/6 Plätze. Keine Antwort bei Helden.
+- GM: Livia hat die Taube während Reise erhalten und Nachricht gelesen; beginnt Transporthilfe zu organisieren. Neria noch nicht abgeholt und sicher am Steinbruch. Vogel 3 im Werkstattschlag; nicht mehr im Heldeninventar. Abholung später ausspielen und nicht vergessen.
+- GM: Knappheitsschwelle 2 erzeugt Warteschlangen am Forum, Helden nicht anwesend. Keine unbeobachteten Details in Dialog mischen.
+- Beide sehen Verteiler: QUELLE offen (Zufluss), STADT geschlossen (Brunnenleitung), RESERVE offen (Steinbruchleitung), Reserve durch frischen Keil blockiert; Pegel über roter Marke. Vollständige Sicherheitstafel zugänglich. Noch **keinen** Schieber bewegt, Keil nicht entfernt.
+- Aufgabe: Wasser in Stadt zurückbringen, nicht unter laufendem Zufluss am blockierten Teil arbeiten. Korrekte geplante Folge ohne Probe akzeptieren; alternative funktionierende Pläne ebenfalls. Bei riskantem Ansatz vor Folgen warnen. Keine Magie nötig.
+- Gemeinsame Beobachtung bestätigt clue-flow/diversion für beide. Nerias Aussagen und Rettung wurden nicht automatisch zwischen Helden berichtet; Cäsar weiß nur, dass Augustus wieder hier ist.
+- Akt I belohnt, je 1 Fortschritt; Akt II noch aktiv, Arbeitsplan fehlt. Beide Mut 4/Glück 2, Kasse 12. Keine offene Probe. Bei vollständigem geeignetem Plan nächsten Meilenstein einmalig behandeln, nicht beim bloßen Erreichen des Hauses.
 
 ## Exakte nächste Frage
 
-Cäsar, folgst du der Leitung zum Verteilerhaus? Augustus, was möchtest du mit Neria als Nächstes tun?
+Wie wollt ihr das Wasser wieder zur Stadt leiten? Beschreibt, was ihr zuerst tut und wer welchen Handgriff übernimmt.

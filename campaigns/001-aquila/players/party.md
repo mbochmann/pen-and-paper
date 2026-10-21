@@ -1,6 +1,6 @@
 # Cäsar und Augustus
 
-Stand: Speicherpunkt 8. Aktuelle veränderliche Werte stehen verbindlich in `state/current.json`; dieses Blatt bei Änderungen aktualisieren.
+Stand: Speicherpunkt 9. Aktuelle veränderliche Werte stehen verbindlich in `state/current.json`; dieses Blatt bei Änderungen aktualisieren.
 
 | Eigenschaft | Cäsar – Redner | Augustus – Schildwächter |
 |---|---:|---:|
@@ -18,9 +18,9 @@ Stand: Speicherpunkt 8. Aktuelle veränderliche Werte stehen verbindlich in `sta
 
 **Cäsars Ausrüstung:** Wasserflasche, Reiseproviant, Wachstafel mit Griffel, Reisemantel; zwei Leih-Brieftauben mit Transportkörben und Nachrichtenzetteln (Vögel 1 und 2). 6 von 6 Plätzen.
 
-**Augustus’ Ausrüstung:** Wasserflasche, Reiseproviant, kleiner Schild, Übungsstab; zwei Leih-Brieftauben mit Transportkörben und Nachrichtenzetteln (Vögel 3 und 4). 6 von 6 Plätzen.
+**Augustus’ Ausrüstung:** Wasserflasche, Reiseproviant, kleiner Schild, Übungsstab; Leih-Brieftaube 4 mit Transportkorb und Nachrichtenzetteln sowie leerer Korb von Taube 3. 6 von 6 Plätzen.
 
-**Gemeinsam:** 12 Sesterzen. Alle vier Tauben kehren zu Livias Werkstatt zurück; noch keine versendet.
+**Gemeinsam:** 12 Sesterzen. Alle Tauben haben Livias Werkstatt als Heimatschlag. Taube 3 ist mit der Abholbitte versendet; Empfang und Abholung für die Helden noch unbestätigt.
 
 **Vorgeschichte:** Beide kennen sich aus dem Rednerstudium. Augustus musste es abbrechen, weil er darin nicht gut war. Das ist Teil der Geschichte und verursacht keine zusätzlichen Abzüge auf seine Werte.
 

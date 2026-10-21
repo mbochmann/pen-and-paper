@@ -1,21 +1,19 @@
 {
   "schema_version": 1,
   "campaign_id": "aquila-001",
-  "revision": 8,
-  "last_event_id": "event-000008",
-  "updated_at": "2026-10-21T16:34:47.646Z",
+  "revision": 9,
+  "last_event_id": "event-000009",
+  "updated_at": "2026-10-21T16:40:20.602Z",
   "phase": "playing",
   "session": 1,
   "game_time": {
     "day": 1,
-    "phase": 1,
-    "label": "Tag 1, Vormittag; erste parallele Reisephase (Cäsar etwa 30, Augustus etwa 45 Minuten)"
+    "phase": 2,
+    "label": "Tag 1, späterer Vormittag; zweite parallele Reisephase, beide im Verteilerhaus"
   },
-  "scene_id": "scene-03",
-  "location_id": "loc-gate",
-  "present_npc_ids": [
-    "npc-gatekeeper"
-  ],
+  "scene_id": "scene-06",
+  "location_id": "loc-distributor",
+  "present_npc_ids": [],
   "settings": {
     "dice_mode": "tool",
     "fantasy": "ambiguous",
@@ -111,9 +109,9 @@
           "item_id": null
         },
         {
-          "name": "Leih-Brieftaube 3 mit Transportkorb und Zetteln",
+          "name": "Leerer Transportkorb mit Nachrichtenzetteln",
           "slots": 1,
-          "item_id": "item-pigeon-3"
+          "item_id": null
         },
         {
           "name": "Leih-Brieftaube 4 mit Transportkorb und Zetteln",
@@ -156,19 +154,21 @@
       "clue_id": "clue-flow",
       "discovered_event_id": "event-000006",
       "known_by": [
-        "pc-1"
+        "pc-1",
+        "pc-2"
       ],
-      "revealed_text": "Cäsar hat mit der Wache die Kontrollöffnung geprüft: klarer laufender Zufluss aus Richtung der Hügel im oberen Kanal, aber leere tiefere Stadtzuleitung. Die Wache erklärt, dass dazwischen das Verteilerhaus liegt, und zeigt den Wartungsweg. Genaue Ursache der Unterbrechung weiterhin nicht selbst beobachtet.",
-      "interpretation": "observation"
+      "revealed_text": "Beide sehen im Verteilerhaus einen laufenden klaren Zufluss durch den offenen QUELLE-Schieber. Trotz Zufluss ist die Stadtleitung trocken. Frühere Einzelbeobachtungen bleiben im Eventlog dokumentiert.",
+      "interpretation": "confirmed"
     },
     {
       "clue_id": "clue-diversion",
       "discovered_event_id": "event-000006",
       "known_by": [
+        "pc-1",
         "pc-2"
       ],
-      "revealed_text": "Augustus sieht klares Wasser im Steinbruchbecken. Die dort angetroffene Wassermeisterin Neria berichtet von verstellten Schiebern und einer Umleitung hierher statt zur Stadt. Damit gibt es eine begründete konkrete Spur eines menschlichen Eingriffs; Verantwortlicher und genauer Mechanismus noch nicht selbst geprüft.",
-      "interpretation": "observation"
+      "revealed_text": "Beide sehen den Wasserweg und die beschrifteten Schieber im Verteilerhaus: QUELLE offen, STADT geschlossen, RESERVE offen und mit frischem Holzkeil blockiert. Das Wasser fließt ins Steinbruchbecken statt zur Stadt. Verantwortlicher unbekannt.",
+      "interpretation": "confirmed"
     },
     {
       "clue_id": "clue-neria",
@@ -186,13 +186,13 @@
       "npc_id": "npc-livia",
       "attitude": "open",
       "location_id": "loc-workshop",
-      "notes": "Hat vier Werkstatt-Heimkehrtauben samt Körben und Zetteln kostenlos verliehen, je zwei pro Held. Kennt geplante Zielorte. Hat mit dem Bäcker die Brunnenabdeckung geschlossen und ist zum Empfangen von Nachrichten in ihre Werkstatt zurückgekehrt. Noch keine Nachricht erhalten."
+      "notes": "GM: Während der Reise erreicht Leih-Taube 3 den Werkstattschlag. Livia liest Augustus' Bitte um Abholung der geretteten, gehbehinderten Neria am Steinbruchbecken und beginnt Transporthilfe zu organisieren. Noch keine Abholung und keine Empfangsbestätigung an Helden. Vogel 3 im Werkstattschlag, Korb blieb bei Augustus."
     },
     {
       "npc_id": "npc-neria",
       "attitude": "trusted",
       "location_id": "loc-quarry",
-      "notes": "Von Augustus am Arm erfolgreich aus dem trockenen Wartungsraum hochgezogen (Probe 8 gegen 7). Sitzt sicher neben Mauer im Steinbruch, Knöchel weiterhin schmerzhaft. Nennt Verteilerhaus als Ort der Schieber und bietet Wegbeschreibung an. Bittet, Gehilfin Livia über ihren Aufenthaltsort zu informieren. Keine Nachricht gesendet; nicht automatisch mitgereist."
+      "notes": "Wartet sicher neben Mauer am Steinbruchbecken. Augustus hat ausdrücklich Abholung per Taube angefordert und nach ihrer Erklärung einen äußeren Wartungspfad zum Verteilerhaus genommen. Knöchel schmerzt weiterhin; Abholung noch nicht erfolgt."
     },
     {
       "npc_id": "npc-marcellus",
@@ -234,7 +234,7 @@
       "npc_id": "npc-gatekeeper",
       "attitude": "neutral",
       "location_id": "loc-gate",
-      "notes": "Begleitet Cäsar bei Prüfung am Mühlentor. Zeigt auf Grundlage sichtbaren Zuflusses und trockener Stadtleitung den Wartungsweg zum dazwischenliegenden Verteilerhaus. Noch keine Reise dorthin oder weitere Begleitung zugesagt."
+      "notes": "Ist nach Cäsars Inspektion am Mühlentor geblieben. Hat den Wartungsweg gezeigt, aber keine zusätzliche Begleitung oder Ermittlungen übernommen."
     }
   ],
   "world_changes": [
@@ -389,6 +389,126 @@
       "visibility": "public",
       "key": "distributor-offer-pc-2",
       "value": true
+    },
+    {
+      "id": "change-000009-1",
+      "text": "Cäsar folgt dem Wartungsweg und trifft Augustus im Verteilerhaus.",
+      "source_event_id": "event-000009",
+      "visibility": "public",
+      "key": "pc-1-location",
+      "value": "loc-distributor"
+    },
+    {
+      "id": "change-000009-2",
+      "text": "Augustus folgt Nerias äußerem Wartungspfad vom Steinbruch zum Verteilerhaus; kein riskantes Klettern durch den beschädigten Steg.",
+      "source_event_id": "event-000009",
+      "visibility": "public",
+      "key": "pc-2-location",
+      "value": "loc-distributor"
+    },
+    {
+      "id": "change-000009-3",
+      "text": "Beide Spieler jetzt in gemeinsamer Schieberszene.",
+      "source_event_id": "event-000009",
+      "visibility": "public",
+      "key": "pc-1-scene",
+      "value": "scene-06"
+    },
+    {
+      "id": "change-000009-4",
+      "text": "Beide Spieler jetzt in gemeinsamer Schieberszene.",
+      "source_event_id": "event-000009",
+      "visibility": "public",
+      "key": "pc-2-scene",
+      "value": "scene-06"
+    },
+    {
+      "id": "change-000009-5",
+      "text": "Helden sind wieder am selben Ort; frühere private Gespräche nicht automatisch ausgetauscht.",
+      "source_event_id": "event-000009",
+      "visibility": "public",
+      "key": "party-split",
+      "value": false
+    },
+    {
+      "id": "change-000009-6",
+      "text": "Taube 3 von Augustus mit Abholbitte gestartet; erreicht während der Reise den Heimatschlag. Bei Livia, nicht mehr bei Augustus. Helden kennen nur den Versand.",
+      "source_event_id": "event-000009",
+      "visibility": "gm",
+      "key": "pigeon-3-status",
+      "value": "delivered-workshop"
+    },
+    {
+      "id": "change-000009-7",
+      "text": "Augustus schrieb: Neria gerettet, Knöchel verhindert Laufen, wartet beim Becken im alten Steinbruch; Bitte um Abholung. Nachrichtentext entspricht seiner ausdrücklich erklärten Absicht.",
+      "source_event_id": "event-000009",
+      "visibility": "public",
+      "key": "pickup-request-sent",
+      "value": true
+    },
+    {
+      "id": "change-000009-8",
+      "text": "Livia hat die Abholbitte gelesen und beginnt Transporthilfe zu organisieren; noch kein Transport erfolgt.",
+      "source_event_id": "event-000009",
+      "visibility": "gm",
+      "key": "pickup-request-read",
+      "value": true
+    },
+    {
+      "id": "change-000009-9",
+      "text": "Neria ist sicher im Steinbruch, aber noch nicht abgeholt.",
+      "source_event_id": "event-000009",
+      "visibility": "gm",
+      "key": "neria-collected",
+      "value": false
+    },
+    {
+      "id": "change-000009-10",
+      "text": "Schwelle 2 erreicht: Am Forum bilden sich erste Warteschlangen an der begrenzten Wasserausgabe. Die Helden sind abwesend und beobachten dies noch nicht.",
+      "source_event_id": "event-000009",
+      "visibility": "gm",
+      "key": "shortage-queues",
+      "value": true
+    },
+    {
+      "id": "change-000009-11",
+      "text": "Sichtbarer QUELLE-Schieber offen.",
+      "source_event_id": "event-000009",
+      "visibility": "public",
+      "key": "valve-source-open",
+      "value": true
+    },
+    {
+      "id": "change-000009-12",
+      "text": "Sichtbarer STADT-Schieber geschlossen.",
+      "source_event_id": "event-000009",
+      "visibility": "public",
+      "key": "valve-city-open",
+      "value": false
+    },
+    {
+      "id": "change-000009-13",
+      "text": "Sichtbarer RESERVE-Schieber offen.",
+      "source_event_id": "event-000009",
+      "visibility": "public",
+      "key": "valve-reserve-open",
+      "value": true
+    },
+    {
+      "id": "change-000009-14",
+      "text": "Frischer Holzkeil blockiert RESERVE; niemand hat daran gearbeitet.",
+      "source_event_id": "event-000009",
+      "visibility": "public",
+      "key": "reserve-wedge-present",
+      "value": true
+    },
+    {
+      "id": "change-000009-15",
+      "text": "Beckenpegel steht über roter Marke; gedruckte Sicherheitsanleitung vollständig zugänglich.",
+      "source_event_id": "event-000009",
+      "visibility": "public",
+      "key": "water-level-below-mark",
+      "value": false
     }
   ],
   "quests": [
@@ -404,7 +524,7 @@
     },
     {
       "quest_id": "quest-plan",
-      "status": "unseen",
+      "status": "active",
       "reward_granted": false
     },
     {
@@ -426,10 +546,10 @@
   "clocks": [
     {
       "clock_id": "clock-shortage",
-      "value": 1,
+      "value": 2,
       "max": 6,
       "active": true,
-      "last_trigger_event_id": "event-000006"
+      "last_trigger_event_id": "event-000009"
     },
     {
       "clock_id": "clock-coverup",
@@ -448,13 +568,13 @@
     },
     {
       "id": "thread-fountain",
-      "summary": "Kein Zufluss am Forum. Abdeckung von Livia und Bäcker geschlossen. Getrennte Ermittlung am Mühlentor und Steinbruch läuft.",
+      "summary": "Brunnen weiter ohne Wasser, Abdeckung geschlossen. Beide Helden haben im Verteilerhaus die Umleitung zum Steinbruch nun selbst gesehen.",
       "status": "open",
       "visibility": "public"
     },
     {
       "id": "thread-neria",
-      "summary": "Augustus hat Neria sicher gerettet; Knöchel schmerzt weiterhin. Cäsar und Livia noch nicht informiert.",
+      "summary": "Neria sicher aus Wartungsraum gerettet, wartet gehbehindert am Becken. Augustus hat Abholbitte an Livia geschickt.",
       "status": "resolved",
       "visibility": "public"
     },
@@ -472,13 +592,13 @@
     },
     {
       "id": "thread-distributor",
-      "summary": "Cäsar kennt den Wartungsweg zum Verteilerhaus; Augustus kann ihn von Neria erfahren. Beiden fehlen eigenständig geprüfte Details der Schieber. Nächste Schritte noch offen.",
+      "summary": "Beide im Verteilerhaus. Quelle offen, Stadt zu, Reserve offen und verkeilt; Sicherheitstafel bekannt. Noch keine Bedienung; Arbeitsplan offen.",
       "status": "open",
       "visibility": "public"
     },
     {
       "id": "thread-inform-livia",
-      "summary": "Neria bittet Augustus, Livia ihren Aufenthaltsort mitzuteilen. Kein Brief geschrieben und keine Taube verschickt.",
+      "summary": "Augustus hat Abholbitte per Taube versendet. Für Helden Empfang und Abholung noch unbestätigt.",
       "status": "open",
       "visibility": "public"
     }
@@ -486,11 +606,11 @@
   "pending_action": null,
   "pending_roll": null,
   "challenge": null,
-  "pending_prompt": "Cäsar, folgst du der Leitung zum Verteilerhaus? Augustus, was möchtest du mit Neria als Nächstes tun?",
+  "pending_prompt": "Wie wollt ihr das Wasser wieder zur Stadt leiten? Beschreibt, was ihr zuerst tut und wer welchen Handgriff übernimmt.",
   "spotlight": {
     "last_actor_id": "pc-2",
     "next_actor_id": "pc-1"
   },
-  "last_narration": "**Cäsar – am Mühlentor**\n\nMit der Wache steigst du zur Kontrollöffnung. Im oberen Kanal strömt klares Wasser aus Richtung der Hügel heran. Die tiefer liegende Zuleitung zur Stadt ist dagegen leer.\n\n„Wasser kommt also an“, sagt die Wache. „Aber zur Stadt gelangt es nicht. Dazwischen liegt das Verteilerhaus.“ Sie zeigt dir einen schmalen Wartungsweg, der der Leitung folgt.\n\nDu weißt jetzt: Der Fehler liegt nicht einfach am Adlerbrunnen. Du müsstest weiter oben bei der Verteilung nachsehen.\n\n**Augustus – am Steinbruch**\n\n*Kraftprobe: 3 + 3 + 2 Kraft = 8. Ziel 7 – geschafft.*\n\nDu legst dich flach an die stabile Kante und streckst Neria den Arm entgegen. Sie richtet sich vorsichtig auf dem gesunden Bein auf und greift zu.\n\nDu ziehst, während sie sich mit der freien Hand am Rand abstützt. Einen angespannten Moment später ist sie oben und setzt sich neben die Mauer.\n\n„Danke“, sagt sie und atmet tief durch. „Allein wäre ich da nicht herausgekommen.“ Ihr Knöchel schmerzt noch, aber sie ist befreit. Du verlierst keinen Mut.\n\n„Die Schieber sind im Verteilerhaus. Ich kann dir den Weg erklären. Und meine Gehilfin Livia sollte erfahren, dass ich hier bin.“",
-  "last_resolution": "Cäsar prüft Zufluss und Stadtzuleitung und erfährt den Weg zum Verteilerhaus. Augustus rettet Neria mit Kraftprobe 8 gegen 7 ohne Mutverlust; sie bleibt gehbehindert. Kommunikation und nächster Weg noch offen."
+  "last_narration": "Augustus befestigt einen Zettel an einer Taube: „Neria ist gerettet, kann wegen ihres Knöchels aber kaum laufen. Sie wartet beim Wasserbecken im alten Steinbruch. Bitte organisiert ihre Abholung.“ Der Vogel steigt auf und fliegt Richtung Stadt. Eine Bestätigung habt ihr noch nicht.\n\nNeria erklärt Augustus einen äußeren Wartungspfad zum Verteilerhaus und bleibt sicher neben der Mauer zurück.\n\nWährend Cäsar der Leitung vom Mühlentor folgt, kommt Augustus von der Steinbruchseite. Im Verteilerhaus trefft ihr wieder zusammen. Die Wache ist am Mühlentor geblieben.\n\nIn der offenen Halle rauscht Wasser durch ein steinernes Becken. Drei beschriftete Holzschieber sind leicht erreichbar:\n\n| Schieber | Führt Wasser … | Stellung |\n|---|---|---|\n| QUELLE | ins Verteilerbecken | offen |\n| STADT | vom Becken zu den Brunnen | geschlossen |\n| RESERVE | vom Becken zum Steinbruch | offen; durch einen frischen Holzkeil blockiert |\n\nIhr könnt den Wasserweg direkt verfolgen: Es kommt herein und fließt zum Steinbruch ab. Die Stadtleitung bleibt trocken.\n\nEine Tafel erklärt:\n\n„Vor Arbeiten an einer klemmenden Schütze: Zufluss sperren. Pegel bis unter die rote Marke sinken lassen. Erst danach verstellen. Anschließend Zufluss langsam öffnen.“\n\nDer Wasserstand liegt über der roten Marke. Noch hat niemand einen Schieber angefasst.",
+  "last_resolution": "Augustus hat Abholbitte per Taube versendet und Nerias äußere Wegbeschreibung genutzt. Beide treffen im Verteilerhaus zusammen und sehen Schieberstellungen und Sicherheitstafel. Keine Bedienung vorgenommen; Neria noch nicht abgeholt."
 }

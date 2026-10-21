@@ -1,13 +1,21 @@
 # Unser Abenteuerjournal
 
-**Speicherpunkt 8 – Neria ist befreit.**
+**Speicherpunkt 9 – Die drei Schieber.**
 
-**Cäsar:** Mit der Wache hat er die Kontrollöffnung geprüft. Im oberen Kanal kommt klares Wasser aus Richtung der Hügel; die tiefere Stadtzuleitung ist leer. Die Wache zeigt den Wartungsweg zum dazwischenliegenden Verteilerhaus. Cäsar hat es noch nicht besucht.
+Augustus hat eine Brieftaube mit der Bitte um Abholung Nerias geschickt. Sie wartet mit schmerzendem Knöchel sicher am Steinbruchbecken. Nachricht und Abholung sind für uns noch nicht bestätigt. Augustus trägt noch eine Taube und einen leeren Korb; Cäsar zwei Tauben.
 
-**Augustus:** Er hat Neria am Arm aus dem trockenen Wartungsraum gezogen. Kraftprobe: **3 + 3 + 2 = 8 gegen 7**, Erfolg ohne Mutverlust. Neria sitzt nun oben neben der Mauer im Steinbruch. Ihr Knöchel schmerzt weiterhin. Sie bietet eine Wegbeschreibung zum Verteilerhaus an, wo die verstellten Schieber liegen, und bittet um Nachricht an ihre Gehilfin Livia.
+Cäsar kam vom Mühlentor, Augustus nach Nerias Wegbeschreibung über einen äußeren Wartungspfad. Wir sind wieder gemeinsam im Verteilerhaus. Eine gemeinsame Reisephase ist vergangen.
 
-Wissen weiterhin getrennt. Keine Taube versendet und kein neuer Weg gewählt. Beide 4 Mut, 2 Glück und 1 Fortschrittspunkt, je zwei Tauben und 6/6 Plätze. Gemeinsame Kasse 12 Sesterzen. Keine weitere Zeitphase.
+| Schieber | Weg | Stellung |
+|---|---|---|
+| QUELLE | in das Verteilerbecken | offen |
+| STADT | zu den Stadtbrunnen | geschlossen |
+| RESERVE | zum Steinbruch | offen, durch frischen Holzkeil blockiert |
 
-**Nächste Frage:** Cäsar, folgst du der Leitung zum Verteilerhaus? Augustus, was möchtest du mit Neria als Nächstes tun?
+Beide sehen, dass das Wasser zum Steinbruch statt zur Stadt fließt. Der Pegel liegt über der roten Marke. Die [Wartungstafel](handouts/gates.md) ist lesbar. **Noch nichts verstellt oder entfernt.** Wer die Anlage so eingerichtet hat, wissen wir nicht.
+
+Beide 4 Mut, 2 Glück, 1 Fortschrittspunkt, 6/6 Plätze. Gemeinsame 12 Sesterzen. Kein Wurf nötig.
+
+**Nächste Frage:** Wie wollt ihr das Wasser wieder zur Stadt leiten? Beschreibt, was ihr zuerst tut und wer welchen Handgriff übernimmt.
 
 [Figurenblatt](party.md)

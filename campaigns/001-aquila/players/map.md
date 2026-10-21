@@ -29,3 +29,7 @@ Das Wasser kommt aus der Morgenquelle, läuft durch den Aquädukt und wird über
 ## Getrennt erfahren – Speicherpunkt 8
 
 Cäsar kennt den Wartungsweg vom Mühlentor zum Verteilerhaus durch die Wache. Augustus weiß durch Neria, dass dort die Schieber liegen; die genaue Wegbeschreibung hat sie ihm erst angeboten. Keine dieser neuen Informationen ist bisher zwischen den Helden ausgetauscht worden.
+
+## Gemeinsam erreicht – Speicherpunkt 9
+
+Beide Helden sind im Verteilerhaus, über Wartungsweg vom Mühlentor bzw. äußeren Pfad vom Steinbruch. Sichtbare Wasserverbindungen: Morgenquelle → Verteilerbecken; von dort je ein Ausgang zur Stadt und zum Reservebecken im Steinbruch.
