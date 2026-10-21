@@ -1,21 +1,17 @@
 # Unser Abenteuerjournal
 
-**Speicherpunkt 9 – Die drei Schieber.**
+**Speicherpunkt 10 – Cäsars Aufruf.**
 
-Augustus hat eine Brieftaube mit der Bitte um Abholung Nerias geschickt. Sie wartet mit schmerzendem Knöchel sicher am Steinbruchbecken. Nachricht und Abholung sind für uns noch nicht bestätigt. Augustus trägt noch eine Taube und einen leeren Korb; Cäsar zwei Tauben.
+Cäsar ist zum Forum zurückgekehrt. Er berichtet von den Schieberstellungen und dem Wasser, das zum Steinbruch läuft. Er wirbt um Helfer sowie geliehene Ochsenwagen, Amphoren und Werkzeuge für einen Ausweichkanal, ein Sammelbecken und eine Notversorgung.
 
-Cäsar kam vom Mühlentor, Augustus nach Nerias Wegbeschreibung über einen äußeren Wartungspfad. Wir sind wieder gemeinsam im Verteilerhaus. Eine gemeinsame Reisephase ist vergangen.
+Einige Handwerker zeigen Interesse; bei großen Leihgaben zögern die Besitzer. **Herzprobe bisher: 1 + 3 + 2 = 6 gegen9.** Cäsar kann einen seiner2 Glückspunkte ausgeben, um die1 neu zu würfeln. Diese Entscheidung ist noch offen. Ohne Neuwurf reicht der Aufruf zunächst für wenige Helfer mit Handwerkzeug; Wagen, Ochsen und Gefäße sind noch nicht zugesagt.
 
-| Schieber | Weg | Stellung |
-|---|---|---|
-| QUELLE | in das Verteilerbecken | offen |
-| STADT | zu den Stadtbrunnen | geschlossen |
-| RESERVE | zum Steinbruch | offen, durch frischen Holzkeil blockiert |
+Noch kein Kanal gegraben, kein Becken gebaut und kein Wasser geliefert. Dafür werden ein geeigneter Verlauf und weitere Arbeit benötigt. Rückweg und Aufruf haben eine Zeitphase gekostet.
 
-Beide sehen, dass das Wasser zum Steinbruch statt zur Stadt fließt. Der Pegel liegt über der roten Marke. Die [Wartungstafel](handouts/gates.md) ist lesbar. **Noch nichts verstellt oder entfernt.** Wer die Anlage so eingerichtet hat, wissen wir nicht.
+Augustus befindet sich zuletzt im Verteilerhaus; seine Handlung währenddessen steht noch aus. Quelle und Reserve offen, Stadt geschlossen, Keil unverändert. Keine Wartehandlung für ihn festgelegt.
 
-Beide 4 Mut, 2 Glück, 1 Fortschrittspunkt, 6/6 Plätze. Gemeinsame 12 Sesterzen. Kein Wurf nötig.
+Beide weiterhin4 Mut,2 Glück,1 Fortschrittspunkt; gemeinsame12 Sesterzen. Kein Glückspunkt verbraucht und keine neuen Gegenstände erhalten.
 
-**Nächste Frage:** Wie wollt ihr das Wasser wieder zur Stadt leiten? Beschreibt, was ihr zuerst tut und wer welchen Handgriff übernimmt.
+**Nächste Frage:** Cäsar: Möchtest du einen Glückspunkt ausgeben und die 1 neu würfeln, oder das Ergebnis annehmen? Augustus: Was tust du währenddessen im Verteilerhaus?
 
 [Figurenblatt](party.md)

@@ -1,15 +1,15 @@
-# Übergabe – Revision 9
+# Übergabe – Revision 10
 
-- Letztes Event `event-000009`, Sitzung 1, `scene-06`, `loc-distributor`; beide wieder zusammen, keine NSC vor Ort. Phase 2, Knappheit 2/6, Vertuschung 0/4.
-- Cäsar kam über Wartungsweg vom Mühlentor; Wache blieb dort. Augustus hat Neria um Wegbeschreibung gebeten und kam über sicheren äußeren Wartungspfad. Keine Reise/Rettungsaktion mehr offen.
-- Augustus hat Taube 3 mit Abholbitte für Neria (gerettet, Knöchel, am Becken im Steinbruch) zu Livia geschickt. Korb bleibt leer bei ihm, Taube 4 weiter dabei. Cäsar hat Tauben 1/2. Je 6/6 Plätze. Keine Antwort bei Helden.
-- GM: Livia hat die Taube während Reise erhalten und Nachricht gelesen; beginnt Transporthilfe zu organisieren. Neria noch nicht abgeholt und sicher am Steinbruch. Vogel 3 im Werkstattschlag; nicht mehr im Heldeninventar. Abholung später ausspielen und nicht vergessen.
-- GM: Knappheitsschwelle 2 erzeugt Warteschlangen am Forum, Helden nicht anwesend. Keine unbeobachteten Details in Dialog mischen.
-- Beide sehen Verteiler: QUELLE offen (Zufluss), STADT geschlossen (Brunnenleitung), RESERVE offen (Steinbruchleitung), Reserve durch frischen Keil blockiert; Pegel über roter Marke. Vollständige Sicherheitstafel zugänglich. Noch **keinen** Schieber bewegt, Keil nicht entfernt.
-- Aufgabe: Wasser in Stadt zurückbringen, nicht unter laufendem Zufluss am blockierten Teil arbeiten. Korrekte geplante Folge ohne Probe akzeptieren; alternative funktionierende Pläne ebenfalls. Bei riskantem Ansatz vor Folgen warnen. Keine Magie nötig.
-- Gemeinsame Beobachtung bestätigt clue-flow/diversion für beide. Nerias Aussagen und Rettung wurden nicht automatisch zwischen Helden berichtet; Cäsar weiß nur, dass Augustus wieder hier ist.
-- Akt I belohnt, je 1 Fortschritt; Akt II noch aktiv, Arbeitsplan fehlt. Beide Mut 4/Glück 2, Kasse 12. Keine offene Probe. Bei vollständigem geeignetem Plan nächsten Meilenstein einmalig behandeln, nicht beim bloßen Erreichen des Hauses.
+- Letztes Event `event-000010`; Cäsar `scene-02` am Forum, Augustus `scene-06` im Verteilerhaus. Cäsar auf Nutzerwunsch allein zurückgekehrt und ruft zu eigenem Notversorgungsplan auf; diesen Plan ernst nehmen, nicht zur Schieberlösung zwingen.
+- Plan: Ausweichkanal + Sammelbecken sowie geliehene Ochsenwagen, Amphoren, Werkzeuge und freiwillige Helfer. Kein festgelegter Verlauf, kein Bau und keine Wasserlieferung. Besitzer müssen zustimmen; ein Erfolg ermöglicht Zusagen, nicht fertige Großbauten.
+- **Offene Probe:** `roll-000010-pc-1`, Herz2, Bonus0, Ziel9, rohe Würfel **1 und3**, Summe6. Nur ein echter Tool-Aufruf. Kein endgültiger Event-roll, da Glücksentscheidung offen. **Nicht beide Würfel erneut werfen.**
+- Cäsar darf einen Glückspunkt ausgeben, um die 1 (Index0) neu zu werfen. Wenn gewählt: genau einen neuen W6 erzeugen, Glück2→1, Originalwürfel behalten. Dann endgültige Summe/Klasse auswerten. Er kann Ergebnis6 annehmen: wenige Helfer mit Handwerkzeug, keine zugesagten Wagen/Ochsen/Gefäße; keine weitere automatische Strafe.
+- Vorab angekündigt: voller Erfolg Zusagen/Arbeitsgruppe; knapp7–8 akzeptierbarer Preis eine weitere Organisationsphase oder Verzicht; <=6 begrenzte Unterstützung. Keine Zusatzkosten erfinden. Bei knapper Endsumme Kostenwahl offenlassen.
+- Reise/Aufruf kostet eine angekündigte Phase: global3, Knappheit3/6, Vertuschung0. Augustus' paralleler Block Phase2→3 noch offen; ihm keine freiwillige Wartephase unterstellen. Bei Wasserreparatur in diesem Fenster Zeitfolgen konsistent abgleichen.
+- Bato und Cassia am Forum hören technischen Bericht und Vorschlag, keine namentliche Täterbeschuldigung. Marcellus nicht automatisch informiert; keine Vertuschungsuhr fortschreiben ohne Nachricht.
+- Neria weiterhin sicher im Steinbruch; Livia hat Abholbitte und organisiert Hilfe. Deren Fortschritt im nächsten aufgelösten Zeitblock berücksichtigen; offene Glücksentscheidung nicht als zusätzliche Zeit nutzen.
+- Beide Mut4, Glück2, Fortschritt1, je6/6 Plätze; keine Ressource durch vorläufigen Wurf verbraucht. Cäsar2 Tauben, Augustus1 + leerer Korb, Geld12. Schieber vollständig unverändert.
 
 ## Exakte nächste Frage
 
-Wie wollt ihr das Wasser wieder zur Stadt leiten? Beschreibt, was ihr zuerst tut und wer welchen Handgriff übernimmt.
+Cäsar: Möchtest du einen Glückspunkt ausgeben und die 1 neu würfeln, oder das Ergebnis annehmen? Augustus: Was tust du währenddessen im Verteilerhaus?
