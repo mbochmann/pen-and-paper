@@ -1,15 +1,33 @@
-# Übergabe – Revision 10
+# Wiederaufnahme – Revision 11
 
-- Letztes Event `event-000010`; Cäsar `scene-02` am Forum, Augustus `scene-06` im Verteilerhaus. Cäsar auf Nutzerwunsch allein zurückgekehrt und ruft zu eigenem Notversorgungsplan auf; diesen Plan ernst nehmen, nicht zur Schieberlösung zwingen.
-- Plan: Ausweichkanal + Sammelbecken sowie geliehene Ochsenwagen, Amphoren, Werkzeuge und freiwillige Helfer. Kein festgelegter Verlauf, kein Bau und keine Wasserlieferung. Besitzer müssen zustimmen; ein Erfolg ermöglicht Zusagen, nicht fertige Großbauten.
-- **Offene Probe:** `roll-000010-pc-1`, Herz2, Bonus0, Ziel9, rohe Würfel **1 und3**, Summe6. Nur ein echter Tool-Aufruf. Kein endgültiger Event-roll, da Glücksentscheidung offen. **Nicht beide Würfel erneut werfen.**
-- Cäsar darf einen Glückspunkt ausgeben, um die 1 (Index0) neu zu werfen. Wenn gewählt: genau einen neuen W6 erzeugen, Glück2→1, Originalwürfel behalten. Dann endgültige Summe/Klasse auswerten. Er kann Ergebnis6 annehmen: wenige Helfer mit Handwerkzeug, keine zugesagten Wagen/Ochsen/Gefäße; keine weitere automatische Strafe.
-- Vorab angekündigt: voller Erfolg Zusagen/Arbeitsgruppe; knapp7–8 akzeptierbarer Preis eine weitere Organisationsphase oder Verzicht; <=6 begrenzte Unterstützung. Keine Zusatzkosten erfinden. Bei knapper Endsumme Kostenwahl offenlassen.
-- Reise/Aufruf kostet eine angekündigte Phase: global3, Knappheit3/6, Vertuschung0. Augustus' paralleler Block Phase2→3 noch offen; ihm keine freiwillige Wartephase unterstellen. Bei Wasserreparatur in diesem Fenster Zeitfolgen konsistent abgleichen.
-- Bato und Cassia am Forum hören technischen Bericht und Vorschlag, keine namentliche Täterbeschuldigung. Marcellus nicht automatisch informiert; keine Vertuschungsuhr fortschreiben ohne Nachricht.
-- Neria weiterhin sicher im Steinbruch; Livia hat Abholbitte und organisiert Hilfe. Deren Fortschritt im nächsten aufgelösten Zeitblock berücksichtigen; offene Glücksentscheidung nicht als zusätzliche Zeit nutzen.
-- Beide Mut4, Glück2, Fortschritt1, je6/6 Plätze; keine Ressource durch vorläufigen Wurf verbraucht. Cäsar2 Tauben, Augustus1 + leerer Korb, Geld12. Schieber vollständig unverändert.
+Letztes Ereignis: event-000011. Spiel läuft, keine offene Probe.
 
-## Exakte nächste Frage
+Cäsar lehnt Glücksneuwurf ab: 6 gegen9, wenige Helfer mit eigenem Handwerkzeug, keine großen Leihgaben. Augustus stellt gleichzeitig nach sicherer Entlastung den Stadtzufluss wieder her. Ohne neue Probe/Phase. Knappheitsuhr3 eingefroren. AktII belohnt; beide2 Fortschritt,2 Glück. Täter unbekannt.
 
-Cäsar: Möchtest du einen Glückspunkt ausgeben und die 1 neu würfeln, oder das Ergebnis annehmen? Augustus: Was tust du währenddessen im Verteilerhaus?
+Cäsar am Forum (scene-02), Augustus im Verteilerhaus (scene-06). Zeitphase3, beide parallelen Handlungen aufgelöst; nicht erneut abbuchen. Knappheitsuhr3 inaktiv, Vertuschungsuhr0 unverändert. Q/S offen, R geschlossen. Keil auf trockenem Steg, nicht eingesteckt/untersucht. Kein Täter bekannt. Cäsar kennt den sichtbaren Erfolg am Brunnen, nicht automatisch Augustus' einzelne Handgriffe. Augustus kennt Cäsars Rekrutierungsergebnis nicht.
+
+Gemeinsame12 Münzen, je4 Mut/2 Glück/2 Fortschritt, Ausrüstung unverändert. Steigerung nicht gewählt. quest-plan einmalig belohnt, quest-water abgeschlossen; quest-finale noch nicht abgeschlossen/belohnt. Keine automatische Entscheidung über weitere Ermittlungen oder Kanalbau.
+
+GM: Livia mit Tragehilfe bei Neria im Steinbruch eingetroffen; Rücktransport und Empfangsbestätigung an Helden noch offen. Taube3 im Werkstattschlag, Augustus nur noch Taube4.
+
+## Zuletzt erzählt
+
+**Augustus:** Du schließt den Zufluss. Das Rauschen wird leiser, während das Wasser durch die Reserveleitung abläuft. Sobald der Pegel unter der roten Marke liegt, schlägst du den Keil heraus. Er fällt klappernd auf den trockenen Steg.
+
+Um das Wasser wieder zur Stadt zu führen, schließt du die nun freie Reserve-Schütze, öffnest den Stadtschieber und lässt den Zufluss langsam wieder ein. Wasser schießt durch die bisher trockene Rinne.
+
+**Es funktioniert. Dein sicherer Plan gelingt ohne Würfelprobe.** Der Keil liegt noch neben dir.
+
+**Cäsar:** Du nimmst das Würfelergebnis an und behältst deine beiden Glückspunkte. Einige Helfer stehen mit Schaufeln und anderem Handwerkzeug bereit. Wagen, Ochsen und Amphoren werden dir vorerst nicht zugesagt.
+
+Da gluckert es hinter dir. Aus dem Schnabel des steinernen Adlers spritzt Wasser – erst stoßweise, dann in einem kräftigen Strahl. Der Bäcker hält seinen Becher darunter. Menschen lachen erleichtert und heben ihre Krüge.
+
+Deine Helfer schauen zu dir. „Sollen wir trotzdem mit dem Becken anfangen?“
+
+Die Versorgung ist wiederhergestellt. Wer sie absichtlich unterbrochen hat, bleibt ungeklärt.
+
+**Meilenstein erreicht:** Ihr habt jetzt jeweils **2 Fortschrittspunkte**. Damit könnt ihr bei Gelegenheit eine Eigenschaft um 1 erhöhen, höchstens auf +3.
+
+## Exakte offene Frage
+
+Cäsar: Was möchtest du mit deinen Helfern als Nächstes tun? Augustus: Was tust du jetzt im Verteilerhaus?

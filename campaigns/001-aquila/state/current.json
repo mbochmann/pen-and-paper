@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "campaign_id": "aquila-001",
-  "revision": 10,
-  "last_event_id": "event-000010",
-  "updated_at": "2026-10-21T16:49:34.617Z",
+  "revision": 11,
+  "last_event_id": "event-000011",
+  "updated_at": "2026-10-21T17:00:24.366Z",
   "phase": "playing",
   "session": 1,
   "game_time": {
     "day": 1,
     "phase": 3,
-    "label": "Tag 1, Vormittag; Cäsars Rückweg und Aufruf, Augustus' paralleler Handlungsblock noch offen"
+    "label": "Tag 1, Vormittag; parallele Handlungen abgeschlossen, Wasser wiederhergestellt"
   },
   "scene_id": "scene-02",
   "location_id": "loc-forum",
@@ -36,7 +36,7 @@
       },
       "courage": 4,
       "luck": 2,
-      "advancement": 1,
+      "advancement": 2,
       "talent_used": false,
       "rally_used": false,
       "equipment": [
@@ -87,7 +87,7 @@
       },
       "courage": 4,
       "luck": 2,
-      "advancement": 1,
+      "advancement": 2,
       "talent_used": false,
       "rally_used": false,
       "equipment": [
@@ -188,14 +188,14 @@
     {
       "npc_id": "npc-livia",
       "attitude": "open",
-      "location_id": "loc-workshop",
-      "notes": "GM: Während der Reise erreicht Leih-Taube 3 den Werkstattschlag. Livia liest Augustus' Bitte um Abholung der geretteten, gehbehinderten Neria am Steinbruchbecken und beginnt Transporthilfe zu organisieren. Noch keine Abholung und keine Empfangsbestätigung an Helden. Vogel 3 im Werkstattschlag, Korb blieb bei Augustus."
+      "location_id": "loc-quarry",
+      "notes": "GM: In derselben bereits gebuchten Reisephase trifft Livia mit freiwilliger Tragehilfe bei Neria ein. Abholung beginnt, Rückweg noch nicht vollzogen; beide Helden noch ohne Bestätigung. Taube3 bleibt im Werkstattschlag."
     },
     {
       "npc_id": "npc-neria",
       "attitude": "trusted",
       "location_id": "loc-quarry",
-      "notes": "Wartet sicher neben Mauer am Steinbruchbecken. Augustus hat ausdrücklich Abholung per Taube angefordert und nach ihrer Erklärung einen äußeren Wartungspfad zum Verteilerhaus genommen. Knöchel schmerzt weiterhin; Abholung noch nicht erfolgt."
+      "notes": "Sicher am Steinbruchbecken, Knöchel schmerzt. Livia und freiwillige Helfer sind zur angeforderten Abholung eingetroffen; Rücktransport steht noch aus."
     },
     {
       "npc_id": "npc-marcellus",
@@ -219,13 +219,13 @@
       "npc_id": "npc-cassia",
       "attitude": "neutral",
       "location_id": "loc-forum",
-      "notes": "Am Forum anwesend, hört Cäsars öffentlichen Bericht über Schieber und Umleitung sowie seinen Vorschlag einer freiwilligen Notversorgung. Keine Beschuldigung eines namentlichen Täters, kein neues Verfahren, keine Zwangsbeschaffung genehmigt."
+      "notes": "Hat Cäsars Bericht über Umleitung gehört, sieht nun Wasser zurückkehren. Verantwortlicher unbekannt; noch kein offizielles Verfahren eröffnet."
     },
     {
       "npc_id": "npc-bato",
       "attitude": "open",
       "location_id": "loc-forum",
-      "notes": "Cäsar äußert Zuversicht in Augustus und schlägt bei Bedarf den Fluss vor. Der Bäcker erwägt das als Notbehelf, braucht dafür aber einen Wagen. Noch kein Wagen besorgt, kein Abtransport und kein neuer Auftrag der Helden. Sein Name noch unbekannt. Hat mit Livia nach deren Leihgabe die Brunnenabdeckung wieder eingesetzt; bleibt am Forum. Hört Cäsars Vorschlag am Forum; endgültige Materialzusagen wegen offener Glücksentscheidung noch nicht festgelegt."
+      "notes": "Am Forum; Name den Helden noch unbekannt. Sieht nach Cäsars Aufruf den Brunnen wieder fließen und füllt einen Becher. Keine Wagen zugesagt."
     },
     {
       "npc_id": "npc-flavia",
@@ -560,6 +560,102 @@
       "visibility": "public",
       "key": "relief-plan-proposed",
       "value": true
+    },
+    {
+      "id": "change-000011-1",
+      "text": "Augustus führt die sichere Reparatur während Cäsars Rückweg/Aufruf durch. Keine weitere Zeitphase; bisher gebuchter Druckwert bleibt als bisheriger Höchststand erhalten.",
+      "source_event_id": "event-000011",
+      "visibility": "public",
+      "key": "pc-2-action-window",
+      "value": "resolved-phase-2-to-3"
+    },
+    {
+      "id": "change-000011-2",
+      "text": "Augustus sperrt QUELLE, wartet bis unter die rote Marke und öffnet den Zufluss nach dem Umstellen langsam wieder.",
+      "source_event_id": "event-000011",
+      "visibility": "public",
+      "key": "valve-source-open",
+      "value": true
+    },
+    {
+      "id": "change-000011-3",
+      "text": "Bei abgesenktem Pegel schlägt Augustus den Keil heraus und schließt RESERVE.",
+      "source_event_id": "event-000011",
+      "visibility": "public",
+      "key": "valve-reserve-open",
+      "value": false
+    },
+    {
+      "id": "change-000011-4",
+      "text": "Augustus öffnet STADT gemäß seinem erklärten Ziel, das Wasser wieder zur Stadt zu leiten.",
+      "source_event_id": "event-000011",
+      "visibility": "public",
+      "key": "valve-city-open",
+      "value": true
+    },
+    {
+      "id": "change-000011-5",
+      "text": "Der entfernte Holzkeil liegt auf dem trockenen Bedienungssteg im Verteilerhaus; weder eingesteckt noch weiter untersucht.",
+      "source_event_id": "event-000011",
+      "visibility": "public",
+      "key": "reserve-wedge-present",
+      "value": false
+    },
+    {
+      "id": "change-000011-6",
+      "text": "Pegel wurde zum Arbeiten unter die rote Marke abgesenkt; nach langsamem Wiederöffnen normaler Betriebspegel, keine weitere Arbeit an klemmenden Teilen.",
+      "source_event_id": "event-000011",
+      "visibility": "public",
+      "key": "water-level-below-mark",
+      "value": false
+    },
+    {
+      "id": "change-000011-7",
+      "text": "QUELLE und STADT offen, RESERVE geschlossen. Augustus sieht den Stadtkanal fließen; Cäsar sieht wenig später den Adlerbrunnen wieder laufen.",
+      "source_event_id": "event-000011",
+      "visibility": "public",
+      "key": "water-restored",
+      "value": true
+    },
+    {
+      "id": "change-000011-8",
+      "text": "Vollständige Wiederherstellung, keine bloße Teilversorgung.",
+      "source_event_id": "event-000011",
+      "visibility": "public",
+      "key": "water-partial",
+      "value": false
+    },
+    {
+      "id": "change-000011-9",
+      "text": "Wasser erreicht den Adlerbrunnen wieder. Abdeckung bleibt geschlossen.",
+      "source_event_id": "event-000011",
+      "visibility": "public",
+      "key": "fountain-inlet-flow",
+      "value": true
+    },
+    {
+      "id": "change-000011-10",
+      "text": "Cäsar nimmt 1+3+Herz2=6 gegen9 an. Wenige freiwillige Helfer bringen eigenes Handwerkzeug; keine Zusage für Wagen, Ochsen oder Amphoren, kein Besitztransfer, Bau noch nicht begonnen.",
+      "source_event_id": "event-000011",
+      "visibility": "public",
+      "key": "relief-recruitment",
+      "value": "limited-volunteers"
+    },
+    {
+      "id": "change-000011-11",
+      "text": "Praktikabler Reparaturplan erfolgreich umgesetzt: quest-plan einmalig abgeschlossen, beide +1 Fortschrittspunkt und Glück auf2. Keine automatische Steigerung oder Finalbelohnung.",
+      "source_event_id": "event-000011",
+      "visibility": "public",
+      "key": "act-two-completed",
+      "value": true
+    },
+    {
+      "id": "change-000011-pickup",
+      "text": "Livia erreicht mit Tragehilfe Neria im Steinbruch während des schon gebuchten Zeitabschnitts. Rücktransport noch offen, keine Bestätigung an Helden.",
+      "source_event_id": "event-000011",
+      "visibility": "gm",
+      "key": "neria-pickup-status",
+      "value": "help-arrived-quarry"
     }
   ],
   "quests": [
@@ -575,12 +671,12 @@
     },
     {
       "quest_id": "quest-plan",
-      "status": "active",
-      "reward_granted": false
+      "status": "completed",
+      "reward_granted": true
     },
     {
       "quest_id": "quest-water",
-      "status": "unseen",
+      "status": "completed",
       "reward_granted": false
     },
     {
@@ -599,8 +695,8 @@
       "clock_id": "clock-shortage",
       "value": 3,
       "max": 6,
-      "active": true,
-      "last_trigger_event_id": "event-000010"
+      "active": false,
+      "last_trigger_event_id": "event-000011"
     },
     {
       "clock_id": "clock-coverup",
@@ -619,8 +715,8 @@
     },
     {
       "id": "thread-fountain",
-      "summary": "Brunnen weiter ohne Wasser, Abdeckung geschlossen. Beide Helden haben im Verteilerhaus die Umleitung zum Steinbruch nun selbst gesehen.",
-      "status": "open",
+      "summary": "Augustus hat die Versorgung wiederhergestellt; Cäsar sieht den Adlerbrunnen fließen. Verantwortlichkeit bleibt ungeklärt.",
+      "status": "resolved",
       "visibility": "public"
     },
     {
@@ -643,8 +739,8 @@
     },
     {
       "id": "thread-distributor",
-      "summary": "Augustus zuletzt im Verteilerhaus; alle Schieber unverändert. Cäsar ist für Hilfsorganisation zum Forum gegangen. Augustus' paralleler Schritt noch offen.",
-      "status": "open",
+      "summary": "Sicher repariert: QUELLE offen, STADT offen, RESERVE geschlossen. Augustus noch im Verteilerhaus, Keil auf trockenem Steg.",
+      "status": "resolved",
       "visibility": "public"
     },
     {
@@ -655,45 +751,25 @@
     },
     {
       "id": "thread-relief-plan",
-      "summary": "Cäsar organisiert freiwillige Helfer und geliehene Ausrüstung für Ausweichkanal/Becken/Wassertransport. Rohwurf 6 gegen9; Glücksentscheidung offen. Noch kein Kanalverlauf oder Bauplan festgelegt.",
+      "summary": "Wenige Helfer mit eigenem Handwerkzeug gewonnen; keine größeren Leihgaben, kein Bau. Wasser wieder da. Cäsar entscheidet selbst, ob/wie sein Vorsorgeplan weitergeht.",
+      "status": "open",
+      "visibility": "public"
+    },
+    {
+      "id": "thread-responsibility",
+      "summary": "Wer hat die absichtliche Umleitung veranlasst und warum? Noch keine Person belegt; weitere Aufklärung freiwillig.",
       "status": "open",
       "visibility": "public"
     }
   ],
-  "pending_action": {
-    "actor_ids": [
-      "pc-1"
-    ],
-    "declared_intent": "Freiwillige Helfer sowie geliehene Ochsenwagen, Amphoren und Werkzeuge für Ausweichkanal, Sammelbecken und Notwassertransport organisieren.",
-    "awaiting": "reroll_choice",
-    "options": [
-      "Ergebnis 6 annehmen: zunächst wenige Helfer mit Handwerkzeug; Wagen, Zugtiere und Gefäße noch nicht zugesagt.",
-      "1 Glückspunkt ausgeben und Würfel 1 (Index 0, Rohwert 1) neu werfen; danach neu bewerten."
-    ]
-  },
-  "pending_roll": {
-    "roll_id": "roll-000010-pc-1",
-    "actor_id": "pc-1",
-    "attribute": "heart",
-    "attribute_value": 2,
-    "bonus": 0,
-    "target": 9,
-    "dice_count": 2,
-    "raw_dice": [
-      1,
-      3
-    ],
-    "reroll_index": null,
-    "success": "Freiwillige Helfer und Leihzusagen für Ochsenwagen, Amphoren und Werkzeug stehen für den Notversorgungsplan bereit; Bau, Befüllung und Fahrten gesondert ausspielen.",
-    "partial_cost": "Bei Gesamt 7 oder 8: Zusagen gelingen auf Wunsch nach einer zusätzlichen Zeitphase Organisation; alternativ sicher verzichten.",
-    "setback": "Bei Gesamt höchstens 6: zunächst nur wenige Helfer mit Handwerkzeug; Wagen, Zugtiere und Gefäße noch nicht zugesagt. Kein automatischer Geld- oder Mutverlust."
-  },
+  "pending_action": null,
+  "pending_roll": null,
   "challenge": null,
-  "pending_prompt": "Cäsar: Möchtest du einen Glückspunkt ausgeben und die 1 neu würfeln, oder das Ergebnis annehmen? Augustus: Was tust du währenddessen im Verteilerhaus?",
+  "pending_prompt": "Cäsar: Was möchtest du mit deinen Helfern als Nächstes tun? Augustus: Was tust du jetzt im Verteilerhaus?",
   "spotlight": {
-    "last_actor_id": "pc-1",
-    "next_actor_id": "pc-2"
+    "last_actor_id": "pc-2",
+    "next_actor_id": "pc-1"
   },
-  "last_narration": "**Cäsar – auf dem Forum**\n\nDu kehrst in die Stadt zurück. Vor der Wasserausgabe stehen inzwischen Menschen mit leeren Krügen. Du berichtest von den verstellten Schiebern und dem Wasser, das zum Steinbruch läuft. Dann rufst du zu deinem Plan auf: einen Ausweichkanal und ein Sammelbecken anlegen, mit geliehenen Ochsenwagen und Amphoren die Versorgung sichern.\n\nEinige Handwerker melden sich. Bei Wagen, Zugtieren und Gefäßen zögern die Besitzer noch. Sie wollen wissen, wo genau gegraben werden soll und wer die Transporte organisiert.\n\n**Herzprobe: 1 + 3 + 2 = 6. Ziel: 9.**\n\nDas reicht zunächst nur für wenige Helfer mit Handwerkzeug. Kanal, Becken und Transportdienst entstehen dadurch noch nicht. Der Rückweg und Aufruf haben eine Zeitphase gekostet.\n\nDu hast noch **2 Glückspunkte**. Für einen davon darfst du die **1 neu würfeln**; der neue Wert zählt. Bis du entscheidest, bleiben die endgültigen Zusagen offen.\n\n**Augustus – im Verteilerhaus**\n\nFür dich ist noch keine weitere Handlung festgelegt. Quelle und Reserve stehen offen, Stadt ist geschlossen, der Keil steckt noch. Du kannst während Cäsars Unternehmung hier handeln.",
-  "last_resolution": "Cäsar kehrt zum Forum zurück und wirbt für alternative Notversorgung. Rohwurf 1/3 plus Herz2 ergibt6 gegen9; Glücksentscheidung offen. Keine endgültigen Leihgaben/Strafen umgesetzt. Augustus' parallele Handlung noch offen."
+  "last_narration": "**Augustus:** Du schließt den Zufluss. Das Rauschen wird leiser, während das Wasser durch die Reserveleitung abläuft. Sobald der Pegel unter der roten Marke liegt, schlägst du den Keil heraus. Er fällt klappernd auf den trockenen Steg.\n\nUm das Wasser wieder zur Stadt zu führen, schließt du die nun freie Reserve-Schütze, öffnest den Stadtschieber und lässt den Zufluss langsam wieder ein. Wasser schießt durch die bisher trockene Rinne.\n\n**Es funktioniert. Dein sicherer Plan gelingt ohne Würfelprobe.** Der Keil liegt noch neben dir.\n\n**Cäsar:** Du nimmst das Würfelergebnis an und behältst deine beiden Glückspunkte. Einige Helfer stehen mit Schaufeln und anderem Handwerkzeug bereit. Wagen, Ochsen und Amphoren werden dir vorerst nicht zugesagt.\n\nDa gluckert es hinter dir. Aus dem Schnabel des steinernen Adlers spritzt Wasser – erst stoßweise, dann in einem kräftigen Strahl. Der Bäcker hält seinen Becher darunter. Menschen lachen erleichtert und heben ihre Krüge.\n\nDeine Helfer schauen zu dir. „Sollen wir trotzdem mit dem Becken anfangen?“\n\nDie Versorgung ist wiederhergestellt. Wer sie absichtlich unterbrochen hat, bleibt ungeklärt.\n\n**Meilenstein erreicht:** Ihr habt jetzt jeweils **2 Fortschrittspunkte**. Damit könnt ihr bei Gelegenheit eine Eigenschaft um 1 erhöhen, höchstens auf +3.",
+  "last_resolution": "Cäsar lehnt Glücksneuwurf ab: 6 gegen9, wenige Helfer mit eigenem Handwerkzeug, keine großen Leihgaben. Augustus stellt gleichzeitig nach sicherer Entlastung den Stadtzufluss wieder her. Ohne neue Probe/Phase. Knappheitsuhr3 eingefroren. AktII belohnt; beide2 Fortschritt,2 Glück. Täter unbekannt."
 }

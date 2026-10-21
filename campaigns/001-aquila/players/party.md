@@ -1,6 +1,6 @@
 # Cäsar und Augustus
 
-Stand: Speicherpunkt 10. Aktuelle veränderliche Werte stehen verbindlich in `state/current.json`; dieses Blatt bei Änderungen aktualisieren.
+Stand: Speicherpunkt 11. Aktuelle veränderliche Werte stehen verbindlich in `state/current.json`; dieses Blatt bei Änderungen aktualisieren.
 
 | Eigenschaft | Cäsar – Redner | Augustus – Schildwächter |
 |---|---:|---:|
@@ -10,7 +10,7 @@ Stand: Speicherpunkt 10. Aktuelle veränderliche Werte stehen verbindlich in `st
 | Herz | +2 | +1 |
 | Mut | 4 / 4 | 4 / 4 |
 | Glück | 2 / 2 | 2 / 2 |
-| Fortschrittspunkte | 1 | 1 |
+| Fortschrittspunkte | 2 | 2 |
 
 **Cäsar – Ein offenes Ohr:** Einmal pro Szene hört ein ansprechbarer Mensch euch ungestört an und nennt einen wahren persönlichen Beweggrund. Das zwingt ihn nicht, euch zu glauben. Talent noch verfügbar.
 
@@ -25,3 +25,5 @@ Stand: Speicherpunkt 10. Aktuelle veränderliche Werte stehen verbindlich in `st
 **Vorgeschichte:** Beide kennen sich aus dem Rednerstudium. Augustus musste es abbrechen, weil er darin nicht gut war. Das ist Teil der Geschichte und verursacht keine zusätzlichen Abzüge auf seine Werte.
 
 Würfelmodus: Spielleitung würfelt mit dem Werkzeug; Eigenschaft, Ziel und mögliche Folgen werden vorher erklärt.
+
+Akt II abgeschlossen. Zwei Fortschrittspunkte können je Figur für +1 auf eine Eigenschaft (höchstens +3) ausgegeben werden. Noch keine Steigerung gewählt.
