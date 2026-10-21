@@ -1,6 +1,6 @@
 # Cäsar und Augustus
 
-Stand: Speicherpunkt 12. Aktuelle veränderliche Werte stehen verbindlich in `state/current.json`; dieses Blatt bei Änderungen aktualisieren.
+Stand: Speicherpunkt 13. Aktuelle veränderliche Werte stehen verbindlich in `state/current.json`; dieses Blatt bei Änderungen aktualisieren.
 
 | Eigenschaft | Cäsar – Redner | Augustus – Schildwächter |
 |---|---:|---:|

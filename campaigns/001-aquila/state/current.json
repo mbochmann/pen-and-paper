@@ -1,23 +1,21 @@
 {
   "schema_version": 1,
   "campaign_id": "aquila-001",
-  "revision": 12,
-  "last_event_id": "event-000012",
-  "updated_at": "2026-10-21T17:06:48.019Z",
+  "revision": 13,
+  "last_event_id": "event-000013",
+  "updated_at": "2026-10-21T17:12:26.853Z",
   "phase": "playing",
   "session": 1,
   "game_time": {
     "day": 1,
-    "phase": 4,
-    "label": "Tag 1, später Vormittag; Rückkehr und gemeinsame Spurensuche am Forum"
+    "phase": 5,
+    "label": "Tag 1, später Vormittag; beide Helden am Hafen bei Sextus"
   },
-  "scene_id": "scene-02",
-  "location_id": "loc-forum",
+  "scene_id": "scene-04",
+  "location_id": "loc-harbor",
   "present_npc_ids": [
-    "npc-bato",
-    "npc-cassia",
-    "npc-livia",
-    "npc-neria"
+    "npc-sextus",
+    "npc-publius"
   ],
   "settings": {
     "dice_mode": "tool",
@@ -192,7 +190,17 @@
         "pc-1",
         "pc-2"
       ],
-      "revealed_text": "Bato berichtet beiden am Forum: Zwei leere Wasserwagen standen am Hafen schon vor Sonnenaufgang bereit, als der Brunnen noch lief. Er nennt Sextus als dort ansprechbaren Fuhrmann. Eigene Beobachtung Batos, noch nicht am Hafen überprüft; keine Täterschaft bewiesen.",
+      "revealed_text": "Bato berichtet beiden am Forum: Zwei leere Wasserwagen standen am Hafen schon vor Sonnenaufgang bereit, als der Brunnen noch lief. Er nennt Sextus als dort ansprechbaren Fuhrmann. Eigene Beobachtung Batos, noch nicht am Hafen überprüft; keine Täterschaft bewiesen. In event-000013 sehen beide selbst Wasserwagen mit Tonkrügen am Hafen; deren früher Bereitstellungszeitpunkt bleibt Batos Zeugenaussage.",
+      "interpretation": "observation"
+    },
+    {
+      "clue_id": "clue-sextus",
+      "discovered_event_id": "event-000013",
+      "known_by": [
+        "pc-1",
+        "pc-2"
+      ],
+      "revealed_text": "Sextus bestätigt am Hafen lediglich den bezahlten Auftrag: Reservebecken füllen, Wasserwagen bereithalten. Auftraggeber, Bezahlung und Zeitpunkt noch nicht erfragt/genannt. Kein Eingeständnis bewusster Sabotage. Die vollständige vorbereitete Aussage ist noch nicht freigegeben.",
       "interpretation": "observation"
     }
   ],
@@ -202,7 +210,7 @@
       "npc_id": "npc-livia",
       "attitude": "open",
       "location_id": "loc-forum",
-      "notes": "Hat Neria mit Tragehilfe sicher zurückgebracht, bestätigt Taubenempfang. Bespricht mit beiden Helden die Aufklärung und schlägt vor, den Auftraggeber der Wasserfahrten zu ermitteln. Kennt Täter nicht. Schriftliche Arbeitsanweisung weiterhin in Werkstatt, noch nicht gezeigt."
+      "notes": "Hat Neria mit Tragehilfe sicher zurückgebracht, bestätigt Taubenempfang. Bespricht mit beiden Helden die Aufklärung und schlägt vor, den Auftraggeber der Wasserfahrten zu ermitteln. Kennt Täter nicht. Schriftliche Arbeitsanweisung weiterhin in Werkstatt, noch nicht gezeigt. Bleibt während des Hafenwegs bei Neria am Forum; keine weitere Untersuchung begonnen."
     },
     {
       "npc_id": "npc-neria",
@@ -220,13 +228,13 @@
       "npc_id": "npc-sextus",
       "attitude": "neutral",
       "location_id": "loc-harbor",
-      "notes": "Vorbereiteter Ausgangszustand; der Gruppe noch nicht begegnet."
+      "notes": "Am Hafen bei Wasserwagen von beiden Helden angesprochen. Hat sich als Sextus vorgestellt und sagt, er werde für Füllen des Reservebeckens und Bereithalten der Wagen bezahlt. Noch kein Auftraggeber genannt; keine Erklärung der absichtlichen Stadtumleitung durch Helden gehört. Neutral, gesprächsbereit."
     },
     {
       "npc_id": "npc-publius",
       "attitude": "neutral",
       "location_id": "loc-harbor",
-      "notes": "Vorbereiteter Ausgangszustand; der Gruppe noch nicht begegnet."
+      "notes": "Im angrenzenden Verwaltungsraum am Hafen, durch offene Tür als schreibender Mann sichtbar. Name den Helden unbekannt; kein Gespräch, keine Abrechnung eingesehen."
     },
     {
       "npc_id": "npc-cassia",
@@ -765,6 +773,78 @@
       "visibility": "public",
       "key": "pc-2-action-window",
       "value": "resolved-phase-3-to-4"
+    },
+    {
+      "id": "change-000013-1",
+      "key": "pc-1-location",
+      "value": "loc-harbor",
+      "text": "Cäsar reist mit Augustus vom Forum zum Hafen, um Sextus zu befragen.",
+      "source_event_id": "event-000013",
+      "visibility": "public"
+    },
+    {
+      "id": "change-000013-2",
+      "key": "pc-2-location",
+      "value": "loc-harbor",
+      "text": "Augustus reist mit Cäsar zum Hafen.",
+      "source_event_id": "event-000013",
+      "visibility": "public"
+    },
+    {
+      "id": "change-000013-3",
+      "key": "pc-1-scene",
+      "value": "scene-04",
+      "text": "Cäsar beginnt das Gespräch mit Sextus am Hafen; konkrete weitere Fragen noch offen.",
+      "source_event_id": "event-000013",
+      "visibility": "public"
+    },
+    {
+      "id": "change-000013-4",
+      "key": "pc-2-scene",
+      "value": "scene-04",
+      "text": "Augustus nimmt an derselben Hafenszene teil.",
+      "source_event_id": "event-000013",
+      "visibility": "public"
+    },
+    {
+      "id": "change-000013-5",
+      "key": "party-split",
+      "value": false,
+      "text": "Beide Helden zusammen; Livia bleibt zur Betreuung Nerias am Forum. Keine weiteren Begleiter.",
+      "source_event_id": "event-000013",
+      "visibility": "public"
+    },
+    {
+      "id": "change-000013-6",
+      "key": "sextus-contacted",
+      "value": true,
+      "text": "Sextus identifiziert sich und beantwortet die eröffnende Nachfrage nach den Wasserwagen: Reservebecken füllen und Wagen bereithalten sei bezahlter Auftrag. Auftraggeber noch nicht genannt.",
+      "source_event_id": "event-000013",
+      "visibility": "public"
+    },
+    {
+      "id": "change-000013-7",
+      "key": "harbor-wagons-observed",
+      "value": true,
+      "text": "Beide sehen bereitstehende Wasserwagen mit großen Tonkrügen und rote Tonzeichen. Keine Ladung geöffnet oder Aufträge gelesen.",
+      "source_event_id": "event-000013",
+      "visibility": "public"
+    },
+    {
+      "id": "change-000013-8",
+      "key": "sextus-informed-of-diversion",
+      "value": false,
+      "text": "Die Helden haben Sextus ihre technischen Beobachtungen noch nicht konkret geschildert. Er kennt die absichtliche Unterbrechung der Stadtversorgung weiterhin nicht.",
+      "source_event_id": "event-000013",
+      "visibility": "gm"
+    },
+    {
+      "id": "change-000013-9",
+      "key": "pc-2-action-window",
+      "value": "resolved-phase-4-to-5",
+      "text": "Gemeinsamer angekündigter Hafenweg kostet eine Phase insgesamt. Kein zusätzlicher Druck bei gesicherter Wasserversorgung.",
+      "source_event_id": "event-000013",
+      "visibility": "public"
     }
   ],
   "quests": [
@@ -866,7 +946,7 @@
     },
     {
       "id": "thread-responsibility",
-      "summary": "Gemeinsame Planung mit Neria/Livia: Name Sextus bei Wagen am Steinbruch gehört; Bato sah Wasserwagen vor dem Ausfall und nennt Hafen als Kontakt. Auftraggeber unbekannt, Vorgehen noch nicht gewählt.",
+      "summary": "Beide am Hafen bei Sextus. Er bestätigt bezahlten Reserve-/Wagenauftrag, nennt noch keinen Auftraggeber. Technische Beobachtungen können ihm erklärt werden; konkrete Fragen offen. Angrenzender Schreiberraum sichtbar.",
       "status": "open",
       "visibility": "public"
     }
@@ -874,11 +954,11 @@
   "pending_action": null,
   "pending_roll": null,
   "challenge": null,
-  "pending_prompt": "Cäsar und Augustus: Wie möchtet ihr weiter ermitteln – Sextus am Hafen befragen oder zunächst hier weitere Fragen stellen?",
+  "pending_prompt": "Cäsar und Augustus: Was fragt ihr Sextus, und welche eurer Entdeckungen erzählt ihr ihm?",
   "spotlight": {
     "last_actor_id": "pc-2",
     "next_actor_id": "pc-1"
   },
-  "last_narration": "**Cäsar:** Der Bäcker stellt sich als Bato vor und legt drei kleine Brote auf seinen Tresen. Du gibst jedem deiner Helfer eines und bedankst dich. Sie schultern ihre Werkzeuge und gehen zufrieden nach Hause.\n\n**Die Brote kosten zusammen 1 Sesterze. Euch bleiben 11.**\n\n**Augustus:** Als du das Forum erreichst, plätschert der Adlerbrunnen wieder. Kurz darauf kommen Livia und ihre Helfer mit Neria an. Sie setzen die Wassermeisterin behutsam auf eine Bank.\n\n„Deine Taube ist angekommen“, sagt Livia. Neria streckt ihren schmerzenden Fuß aus. „Und ohne deinen kräftigen Arm säße ich noch immer da unten.“\n\nAls du nach den Hintergründen fragst, wird sie ernst. „Am Steinbruch habe ich nicht nur Wagen gehört. Jemand rief den Namen **Sextus**. Denjenigen, der die Schieber verstellen ließ, habe ich nicht gesehen.“\n\nBato bleibt neben euch stehen. „Sextus, der Fuhrmann? Den findet ihr am **Hafen**. Dort standen schon vor Sonnenaufgang zwei Wasserwagen bereit – da lief unser Brunnen noch!“\n\nLivia blickt von einem zum anderen. „Dann sollten wir herausfinden, wer diese Fahrten bestellt hat.“\n\nIhr habt eine konkrete Spur. Ob Sextus die Umleitung kannte oder lediglich einen Auftrag ausführte, ist noch offen.",
-  "last_resolution": "Cäsar verteilt drei kleine Brote und entlässt Helfer;1 Sesterze bezahlt,11 verbleiben. Augustus kehrt zum Forum zurück, Livia bringt Neria parallel sicher dorthin. Eine Reisephase auf4; Knappheitsuhr3 bleibt inaktiv. Gemeinsame Planung: Neria nennt gehörten Namen Sextus, Bato berichtet frühe Wasserwagen am Hafen. Ermittlung aktiv, noch kein Täterbeweis/Route gewählt."
+  "last_narration": "Der Weg führt euch zwischen Lagerhäusern hinunter zum Fluss. Taue knarren, Möwen kreischen, und am Kai werden Amphoren von einem Lastkahn getragen.\n\nEtwas abseits stehen Wasserwagen mit großen Tonkrügen. Ein breitschultriger Mann prüft ein rotes Tonzeichen an einem Wagen. Als ihr nach Sextus fragt, hebt er den Kopf.\n\n„Der bin ich. Was wollt ihr wissen?“\n\nAuf eure Nachfrage zu den Wasserwagen streicht er sich den Staub von den Händen.\n\n„Reservebecken am alten Steinbruch füllen, Wagen bereithalten. Dafür werde ich bezahlt.“ Er deutet auf die Krüge. „Wenn Wasser gebraucht wird, fahren wir los.“\n\nEr bleibt bei euch stehen und wartet auf eure nächste Frage. Durch die offene Tür des angrenzenden Verwaltungsraums seht ihr einen Mann, der Einträge auf Wachstafeln miteinander vergleicht.\n\n**Sextus hat seinen Auftraggeber noch nicht genannt. Eure Entdeckung der blockierten Schieber kennt er ebenfalls noch nicht.**",
+  "last_resolution": "Beide Helden reisen zum Hafen (Phase5) und sprechen Sextus an. Livia betreut Neria am Forum. Sextus bestätigt bezahlten Auftrag für Reservebecken und bereitstehende Wagen; Auftraggeber noch unbekannt. Keine Probe, kein Ressourcenverbrauch, Uhren unverändert."
 }
