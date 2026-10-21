@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "campaign_id": "aquila-001",
-  "revision": 13,
-  "last_event_id": "event-000013",
-  "updated_at": "2026-10-21T17:12:26.853Z",
+  "revision": 14,
+  "last_event_id": "event-000014",
+  "updated_at": "2026-10-21T17:15:48.546Z",
   "phase": "playing",
   "session": 1,
   "game_time": {
@@ -200,7 +200,7 @@
         "pc-1",
         "pc-2"
       ],
-      "revealed_text": "Sextus bestätigt am Hafen lediglich den bezahlten Auftrag: Reservebecken füllen, Wasserwagen bereithalten. Auftraggeber, Bezahlung und Zeitpunkt noch nicht erfragt/genannt. Kein Eingeständnis bewusster Sabotage. Die vollständige vorbereitete Aussage ist noch nicht freigegeben.",
+      "revealed_text": "Sextus bestätigt am Hafen lediglich den bezahlten Auftrag: Reservebecken füllen, Wasserwagen bereithalten. Auftraggeber, Bezahlung und Zeitpunkt noch nicht erfragt/genannt. Kein Eingeständnis bewusster Sabotage. Die vollständige vorbereitete Aussage ist noch nicht freigegeben. In event-000014 sagt Sextus: heute nicht im Verteilerhaus, morgens Zulauf am Steinbruch kontrolliert, danach mit Wagen zum Hafen zurück; heute keine Schieber bedient. Diese Tagesroute ist für die Helden unbestätigte Zeugenaussage.",
       "interpretation": "observation"
     }
   ],
@@ -228,7 +228,7 @@
       "npc_id": "npc-sextus",
       "attitude": "neutral",
       "location_id": "loc-harbor",
-      "notes": "Am Hafen bei Wasserwagen von beiden Helden angesprochen. Hat sich als Sextus vorgestellt und sagt, er werde für Füllen des Reservebeckens und Bereithalten der Wagen bezahlt. Noch kein Auftraggeber genannt; keine Erklärung der absichtlichen Stadtumleitung durch Helden gehört. Neutral, gesprächsbereit."
+      "notes": "Am Hafen bei Wasserwagen von beiden Helden angesprochen. Hat sich als Sextus vorgestellt und sagt, er werde für Füllen des Reservebeckens und Bereithalten der Wagen bezahlt. Noch kein Auftraggeber genannt; keine Erklärung der absichtlichen Stadtumleitung durch Helden gehört. Neutral, gesprächsbereit. Antwort in event-000014: Heute nicht im Verteilerhaus; morgens Zulauf zum Reservebecken im Steinbruch kontrolliert, dann mit Wagen zum Hafen zurück. Heute selbst keine Schieber bedient. Diese erstmals konkretisierte Tagesroute ist GM-seitig wahr, für Helden nur Aussage. Weiterhin keine Schilderung der Stadtumleitung erhalten, Auftraggeber noch nicht genannt."
     },
     {
       "npc_id": "npc-publius",
@@ -845,6 +845,22 @@
       "text": "Gemeinsamer angekündigter Hafenweg kostet eine Phase insgesamt. Kein zusätzlicher Druck bei gesicherter Wasserversorgung.",
       "source_event_id": "event-000013",
       "visibility": "public"
+    },
+    {
+      "id": "change-000014-testimony",
+      "key": "sextus-todays-route-statement",
+      "value": "quarry-then-harbor-no-distributor",
+      "text": "Sextus sagt beiden, er sei heute am Steinbruch und danach am Hafen gewesen, nicht im Verteilerhaus; heute keine Schieber bedient. Unabhängige Prüfung offen.",
+      "source_event_id": "event-000014",
+      "visibility": "public"
+    },
+    {
+      "id": "change-000014-route-truth",
+      "key": "sextus-todays-route",
+      "value": "quarry-then-harbor-no-distributor",
+      "text": "GM: Bisher offene Tagesroute erstmals festgelegt: Sextus kontrollierte früh den Zulauf am Steinbruch und kehrte mit Wagen an den Hafen zurück. Heute nicht persönlich im Verteilerhaus und keine Schieber bedient. Aussage wahr; dies beweist den Helden weder gesamte Unschuld noch Auftraggeber. Kein neuer Täter eingeführt.",
+      "source_event_id": "event-000014",
+      "visibility": "gm"
     }
   ],
   "quests": [
@@ -946,7 +962,7 @@
     },
     {
       "id": "thread-responsibility",
-      "summary": "Beide am Hafen bei Sextus. Er bestätigt bezahlten Reserve-/Wagenauftrag, nennt noch keinen Auftraggeber. Technische Beobachtungen können ihm erklärt werden; konkrete Fragen offen. Angrenzender Schreiberraum sichtbar.",
+      "summary": "Sextus bestätigt Reserve-/Wagenauftrag, verneint heutigen Verteilerbesuch und beschreibt Steinbruchkontrolle mit Rückkehr zum Hafen. Tagesroute nicht unabhängig geprüft. Er fragt nach dem Anlass; Auftraggeber und Beobachtungen der Helden noch nicht besprochen.",
       "status": "open",
       "visibility": "public"
     }
@@ -954,11 +970,11 @@
   "pending_action": null,
   "pending_roll": null,
   "challenge": null,
-  "pending_prompt": "Cäsar und Augustus: Was fragt ihr Sextus, und welche eurer Entdeckungen erzählt ihr ihm?",
+  "pending_prompt": "Was antwortet ihr Sextus?",
   "spotlight": {
     "last_actor_id": "pc-2",
     "next_actor_id": "pc-1"
   },
-  "last_narration": "Der Weg führt euch zwischen Lagerhäusern hinunter zum Fluss. Taue knarren, Möwen kreischen, und am Kai werden Amphoren von einem Lastkahn getragen.\n\nEtwas abseits stehen Wasserwagen mit großen Tonkrügen. Ein breitschultriger Mann prüft ein rotes Tonzeichen an einem Wagen. Als ihr nach Sextus fragt, hebt er den Kopf.\n\n„Der bin ich. Was wollt ihr wissen?“\n\nAuf eure Nachfrage zu den Wasserwagen streicht er sich den Staub von den Händen.\n\n„Reservebecken am alten Steinbruch füllen, Wagen bereithalten. Dafür werde ich bezahlt.“ Er deutet auf die Krüge. „Wenn Wasser gebraucht wird, fahren wir los.“\n\nEr bleibt bei euch stehen und wartet auf eure nächste Frage. Durch die offene Tür des angrenzenden Verwaltungsraums seht ihr einen Mann, der Einträge auf Wachstafeln miteinander vergleicht.\n\n**Sextus hat seinen Auftraggeber noch nicht genannt. Eure Entdeckung der blockierten Schieber kennt er ebenfalls noch nicht.**",
-  "last_resolution": "Beide Helden reisen zum Hafen (Phase5) und sprechen Sextus an. Livia betreut Neria am Forum. Sextus bestätigt bezahlten Auftrag für Reservebecken und bereitstehende Wagen; Auftraggeber noch unbekannt. Keine Probe, kein Ressourcenverbrauch, Uhren unverändert."
+  "last_narration": "Sextus schüttelt den Kopf.\n\n„Nein, heute war ich nicht im Verteilerhaus. Ich war früh am Steinbruch und habe nachgesehen, ob Wasser ins Reservebecken läuft. Danach bin ich mit den Wagen hierher zurück. An den Schiebern habe ich heute nichts gemacht.“\n\nEr legt das rote Tonzeichen auf den Wagenrand und sieht euch fragend an.\n\n„Warum fragt ihr? Stimmt etwas mit der Verteilung nicht?“\n\n**Das ist zunächst seine Aussage. Ob jemand ihn auf seinem Weg gesehen hat, habt ihr noch nicht überprüft.**",
+  "last_resolution": "Sextus verneint einen heutigen Besuch im Verteilerhaus. Er berichtet von morgendlicher Kontrolle des Wasserzulaufs am Steinbruch und anschließender Rückkehr mit Wagen zum Hafen; heute keine Schieber bedient. Aussage noch nicht unabhängig überprüft. Er fragt nach dem Anlass. Keine Probe, keine Zeit- oder Ressourcenänderung."
 }

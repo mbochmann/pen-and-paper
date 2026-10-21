@@ -1,17 +1,15 @@
 # Unser Abenteuerjournal
 
-**Speicherpunkt 13 – Sextus am Hafen.**
+**Speicherpunkt 14 – Sextus' Weg am Morgen.**
 
-Cäsar und Augustus sind gemeinsam zum Hafen gegangen. Livia bleibt bei Neria am Forum. Die Wasserversorgung ist weiterhin gesichert.
+Cäsar und Augustus befragen Sextus am Hafen. Auf die Frage, ob er heute am Verteiler war, antwortet er: Nein; er habe früh den Zulauf zum Reservebecken am Steinbruch kontrolliert und sei danach mit den Wagen zum Hafen zurückgekehrt. Heute habe er keine Schieber bedient. Das ist seine bislang nicht unabhängig überprüfte Aussage.
 
-Am Hafen stehen Wasserwagen mit großen Tonkrügen. Sextus stellt sich vor und bestätigt: Er wird dafür bezahlt, das Reservebecken am Steinbruch zu füllen und Wagen bereitzuhalten. Wer den Auftrag gab, hat er noch nicht gesagt. Die Helden haben ihm ihre Beobachtungen der blockierten Schieber noch nicht erläutert.
+Zuvor bestätigte er den bezahlten Auftrag für Reservebecken und bereitstehende Wasserwagen. Auftraggeber noch nicht genannt. Die Helden haben ihm die blockierten Schieber und die absichtliche Stadtumleitung noch nicht geschildert. Er fragt nun nach dem Anlass ihrer Frage.
 
-Im angrenzenden Verwaltungsraum ist ein schreibender Mann durch die offene Tür sichtbar; sein Name ist noch unbekannt. Keine Aufzeichnungen eingesehen.
+Batos frühe Wagenbeobachtung und Nerias am Steinbruch gehörter Name Sextus bleiben Hinweise. Der Schreiber im angrenzenden Raum ist noch nicht angesprochen; keine Unterlagen eingesehen.
 
-Batos Aussage über früh bereitstehende Wagen und Nerias gehörter Name Sextus bleiben Hinweise, kein Beweis einer bewussten Beteiligung des Fuhrmanns.
+Wasserversorgung gesichert. Livia bei Neria am Forum, Knöchel weiter verletzt. Je 4 Mut, 2 Glück, 2 unverbrauchte Fortschrittspunkte; gemeinsam 11 Sesterzen. Keine neue Spielzeit oder Probe.
 
-Je 4 Mut, 2 Glück, 2 unverbrauchte Fortschrittspunkte; gemeinsam 11 Sesterzen. Ausrüstung unverändert, entfernter Keil weiterhin im Verteilerhaus.
-
-**Nächste Frage:** Cäsar und Augustus: Was fragt ihr Sextus, und welche eurer Entdeckungen erzählt ihr ihm?
+**Nächste Frage:** Was antwortet ihr Sextus?
 
 [Figurenblatt](party.md)
