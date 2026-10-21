@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "campaign_id": "aquila-001",
-  "revision": 0,
-  "last_event_id": "event-000000",
-  "updated_at": "2026-10-21T15:36:16+00:00",
+  "revision": 1,
+  "last_event_id": "event-000001",
+  "updated_at": "2026-10-21T15:55:56.182Z",
   "phase": "character_creation",
   "session": 0,
   "game_time": {
@@ -24,14 +24,40 @@
       "id": "pc-1",
       "player_id": "player-1",
       "name": null,
-      "role_id": null,
-      "attributes": null,
-      "courage": null,
-      "luck": null,
+      "role_id": "speaker",
+      "attributes": {
+        "strength": 0,
+        "agility": 1,
+        "wit": 1,
+        "heart": 2
+      },
+      "courage": 4,
+      "luck": 2,
       "advancement": 0,
       "talent_used": false,
       "rally_used": false,
-      "equipment": [],
+      "equipment": [
+        {
+          "name": "Wasserflasche",
+          "slots": 1,
+          "item_id": null
+        },
+        {
+          "name": "Reiseproviant",
+          "slots": 1,
+          "item_id": null
+        },
+        {
+          "name": "Wachstafel und Griffel",
+          "slots": 1,
+          "item_id": null
+        },
+        {
+          "name": "Reisemantel",
+          "slots": 1,
+          "item_id": null
+        }
+      ],
       "personal_goal": null,
       "conditions": []
     },
@@ -39,14 +65,40 @@
       "id": "pc-2",
       "player_id": "player-2",
       "name": null,
-      "role_id": null,
-      "attributes": null,
-      "courage": null,
-      "luck": null,
+      "role_id": "guardian",
+      "attributes": {
+        "strength": 2,
+        "agility": 1,
+        "wit": 0,
+        "heart": 1
+      },
+      "courage": 4,
+      "luck": 2,
       "advancement": 0,
       "talent_used": false,
       "rally_used": false,
-      "equipment": [],
+      "equipment": [
+        {
+          "name": "Wasserflasche",
+          "slots": 1,
+          "item_id": null
+        },
+        {
+          "name": "Reiseproviant",
+          "slots": 1,
+          "item_id": null
+        },
+        {
+          "name": "Kleiner Schild",
+          "slots": 1,
+          "item_id": null
+        },
+        {
+          "name": "Übungsstab",
+          "slots": 1,
+          "item_id": null
+        }
+      ],
       "personal_goal": null,
       "conditions": []
     }
@@ -161,7 +213,7 @@
   "open_threads": [
     {
       "id": "thread-character-creation",
-      "summary": "Beide Namen und Rollen wählen; anschließend Bindung bestätigen und Würfelmodus klären.",
+      "summary": "Rollen gewählt: pc-1 Redner, pc-2 Schildwächter. Fiktive Namen, Beziehung und Würfelmodus fehlen.",
       "status": "open",
       "visibility": "public"
     }
@@ -169,11 +221,11 @@
   "pending_action": null,
   "pending_roll": null,
   "challenge": null,
-  "pending_prompt": "Wie heißen eure beiden Helden, und welche Rolle möchte jeder spielen: Schildwächter, Spurenleser, Tüftler, Redner, Kundschafter oder Heiler?",
+  "pending_prompt": "Wie heißen eure Helden, woher kennen sie sich, und möchtet ihr selbst mit zwei sechsseitigen Würfeln würfeln oder soll ich die Würfelwürfe übernehmen?",
   "spotlight": {
     "last_actor_id": null,
     "next_actor_id": null
   },
-  "last_narration": "Vorbereitung abgeschlossen. Noch keine Szene ausgespielt und keine Entscheidung für die Spieler getroffen.",
-  "last_resolution": "Kampagne bereitgestellt; Figurenwahl steht aus."
+  "last_narration": "Eure Rollen stehen fest: ein Redner mit Gespür für Menschen und ein Schildwächter, der seinem Gefährten den Rücken freihält. Beide beginnen mit 4 Mut und 2 Glück. Namen, gemeinsame Vorgeschichte und Würfelmodus wählen wir noch.",
+  "last_resolution": "Erster Spielerplatz wählt den Redner, zweiter Spielerplatz den Schildwächter. Figurennamen, Beziehung und Würfelmodus bleiben offen."
 }
