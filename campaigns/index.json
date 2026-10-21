@@ -11,7 +11,7 @@
       "events": [
         "state/events.jsonl"
       ],
-      "status": "ready-for-character-creation"
+      "status": "playing"
     }
   ]
 }

@@ -1,0 +1,27 @@
+# Cäsar und Augustus
+
+Stand: Speicherpunkt 2. Aktuelle veränderliche Werte stehen verbindlich in `state/current.json`; dieses Blatt bei Änderungen aktualisieren.
+
+| Eigenschaft | Cäsar – Redner | Augustus – Schildwächter |
+|---|---:|---:|
+| Kraft | +0 | +2 |
+| Geschick | +1 | +1 |
+| Verstand | +1 | +0 |
+| Herz | +2 | +1 |
+| Mut | 4 / 4 | 4 / 4 |
+| Glück | 2 / 2 | 2 / 2 |
+| Fortschrittspunkte | 0 | 0 |
+
+**Cäsar – Ein offenes Ohr:** Einmal pro Szene hört ein ansprechbarer Mensch euch ungestört an und nennt einen wahren persönlichen Beweggrund. Das zwingt ihn nicht, euch zu glauben. Talent noch verfügbar.
+
+**Augustus – Dazwischen!:** Einmal pro Szene kannst du 1 Mutverlust deines erreichbaren Gefährten verhindern. Talent noch verfügbar.
+
+**Cäsars Ausrüstung:** Wasserflasche, Reiseproviant, Wachstafel mit Griffel, Reisemantel. 4 von 6 Plätzen.
+
+**Augustus’ Ausrüstung:** Wasserflasche, Reiseproviant, kleiner Schild, Übungsstab. 4 von 6 Plätzen.
+
+**Gemeinsam:** 12 Sesterzen. Keine weiteren Abenteuergegenstände.
+
+**Vorgeschichte:** Beide kennen sich aus dem Rednerstudium. Augustus musste es abbrechen, weil er darin nicht gut war. Das ist Teil der Geschichte und verursacht keine zusätzlichen Abzüge auf seine Werte.
+
+Würfelmodus: Spielleitung würfelt mit dem Werkzeug; Eigenschaft, Ziel und mögliche Folgen werden vorher erklärt.

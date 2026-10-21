@@ -38,7 +38,7 @@ Neue Szenen erhalten ID, Ort, Ziel, mindestens zwei mögliche Ansätze, klar beg
 
 ## Würfelbetrieb
 
-Bei `tool`-Modus vorab Probe festlegen; mit echtem Zufallswerkzeug z. B. Python `secrets.randbelow(6)+1` zweimal würfeln. Beide Rohwerte, Eigenschaft, Bonus, Ziel und Ergebnisklasse speichern. Beim Glückspunkt Originalwürfel, ersetzten Index und neuen W6 im selben Event halten. Keine Wiederholung bis zum erwünschten Ergebnis.
+Bei `tool`-Modus vorab Probe festlegen; das eingerichtete Werkzeug `python3 tools/roll_dice.py --roll-id <eindeutige-id>` genau einmal aufrufen. Es nutzt Python `secrets.randbelow(6)+1` pro W6. Details in `tools/README.md` auf Repository-Ebene. Beide Rohwerte, Eigenschaft, Bonus, Ziel und Ergebnisklasse speichern. Beim Glückspunkt Originalwürfel, ersetzten Index und neuen W6 im selben Event halten. Keine Wiederholung bis zum erwünschten Ergebnis.
 
 Bei `physical`-Modus feste Probe speichern und nach den **beiden einzelnen Würfeln** fragen. Erst nach Antwort auflösen. Bei einer Probe mit knapper Verfehlung die Wahl „Preis oder Verzicht“ als `pending_action` erhalten und vor neuer Handlung klären. Bei Glück-Neuwurf die bereits vorliegenden Würfel festhalten; die ursprüngliche Probe nicht erneut würfeln.
 

@@ -5,7 +5,7 @@
     {
       "id": "pc-1",
       "kind": "pc",
-      "name": "Erster Heldenplatz",
+      "name": "Cäsar",
       "source": "players/characters.md",
       "origin": "prepared",
       "introduced_by_event_id": null
@@ -13,7 +13,7 @@
     {
       "id": "pc-2",
       "kind": "pc",
-      "name": "Zweiter Heldenplatz",
+      "name": "Augustus",
       "source": "players/characters.md",
       "origin": "prepared",
       "introduced_by_event_id": null

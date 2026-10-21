@@ -29,7 +29,7 @@ Die Nutzer haben das Anlegen und fortlaufende Aktualisieren von Spielmaterial un
 
 ## Verbindlicher Zustand
 
-`gm/canon.json` enthält vorbereitete Weltwahrheit und registrierte IDs. `state/current.json` enthält den aktuellen veränderlichen Zustand. `state/events.jsonl` dokumentiert vollzogene Änderungen. Markdown-Szenen sind bedingte Angebote. `state/resume.md` und `players/journal.md` sind abgeleitete Zusammenfassungen, keine zweite Wahrheit.
+`gm/canon.json` enthält vorbereitete Weltwahrheit und registrierte IDs. `state/current.json` enthält den aktuellen veränderlichen Zustand. `state/events.jsonl` dokumentiert vollzogene Änderungen. Markdown-Szenen sind bedingte Angebote. `state/resume.md`, `players/journal.md` und gegebenenfalls `players/party.md` sind abgeleitete Zusammenfassungen, keine zweite Wahrheit. Das Figurenblatt bei Änderungen an Werten, Ausrüstung, Geld oder Talenten im selben Savepoint aktualisieren.
 
 Vor jeder ausgespielten Fortsetzung Remote-Stand prüfen. Speichere jeden abgehandelten folgenreichen Spielzug, Figurenwahl, offene Würfelprobe, Szenenwechsel sowie Pause/Ende atomar zusammen mit Ereignisprotokoll und Zusammenfassungen. Reine Rückfragen ohne neue Information verändern den Zustand nicht. Veröffentlichung der Erzählung und Git-Commit sind technisch keine gemeinsame Transaktion: die zur Fortsetzung bestimmte Frage ausdrücklich speichern, danach Commit prüfen und erst dann den Spielzug als gespeichert behandeln.
 

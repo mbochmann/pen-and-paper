@@ -11,7 +11,7 @@ Eine römisch geprägte Stadt bereitet ein Fest vor. Dann versiegt der große Br
 - Einstieg: [Spielerunterlagen](campaigns/001-aquila/players/start.md).
 - Figuren: [Sechs spielbereite Rollen](campaigns/001-aquila/players/characters.md).
 - Regeln: [Aquila – Zwei Gefährten, Version 1](campaigns/001-aquila/players/rules.md).
-- Stand: **Vor der Figurenwahl. Noch keine Handlung ausgespielt.** Der aktuelle Fortschritt steht immer im [Spielerjournal](campaigns/001-aquila/players/journal.md).
+- Stand: **Spiel begonnen: Cäsar und Augustus am Adlerbrunnen.** Der aktuelle Fortschritt steht immer im [Spielerjournal](campaigns/001-aquila/players/journal.md).
 - Wiederaufnahme in einem beliebigen Chat mit Repository-Zugriff:
 
 > Sei unser Spielleiter für mbochmann/pen-and-paper. Lies AGENTS.md, campaigns/index.json und den dort angegebenen Einstieg. Lade den aktuellen Spielstand von main, ohne Geheimnisse zu verraten. Setze an der gespeicherten Frage fort.

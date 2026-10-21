@@ -8,7 +8,7 @@ Auf `main` immer gemeinsam schreiben:
 2. `state/events.jsonl` – altes Log unverändert plus neues Event;
 3. `state/resume.md` – knappe Übergabe inklusive offener Frage;
 4. `players/journal.md` – ausschließlich bereits bekanntes Wissen;
-5. gegebenenfalls neue Kanon-Einträge, aktualisierte bekannte Karte oder freigegebene Handouts.
+5. gegebenenfalls aktualisiertes `players/party.md` (Werte, Ausrüstung, Geld, Talente), neue Kanon-Einträge, aktualisierte bekannte Karte oder freigegebene Handouts.
 
 Commit-Namen: `save(aquila): r0001 Figuren gewählt` bzw. `save(aquila): r0007 Am Mühlentor pausiert`. Revision 0 ist die initiale Vorbereitung. Änderungen an Vorbereitung ohne Spielzustandsänderung erhalten `prep(aquila): …` und erzeugen kein fiktives Spielereignis.
 

@@ -1,21 +1,24 @@
 {
   "schema_version": 1,
   "campaign_id": "aquila-001",
-  "revision": 1,
-  "last_event_id": "event-000001",
-  "updated_at": "2026-10-21T15:55:56.182Z",
-  "phase": "character_creation",
-  "session": 0,
+  "revision": 2,
+  "last_event_id": "event-000002",
+  "updated_at": "2026-10-21T16:01:28.722Z",
+  "phase": "playing",
+  "session": 1,
   "game_time": {
     "day": 1,
     "phase": 0,
-    "label": "Vor Spielbeginn; Vormittag vor den Adlerspielen geplant"
+    "label": "Tag 1, Vormittag vor den Adlerspielen"
   },
-  "scene_id": "scene-00",
-  "location_id": null,
-  "present_npc_ids": [],
+  "scene_id": "scene-01",
+  "location_id": "loc-forum",
+  "present_npc_ids": [
+    "npc-livia",
+    "npc-bato"
+  ],
   "settings": {
-    "dice_mode": "unselected",
+    "dice_mode": "tool",
     "fantasy": "ambiguous",
     "tone": "Entdeckungsabenteuer; unblutige Gefahren; gleichberechtigte Helden"
   },
@@ -23,7 +26,7 @@
     {
       "id": "pc-1",
       "player_id": "player-1",
-      "name": null,
+      "name": "Cäsar",
       "role_id": "speaker",
       "attributes": {
         "strength": 0,
@@ -64,7 +67,7 @@
     {
       "id": "pc-2",
       "player_id": "player-2",
-      "name": null,
+      "name": "Augustus",
       "role_id": "guardian",
       "attributes": {
         "strength": 2,
@@ -104,19 +107,30 @@
     }
   ],
   "party": {
-    "bond": null,
-    "coins": 0,
-    "starting_resources_granted": false,
+    "bond": "Cäsar und Augustus kennen sich aus dem Rednerstudium. Augustus musste das Studium abbrechen, weil er nicht so gut darin war.",
+    "coins": 12,
+    "starting_resources_granted": true,
     "item_ids": []
   },
-  "known_clues": [],
+  "known_clues": [
+    {
+      "clue_id": "clue-sand",
+      "discovered_event_id": "event-000002",
+      "known_by": [
+        "pc-1",
+        "pc-2"
+      ],
+      "revealed_text": "Beim Versiegen des Adlerbrunnens tritt mit dem letzten Wasserschwall roter Sand aus. Herkunft und Bedeutung sind noch unbekannt.",
+      "interpretation": "observation"
+    }
+  ],
   "party_hypotheses": [],
   "npc_states": [
     {
       "npc_id": "npc-livia",
       "attitude": "open",
       "location_id": "loc-forum",
-      "notes": "Vorbereiteter Ausgangszustand; der Gruppe noch nicht begegnet."
+      "notes": "Hat sich am Brunnen als Livia vorgestellt und beide Helden um Hilfe beim Anheben der Steinabdeckung gebeten. Beruf und weitere Hintergründe noch nicht erläutert."
     },
     {
       "npc_id": "npc-neria",
@@ -152,7 +166,7 @@
       "npc_id": "npc-bato",
       "attitude": "open",
       "location_id": "loc-forum",
-      "notes": "Vorbereiteter Ausgangszustand; der Gruppe noch nicht begegnet."
+      "notes": "Bäcker mit Brotkarren und Maultier von beiden gesehen; sein Name ist der Gruppe noch unbekannt."
     },
     {
       "npc_id": "npc-flavia",
@@ -199,21 +213,27 @@
       "clock_id": "clock-shortage",
       "value": 0,
       "max": 6,
-      "active": false,
+      "active": true,
       "last_trigger_event_id": null
     },
     {
       "clock_id": "clock-coverup",
       "value": 0,
       "max": 4,
-      "active": false,
+      "active": true,
       "last_trigger_event_id": null
     }
   ],
   "open_threads": [
     {
       "id": "thread-character-creation",
-      "summary": "Rollen gewählt: pc-1 Redner, pc-2 Schildwächter. Fiktive Namen, Beziehung und Würfelmodus fehlen.",
+      "summary": "Namen, Rollen, gemeinsame Vorgeschichte und Würfelmodus bestätigt; Figurenerschaffung abgeschlossen.",
+      "status": "resolved",
+      "visibility": "public"
+    },
+    {
+      "id": "thread-fountain",
+      "summary": "Der Adlerbrunnen ist versiegt. Livia bittet um Hilfe mit einer Steinabdeckung. Die Reaktionen beider Helden stehen aus.",
       "status": "open",
       "visibility": "public"
     }
@@ -221,11 +241,11 @@
   "pending_action": null,
   "pending_roll": null,
   "challenge": null,
-  "pending_prompt": "Wie heißen eure Helden, woher kennen sie sich, und möchtet ihr selbst mit zwei sechsseitigen Würfeln würfeln oder soll ich die Würfelwürfe übernehmen?",
+  "pending_prompt": "Cäsar, was sagst oder tust du? Augustus, wie reagierst du?",
   "spotlight": {
     "last_actor_id": null,
     "next_actor_id": null
   },
-  "last_narration": "Eure Rollen stehen fest: ein Redner mit Gespür für Menschen und ein Schildwächter, der seinem Gefährten den Rücken freihält. Beide beginnen mit 4 Mut und 2 Glück. Namen, gemeinsame Vorgeschichte und Würfelmodus wählen wir noch.",
-  "last_resolution": "Erster Spielerplatz wählt den Redner, zweiter Spielerplatz den Schildwächter. Figurennamen, Beziehung und Würfelmodus bleiben offen."
+  "last_narration": "Über dem Forum von Valdora flattern rote Festtücher. Es riecht nach warmem Brot und Rosmarin. Morgen beginnen die Adlerspiele, und schon jetzt drängen sich Händler und Reisende zwischen den Säulen.\n\nCäsar trägt seine Wachstafel bei sich, Augustus seinen kleinen Schild. Ihr kennt euch aus dem Rednerstudium. Augustus musste es abbrechen, weil ihm das Reden nicht so gut lag. Eure gemeinsame Geschichte führt euch heute auf diesen belebten Platz.\n\nNeben einem Brotkarren versucht ein Bäcker, einem Maultier einen angeknabberten Lorbeerkranz abzunehmen. „Der ist für den Sieger!“, schimpft er.\n\nDann hört ihr ein raues Gurgeln.\n\nDer bronzene Adler auf dem großen Brunnen spuckt einen letzten Schwall Wasser und roten Sand. Danach versiegt der Strahl. Eine Frau hält ihren leeren Krug darunter und klopft gegen den Stein. Ringsum werden die Gespräche leiser.\n\nEine junge Handwerkerin kniet am Brunnen nieder und prüft den Auslauf. Dann blickt sie zu euch.\n\n„Ich bin Livia. Könnt ihr mir kurz helfen? Die Abdeckung hier ist schwer.“ Sie zeigt auf eine Steinplatte am Fuß des Brunnens. „Ich möchte sehen, ob darunter noch Wasser ankommt.“",
+  "last_resolution": "Figurenerschaffung abgeschlossen; gemeinsame Startmünzen einmalig ausgegeben. Auftakt am Adlerbrunnen eröffnet; die Helden haben noch nicht auf Livias Bitte reagiert."
 }
