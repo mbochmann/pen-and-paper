@@ -1,27 +1,29 @@
-# Wiederaufnahme – Revision 14
+# Wiederaufnahme – Revision 15
 
-Letztes Ereignis: event-000014. Keine offene Probe.
+Letztes Ereignis: event-000015. Keine offene Probe.
 
-Sextus verneint einen heutigen Besuch im Verteilerhaus. Er berichtet von morgendlicher Kontrolle des Wasserzulaufs am Steinbruch und anschließender Rückkehr mit Wagen zum Hafen; heute keine Schieber bedient. Aussage noch nicht unabhängig überprüft. Er fragt nach dem Anlass. Keine Probe, keine Zeit- oder Ressourcenänderung.
+Ortsangabe geklärt: Nerias Namensruf stammt vom Steinbruch. Sextus verneint erneut heutigen Verteilerbesuch und erklärt, am Steinbruch mit seinen Fuhrleuten gewesen zu sein. Diese brachten Wagen ans Becken, während er Zulauf kontrollierte. Angebot, auch sie zu befragen; keine unabhängige Bestätigung. Keine Probe/Zeitkosten.
 
-Beide Figuren im Hafen, scene-04, bei Sextus. Publius im angrenzenden Raum sichtbar, Name noch unbekannt. Livia/Neria am Forum, Neria sicher aber Knöchel verletzt. Cassia/Bato dort. Marcellus nicht begegnet oder über Ermittlung informiert.
+Beide Helden bei Sextus am Hafen, scene-04. Publius im angrenzenden Raum sichtbar, Name unbekannt. Livia/Neria am Forum, Knöchel verletzt. Cassia/Bato dort. Marcellus nicht begegnet oder informiert.
 
-GM: Sextus' heutige Route ist jetzt verbindlich konkretisiert: früh Steinbruchkontrolle, danach Hafen; heute kein Verteilerbesuch/keine eigene Schieberbedienung. Kein erfundener Widerspruch bei späterer Befragung. Den Helden ist das nur als Aussage bekannt. Keine Aussage zu beliebigen früheren Tagen daraus ableiten. Er kennt die absichtliche Stadtunterbrechung noch nicht. Bei Erklärung des technischen Befunds benennt er den Auftraggeber gemäß act-2 ohne Pflichtwurf; auch direkte Fragen nach Auftraggeber sachgerecht beantworten, keine künstliche Sperre. clue-sextus enthält bislang nur TEILaussage; voller vorbereiteter Inhalt noch unbekannt. Vertrag und Arbeitsanweisung ungelesen.
+GM: Sextus' verbindliche Tagesroute: morgens Steinbruch, danach Hafen; heute nicht im Verteilerhaus, heute selbst keine Schieber bedient. Seine vorbereiteten Fuhrleute waren am Steinbruch dabei und brachten Wagen ans Becken, während er den Zulauf prüfte. Noch keine einzelnen Personen, Namen, Zahl oder jetzige Aufenthaltsorte konkretisiert. Keine Befragung dieser Leute erfolgt. Wer genau den von Neria gehörten Ruf äußerte, bleibt offen. Nicht nachträglich behaupten, der Ruf sei am Verteiler gewesen. Keine künstliche falsche Fährte aus Spieler-Verwechslung.
 
-Zeitphase5 unverändert; Knappheitsuhr3 inaktiv, Vertuschungsuhr0. Je4 Mut/2 Glück/2 unverbrauchte Fortschrittspunkte,11 gemeinsame Sesterzen. Inventar/Tauben unverändert. Keil im Verteilerhaus geblieben.
+Figuren kennen nur Sextus' Zeugenaussage. Er kennt die technische Sabotage noch nicht; Auftraggeber noch nicht genannt. Bei direkter Frage danach sachgerecht antworten, keine künstliche Sperre. Bei Erklärung des Befunds erkennt er Zusammenhang und benennt Auftraggeber gemäß act-2 ohne Pflichtwurf. clue-sextus weiterhin nur Teilinhalt freigegeben. Unterlagen ungelesen.
+
+Zeitphase5; Knappheitsuhr3 inaktiv, Vertuschungsuhr0. Je4 Mut/2 Glück/2 unverbrauchte Fortschrittspunkte,11 gemeinsame Sesterzen. Ausrüstung/Tauben unverändert. Keil im Verteilerhaus.
 
 ## Zuletzt erzählt
 
-Sextus schüttelt den Kopf.
+**Zur Erinnerung:** Neria hörte den Namen Sextus **am Steinbruch**, nicht am Verteilerhaus.
 
-„Nein, heute war ich nicht im Verteilerhaus. Ich war früh am Steinbruch und habe nachgesehen, ob Wasser ins Reservebecken läuft. Danach bin ich mit den Wagen hierher zurück. An den Schiebern habe ich heute nichts gemacht.“
+Sextus antwortet: „Am Verteilerhaus war ich heute nicht – weder allein noch mit jemandem. Am Steinbruch waren meine Fuhrleute bei mir. Sie haben die Wagen ans Becken gebracht, während ich nach dem Zulauf gesehen habe.“
 
-Er legt das rote Tonzeichen auf den Wagenrand und sieht euch fragend an.
+Er deutet auf die Wasserwagen.
 
-„Warum fragt ihr? Stimmt etwas mit der Verteilung nicht?“
+„Wir waren dort wegen des Reserveauftrags. Meine Leute könnt ihr ebenfalls dazu befragen.“
 
-**Das ist zunächst seine Aussage. Ob jemand ihn auf seinem Weg gesehen hat, habt ihr noch nicht überprüft.**
+Damit nennt er mögliche weitere Zeugen. Ob seine Darstellung stimmt und wer den Auftrag erteilt hat, habt ihr noch nicht überprüft.
 
 ## Exakte offene Frage
 
-Was antwortet ihr Sextus?
+Möchtet ihr Sextus nach seinem Auftraggeber fragen, seine Fuhrleute befragen oder ihm von den blockierten Schiebern erzählen?

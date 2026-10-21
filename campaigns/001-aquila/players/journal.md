@@ -1,15 +1,15 @@
 # Unser Abenteuerjournal
 
-**Speicherpunkt 14 – Sextus' Weg am Morgen.**
+**Speicherpunkt 15 – Begleiter am Steinbruch.**
 
-Cäsar und Augustus befragen Sextus am Hafen. Auf die Frage, ob er heute am Verteiler war, antwortet er: Nein; er habe früh den Zulauf zum Reservebecken am Steinbruch kontrolliert und sei danach mit den Wagen zum Hafen zurückgekehrt. Heute habe er keine Schieber bedient. Das ist seine bislang nicht unabhängig überprüfte Aussage.
+Neria hörte Sextus' Namen am Steinbruch, nicht am Verteilerhaus. Sextus verneint einen heutigen Besuch im Verteilerhaus – allein oder mit Begleitung.
 
-Zuvor bestätigte er den bezahlten Auftrag für Reservebecken und bereitstehende Wasserwagen. Auftraggeber noch nicht genannt. Die Helden haben ihm die blockierten Schieber und die absichtliche Stadtumleitung noch nicht geschildert. Er fragt nun nach dem Anlass ihrer Frage.
+Er sagt, am Steinbruch seien seine Fuhrleute bei ihm gewesen. Sie brachten die Wagen ans Becken, während er den Zulauf prüfte. Er bietet an, auch sie zu befragen. Das ist bisher nur seine Darstellung; weitere Zeugen wurden nicht befragt. Wer genau den von Neria gehörten Ruf äußerte, ist unbekannt.
 
-Batos frühe Wagenbeobachtung und Nerias am Steinbruch gehörter Name Sextus bleiben Hinweise. Der Schreiber im angrenzenden Raum ist noch nicht angesprochen; keine Unterlagen eingesehen.
+Sextus bestätigt bereits den bezahlten Reserve-/Wagenauftrag. Auftraggeber weiterhin unbekannt. Die Helden haben ihm die Sabotage noch nicht erklärt. Unterlagen im angrenzenden Verwaltungsraum noch ungelesen.
 
-Wasserversorgung gesichert. Livia bei Neria am Forum, Knöchel weiter verletzt. Je 4 Mut, 2 Glück, 2 unverbrauchte Fortschrittspunkte; gemeinsam 11 Sesterzen. Keine neue Spielzeit oder Probe.
+Beide Helden am Hafen. Livia bei Neria am Forum, Wasserversorgung gesichert. Je 4 Mut, 2 Glück, 2 unverbrauchte Fortschrittspunkte; gemeinsam 11 Sesterzen. Keine neue Zeitphase oder Probe.
 
-**Nächste Frage:** Was antwortet ihr Sextus?
+**Nächste Frage:** Möchtet ihr Sextus nach seinem Auftraggeber fragen, seine Fuhrleute befragen oder ihm von den blockierten Schiebern erzählen?
 
 [Figurenblatt](party.md)
