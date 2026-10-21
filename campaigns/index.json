@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "active_campaign_id": "aquila-001",
+  "campaigns": [
+    {
+      "id": "aquila-001",
+      "title": "AQUILA – Das Geheimnis der Morgenquelle",
+      "path": "campaigns/001-aquila",
+      "entrypoint": "gm/START.md",
+      "state": "state/current.json",
+      "events": [
+        "state/events.jsonl"
+      ],
+      "status": "ready-for-character-creation"
+    }
+  ]
+}

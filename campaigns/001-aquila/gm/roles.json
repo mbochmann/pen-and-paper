@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "roles": [
+    {
+      "id": "guardian",
+      "name": "Schildwächter",
+      "attributes": {
+        "strength": 2,
+        "agility": 1,
+        "wit": 0,
+        "heart": 1
+      },
+      "talent": "Dazwischen!",
+      "starting_equipment": [
+        "Wasserflasche",
+        "Reiseproviant",
+        "Kleiner Schild",
+        "Übungsstab"
+      ]
+    },
+    {
+      "id": "tracker",
+      "name": "Spurenleser",
+      "attributes": {
+        "strength": 1,
+        "agility": 2,
+        "wit": 1,
+        "heart": 0
+      },
+      "talent": "Scharfer Blick",
+      "starting_equipment": [
+        "Wasserflasche",
+        "Reiseproviant",
+        "Schnur und Kreide",
+        "Handspiegel"
+      ]
+    },
+    {
+      "id": "inventor",
+      "name": "Tüftler",
+      "attributes": {
+        "strength": 0,
+        "agility": 1,
+        "wit": 2,
+        "heart": 1
+      },
+      "talent": "Das hält schon",
+      "starting_equipment": [
+        "Wasserflasche",
+        "Reiseproviant",
+        "Werkzeugrolle",
+        "Bastelmaterial"
+      ]
+    },
+    {
+      "id": "speaker",
+      "name": "Redner",
+      "attributes": {
+        "strength": 0,
+        "agility": 1,
+        "wit": 1,
+        "heart": 2
+      },
+      "talent": "Ein offenes Ohr",
+      "starting_equipment": [
+        "Wasserflasche",
+        "Reiseproviant",
+        "Wachstafel und Griffel",
+        "Reisemantel"
+      ]
+    },
+    {
+      "id": "scout",
+      "name": "Kundschafter",
+      "attributes": {
+        "strength": 1,
+        "agility": 2,
+        "wit": 0,
+        "heart": 1
+      },
+      "talent": "Sicherer Schritt",
+      "starting_equipment": [
+        "Wasserflasche",
+        "Reiseproviant",
+        "Seil",
+        "Wanderstab"
+      ]
+    },
+    {
+      "id": "healer",
+      "name": "Heiler",
+      "attributes": {
+        "strength": 1,
+        "agility": 0,
+        "wit": 1,
+        "heart": 2
+      },
+      "talent": "Tief durchatmen",
+      "starting_equipment": [
+        "Wasserflasche",
+        "Reiseproviant",
+        "Verbandtasche",
+        "Kräuterbeutel"
+      ]
+    }
+  ]
+}

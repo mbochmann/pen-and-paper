@@ -1,0 +1,512 @@
+{
+  "schema_version": 1,
+  "campaign_id": "aquila-001",
+  "entities": [
+    {
+      "id": "pc-1",
+      "kind": "pc",
+      "name": "Erster Heldenplatz",
+      "source": "players/characters.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "pc-2",
+      "kind": "pc",
+      "name": "Zweiter Heldenplatz",
+      "source": "players/characters.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "npc-livia",
+      "kind": "npc",
+      "name": "Livia",
+      "source": "gm/world.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "npc-neria",
+      "kind": "npc",
+      "name": "Neria",
+      "source": "gm/world.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "npc-marcellus",
+      "kind": "npc",
+      "name": "Gaius Marcellus",
+      "source": "gm/world.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "npc-sextus",
+      "kind": "npc",
+      "name": "Sextus",
+      "source": "gm/world.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "npc-publius",
+      "kind": "npc",
+      "name": "Publius",
+      "source": "gm/world.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "npc-cassia",
+      "kind": "npc",
+      "name": "Cassia",
+      "source": "gm/world.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "npc-bato",
+      "kind": "npc",
+      "name": "Bato",
+      "source": "gm/world.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "npc-flavia",
+      "kind": "npc",
+      "name": "Flavia",
+      "source": "gm/world.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "loc-forum",
+      "kind": "location",
+      "name": "Forum",
+      "source": "gm/locations.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "loc-workshop",
+      "kind": "location",
+      "name": "Werkstattviertel",
+      "source": "gm/locations.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "loc-baths",
+      "kind": "location",
+      "name": "Badehaus",
+      "source": "gm/locations.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "loc-gate",
+      "kind": "location",
+      "name": "Mühlentor",
+      "source": "gm/locations.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "loc-spring",
+      "kind": "location",
+      "name": "Morgenquelle",
+      "source": "gm/locations.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "loc-harbor",
+      "kind": "location",
+      "name": "Flusshafen",
+      "source": "gm/locations.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "loc-quarry",
+      "kind": "location",
+      "name": "Steinbruch",
+      "source": "gm/locations.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "loc-cistern",
+      "kind": "location",
+      "name": "Wartungsraum",
+      "source": "gm/locations.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "loc-distributor",
+      "kind": "location",
+      "name": "Verteiler",
+      "source": "gm/locations.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "scene-00",
+      "kind": "scene",
+      "name": "Figurenwahl",
+      "source": "gm/act-1.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "scene-01",
+      "kind": "scene",
+      "name": "Der Brunnen verstummt",
+      "source": "gm/act-1.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "scene-02",
+      "kind": "scene",
+      "name": "Die Stadt hört zu",
+      "source": "gm/act-1.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "scene-03",
+      "kind": "scene",
+      "name": "Die Spur des Wassers",
+      "source": "gm/act-2.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "scene-04",
+      "kind": "scene",
+      "name": "Das Geschäft mit den Wagen",
+      "source": "gm/act-2.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "scene-05",
+      "kind": "scene",
+      "name": "Ein Ruf aus dem Stein",
+      "source": "gm/act-2.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "scene-06",
+      "kind": "scene",
+      "name": "Die drei Schütze",
+      "source": "gm/act-2.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "scene-07",
+      "kind": "scene",
+      "name": "Wasser für Valdora",
+      "source": "gm/act-3.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "scene-08",
+      "kind": "scene",
+      "name": "Die Entscheidung auf dem Forum",
+      "source": "gm/act-3.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "scene-09",
+      "kind": "scene",
+      "name": "Die Adlerspiele",
+      "source": "gm/act-3.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "clue-sand",
+      "kind": "clue",
+      "name": "Roter Sand",
+      "source": "gm/clues.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "clue-wagons",
+      "kind": "clue",
+      "name": "Früh bereitgestellte Wagen",
+      "source": "gm/clues.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "clue-order",
+      "kind": "clue",
+      "name": "Veränderte Arbeitsanweisung",
+      "source": "gm/clues.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "clue-note",
+      "kind": "clue",
+      "name": "Nerias Notiz",
+      "source": "gm/clues.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "clue-map",
+      "kind": "clue",
+      "name": "Wartungsplan",
+      "source": "gm/clues.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "clue-level",
+      "kind": "clue",
+      "name": "Pegel im Badehaus",
+      "source": "gm/clues.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "clue-wedge",
+      "kind": "clue",
+      "name": "Frischer Holzkeil",
+      "source": "gm/clues.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "clue-flow",
+      "kind": "clue",
+      "name": "Normaler Quellzufluss",
+      "source": "gm/clues.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "clue-ledger",
+      "kind": "clue",
+      "name": "Notwasservertrag",
+      "source": "gm/clues.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "clue-sextus",
+      "kind": "clue",
+      "name": "Aussage des Fuhrmanns",
+      "source": "gm/clues.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "clue-diversion",
+      "kind": "clue",
+      "name": "Umleitung ins Reservebecken",
+      "source": "gm/clues.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "clue-neria",
+      "kind": "clue",
+      "name": "Aussage der Wassermeisterin",
+      "source": "gm/clues.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "item-order",
+      "kind": "item",
+      "name": "Arbeitsanweisung",
+      "source": "gm/handouts.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "item-note",
+      "kind": "item",
+      "name": "Nerias Notiz",
+      "source": "gm/handouts.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "item-ledger-copy",
+      "kind": "item",
+      "name": "Abschrift des Notwasservertrags",
+      "source": "gm/handouts.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "item-map",
+      "kind": "item",
+      "name": "Wartungsplan",
+      "source": "gm/handouts.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "item-wedge",
+      "kind": "item",
+      "name": "Holzkeil",
+      "source": "gm/act-2.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "item-eagle-pin-1",
+      "kind": "item",
+      "name": "Erste Adlerfibel",
+      "source": "gm/act-3.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "item-eagle-pin-2",
+      "kind": "item",
+      "name": "Zweite Adlerfibel",
+      "source": "gm/act-3.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "quest-investigate",
+      "kind": "quest",
+      "name": "Ursache untersuchen / Akt I",
+      "source": "gm/START.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "quest-rescue",
+      "kind": "quest",
+      "name": "Neria helfen",
+      "source": "gm/START.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "quest-plan",
+      "kind": "quest",
+      "name": "Handlungsfähigen Plan finden / Akt II",
+      "source": "gm/START.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "quest-water",
+      "kind": "quest",
+      "name": "Wasser für die Stadt",
+      "source": "gm/START.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "quest-accountability",
+      "kind": "quest",
+      "name": "Verantwortung klären",
+      "source": "gm/START.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "quest-finale",
+      "kind": "quest",
+      "name": "Gewählte Hauptlösung abschließen / Akt III",
+      "source": "gm/START.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "clock-shortage",
+      "kind": "clock",
+      "name": "Druck auf die Versorgung",
+      "source": "gm/improvisation.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    },
+    {
+      "id": "clock-coverup",
+      "kind": "clock",
+      "name": "Marcellus sichert seine Darstellung",
+      "source": "gm/improvisation.md",
+      "origin": "prepared",
+      "introduced_by_event_id": null
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-setting",
+      "text": "Valdora ist fiktiv und römisch geprägt; kein konkretes historisches Jahr.",
+      "visibility": "public",
+      "status": "established",
+      "origin": "prepared"
+    },
+    {
+      "id": "fact-diversion",
+      "text": "Marcellus veranlasste eine absichtliche Umleitung ins Reservebecken, um an Notwasser und einem Folgeauftrag zu verdienen.",
+      "visibility": "gm",
+      "status": "established",
+      "origin": "prepared"
+    },
+    {
+      "id": "fact-spring",
+      "text": "Die Morgenquelle liefert ausreichend Wasser.",
+      "visibility": "gm",
+      "status": "established",
+      "origin": "prepared"
+    },
+    {
+      "id": "fact-neria",
+      "text": "Neria sitzt nach einem Stegbruch mit verstauchtem Knöchel im trockenen Wartungsraum fest; sie wurde nicht entführt.",
+      "visibility": "gm",
+      "status": "established",
+      "origin": "prepared"
+    },
+    {
+      "id": "fact-livia",
+      "text": "Livia verursachte den Wasserausfall nicht. Ihre Arbeitsanweisung wurde zur falschen Schuldzuweisung verändert.",
+      "visibility": "gm",
+      "status": "established",
+      "origin": "prepared"
+    },
+    {
+      "id": "fact-sextus",
+      "text": "Sextus erhielt Marcellus’ Auftrag, weiß zu Beginn aber nicht, dass absichtlich die Stadtversorgung gekappt wurde.",
+      "visibility": "gm",
+      "status": "established",
+      "origin": "prepared"
+    },
+    {
+      "id": "fact-reserves",
+      "text": "Die Stadt hat Notvorräte; Zeitdruck bedeutet Versorgungskonflikt, nicht einen Todes-Countdown.",
+      "visibility": "gm",
+      "status": "established",
+      "origin": "prepared"
+    },
+    {
+      "id": "fact-magic",
+      "text": "Im Ausgangsmodus ist keine tatsächliche Magie bestätigt.",
+      "visibility": "public",
+      "status": "established",
+      "origin": "prepared"
+    }
+  ]
+}

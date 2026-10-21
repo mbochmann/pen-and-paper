@@ -1,0 +1,895 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Aquila state schema v1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "enum": [
+        1
+      ]
+    },
+    "campaign_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "last_event_id": {
+      "type": "string",
+      "pattern": "^event-[0-9]{6,}$"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "phase": {
+      "enum": [
+        "character_creation",
+        "playing",
+        "paused",
+        "completed"
+      ]
+    },
+    "session": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "game_time": {
+      "type": "object",
+      "properties": {
+        "day": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "phase": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "day",
+        "phase",
+        "label"
+      ],
+      "additionalProperties": false
+    },
+    "scene_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "location_id": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$"
+        }
+      ]
+    },
+    "present_npc_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9-]*$"
+      },
+      "uniqueItems": true
+    },
+    "settings": {
+      "type": "object",
+      "properties": {
+        "dice_mode": {
+          "enum": [
+            "unselected",
+            "physical",
+            "tool",
+            "diceless"
+          ]
+        },
+        "fantasy": {
+          "enum": [
+            "ambiguous",
+            "historical_fiction",
+            "mythic"
+          ]
+        },
+        "tone": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "dice_mode",
+        "fantasy",
+        "tone"
+      ],
+      "additionalProperties": false
+    },
+    "characters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "enum": [
+              "pc-1",
+              "pc-2"
+            ]
+          },
+          "player_id": {
+            "enum": [
+              "player-1",
+              "player-2"
+            ]
+          },
+          "name": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "string",
+                "minLength": 1
+              }
+            ]
+          },
+          "role_id": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9-]*$"
+              }
+            ]
+          },
+          "attributes": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "strength": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 3
+                  },
+                  "agility": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 3
+                  },
+                  "wit": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 3
+                  },
+                  "heart": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 3
+                  }
+                },
+                "required": [
+                  "strength",
+                  "agility",
+                  "wit",
+                  "heart"
+                ],
+                "additionalProperties": false
+              }
+            ]
+          },
+          "courage": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 4
+              }
+            ]
+          },
+          "luck": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 2
+              }
+            ]
+          },
+          "advancement": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "talent_used": {
+            "type": "boolean"
+          },
+          "rally_used": {
+            "type": "boolean"
+          },
+          "equipment": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "slots": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 6
+                },
+                "item_id": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "string",
+                      "pattern": "^[a-z][a-z0-9-]*$"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "name",
+                "slots",
+                "item_id"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "personal_goal": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "string",
+                "minLength": 1
+              }
+            ]
+          },
+          "conditions": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "required": [
+          "id",
+          "player_id",
+          "name",
+          "role_id",
+          "attributes",
+          "courage",
+          "luck",
+          "advancement",
+          "talent_used",
+          "rally_used",
+          "equipment",
+          "personal_goal",
+          "conditions"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "party": {
+      "type": "object",
+      "properties": {
+        "bond": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "minLength": 1
+            }
+          ]
+        },
+        "coins": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "starting_resources_granted": {
+          "type": "boolean"
+        },
+        "item_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]*$"
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "bond",
+        "coins",
+        "starting_resources_granted",
+        "item_ids"
+      ],
+      "additionalProperties": false
+    },
+    "known_clues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "clue_id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]*$"
+          },
+          "discovered_event_id": {
+            "type": "string",
+            "pattern": "^event-[0-9]{6,}$"
+          },
+          "known_by": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "pc-1",
+                "pc-2"
+              ]
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "revealed_text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "interpretation": {
+            "enum": [
+              "observation",
+              "hypothesis",
+              "confirmed"
+            ]
+          }
+        },
+        "required": [
+          "clue_id",
+          "discovered_event_id",
+          "known_by",
+          "revealed_text",
+          "interpretation"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "party_hypotheses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]*$"
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "enum": [
+              "open",
+              "confirmed",
+              "refuted"
+            ]
+          },
+          "source_event_id": {
+            "type": "string",
+            "pattern": "^event-[0-9]{6,}$"
+          }
+        },
+        "required": [
+          "id",
+          "text",
+          "status",
+          "source_event_id"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "npc_states": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "npc_id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]*$"
+          },
+          "attitude": {
+            "enum": [
+              "unknown",
+              "hostile",
+              "distant",
+              "neutral",
+              "open",
+              "trusted"
+            ]
+          },
+          "location_id": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9-]*$"
+              }
+            ]
+          },
+          "notes": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "npc_id",
+          "attitude",
+          "location_id",
+          "notes"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "world_changes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]*$"
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_event_id": {
+            "type": "string",
+            "pattern": "^event-[0-9]{6,}$"
+          },
+          "visibility": {
+            "enum": [
+              "gm",
+              "public"
+            ]
+          },
+          "key": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]*$"
+          },
+          "value": {
+            "type": [
+              "string",
+              "number",
+              "boolean",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "text",
+          "source_event_id",
+          "visibility",
+          "key",
+          "value"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "quests": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "quest_id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]*$"
+          },
+          "status": {
+            "enum": [
+              "unseen",
+              "active",
+              "completed",
+              "declined",
+              "deferred"
+            ]
+          },
+          "reward_granted": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "quest_id",
+          "status",
+          "reward_granted"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "clocks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "clock_id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]*$"
+          },
+          "value": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "max": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "active": {
+            "type": "boolean"
+          },
+          "last_trigger_event_id": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "string",
+                "pattern": "^event-[0-9]{6,}$"
+              }
+            ]
+          }
+        },
+        "required": [
+          "clock_id",
+          "value",
+          "max",
+          "active",
+          "last_trigger_event_id"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "open_threads": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]*$"
+          },
+          "summary": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "enum": [
+              "open",
+              "resolved",
+              "deferred"
+            ]
+          },
+          "visibility": {
+            "enum": [
+              "gm",
+              "public"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "summary",
+          "status",
+          "visibility"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "pending_action": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "actor_ids": {
+              "type": "array",
+              "items": {
+                "enum": [
+                  "pc-1",
+                  "pc-2"
+                ]
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            },
+            "declared_intent": {
+              "type": "string",
+              "minLength": 1
+            },
+            "awaiting": {
+              "enum": [
+                "roll",
+                "cost_choice",
+                "reroll_choice",
+                "other_player",
+                "clarification"
+              ]
+            },
+            "options": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "required": [
+            "actor_ids",
+            "declared_intent",
+            "awaiting",
+            "options"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "pending_roll": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "roll_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$"
+            },
+            "actor_id": {
+              "enum": [
+                "pc-1",
+                "pc-2"
+              ]
+            },
+            "attribute": {
+              "enum": [
+                "strength",
+                "agility",
+                "wit",
+                "heart"
+              ]
+            },
+            "attribute_value": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 3
+            },
+            "bonus": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "target": {
+              "enum": [
+                7,
+                9,
+                11
+              ]
+            },
+            "dice_count": {
+              "enum": [
+                2
+              ]
+            },
+            "raw_dice": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 6
+              },
+              "maxItems": 2
+            },
+            "reroll_index": {
+              "anyOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "enum": [
+                    0,
+                    1
+                  ]
+                }
+              ]
+            },
+            "success": {
+              "type": "string",
+              "minLength": 1
+            },
+            "partial_cost": {
+              "type": "string",
+              "minLength": 1
+            },
+            "setback": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "roll_id",
+            "actor_id",
+            "attribute",
+            "attribute_value",
+            "bonus",
+            "target",
+            "dice_count",
+            "raw_dice",
+            "reroll_index",
+            "success",
+            "partial_cost",
+            "setback"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "challenge": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$"
+            },
+            "goal": {
+              "type": "string",
+              "minLength": 1
+            },
+            "progress": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "target": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "next_actor_id": {
+              "enum": [
+                "pc-1",
+                "pc-2"
+              ]
+            },
+            "stakes": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "id",
+            "goal",
+            "progress",
+            "target",
+            "next_actor_id",
+            "stakes"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "pending_prompt": {
+      "type": "string",
+      "minLength": 1
+    },
+    "spotlight": {
+      "type": "object",
+      "properties": {
+        "last_actor_id": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "enum": [
+                "pc-1",
+                "pc-2"
+              ]
+            }
+          ]
+        },
+        "next_actor_id": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "enum": [
+                "pc-1",
+                "pc-2"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "last_actor_id",
+        "next_actor_id"
+      ],
+      "additionalProperties": false
+    },
+    "last_narration": {
+      "type": "string",
+      "minLength": 1
+    },
+    "last_resolution": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "schema_version",
+    "campaign_id",
+    "revision",
+    "last_event_id",
+    "updated_at",
+    "phase",
+    "session",
+    "game_time",
+    "scene_id",
+    "location_id",
+    "present_npc_ids",
+    "settings",
+    "characters",
+    "party",
+    "known_clues",
+    "party_hypotheses",
+    "npc_states",
+    "world_changes",
+    "quests",
+    "clocks",
+    "open_threads",
+    "pending_action",
+    "pending_roll",
+    "challenge",
+    "pending_prompt",
+    "spotlight",
+    "last_narration",
+    "last_resolution"
+  ],
+  "additionalProperties": false
+}

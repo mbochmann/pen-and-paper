@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "campaign_id": "aquila-001",
+  "revision": 0,
+  "last_event_id": "event-000000",
+  "updated_at": "2026-10-21T15:36:16+00:00",
+  "phase": "character_creation",
+  "session": 0,
+  "game_time": {
+    "day": 1,
+    "phase": 0,
+    "label": "Vor Spielbeginn; Vormittag vor den Adlerspielen geplant"
+  },
+  "scene_id": "scene-00",
+  "location_id": null,
+  "present_npc_ids": [],
+  "settings": {
+    "dice_mode": "unselected",
+    "fantasy": "ambiguous",
+    "tone": "Entdeckungsabenteuer; unblutige Gefahren; gleichberechtigte Helden"
+  },
+  "characters": [
+    {
+      "id": "pc-1",
+      "player_id": "player-1",
+      "name": null,
+      "role_id": null,
+      "attributes": null,
+      "courage": null,
+      "luck": null,
+      "advancement": 0,
+      "talent_used": false,
+      "rally_used": false,
+      "equipment": [],
+      "personal_goal": null,
+      "conditions": []
+    },
+    {
+      "id": "pc-2",
+      "player_id": "player-2",
+      "name": null,
+      "role_id": null,
+      "attributes": null,
+      "courage": null,
+      "luck": null,
+      "advancement": 0,
+      "talent_used": false,
+      "rally_used": false,
+      "equipment": [],
+      "personal_goal": null,
+      "conditions": []
+    }
+  ],
+  "party": {
+    "bond": null,
+    "coins": 0,
+    "starting_resources_granted": false,
+    "item_ids": []
+  },
+  "known_clues": [],
+  "party_hypotheses": [],
+  "npc_states": [
+    {
+      "npc_id": "npc-livia",
+      "attitude": "open",
+      "location_id": "loc-forum",
+      "notes": "Vorbereiteter Ausgangszustand; der Gruppe noch nicht begegnet."
+    },
+    {
+      "npc_id": "npc-neria",
+      "attitude": "unknown",
+      "location_id": "loc-cistern",
+      "notes": "Vorbereiteter Ausgangszustand; der Gruppe noch nicht begegnet."
+    },
+    {
+      "npc_id": "npc-marcellus",
+      "attitude": "distant",
+      "location_id": "loc-harbor",
+      "notes": "Vorbereiteter Ausgangszustand; der Gruppe noch nicht begegnet."
+    },
+    {
+      "npc_id": "npc-sextus",
+      "attitude": "neutral",
+      "location_id": "loc-harbor",
+      "notes": "Vorbereiteter Ausgangszustand; der Gruppe noch nicht begegnet."
+    },
+    {
+      "npc_id": "npc-publius",
+      "attitude": "neutral",
+      "location_id": "loc-harbor",
+      "notes": "Vorbereiteter Ausgangszustand; der Gruppe noch nicht begegnet."
+    },
+    {
+      "npc_id": "npc-cassia",
+      "attitude": "neutral",
+      "location_id": "loc-forum",
+      "notes": "Vorbereiteter Ausgangszustand; der Gruppe noch nicht begegnet."
+    },
+    {
+      "npc_id": "npc-bato",
+      "attitude": "open",
+      "location_id": "loc-forum",
+      "notes": "Vorbereiteter Ausgangszustand; der Gruppe noch nicht begegnet."
+    },
+    {
+      "npc_id": "npc-flavia",
+      "attitude": "open",
+      "location_id": "loc-baths",
+      "notes": "Vorbereiteter Ausgangszustand; der Gruppe noch nicht begegnet."
+    }
+  ],
+  "world_changes": [],
+  "quests": [
+    {
+      "quest_id": "quest-investigate",
+      "status": "unseen",
+      "reward_granted": false
+    },
+    {
+      "quest_id": "quest-rescue",
+      "status": "unseen",
+      "reward_granted": false
+    },
+    {
+      "quest_id": "quest-plan",
+      "status": "unseen",
+      "reward_granted": false
+    },
+    {
+      "quest_id": "quest-water",
+      "status": "unseen",
+      "reward_granted": false
+    },
+    {
+      "quest_id": "quest-accountability",
+      "status": "unseen",
+      "reward_granted": false
+    },
+    {
+      "quest_id": "quest-finale",
+      "status": "unseen",
+      "reward_granted": false
+    }
+  ],
+  "clocks": [
+    {
+      "clock_id": "clock-shortage",
+      "value": 0,
+      "max": 6,
+      "active": false,
+      "last_trigger_event_id": null
+    },
+    {
+      "clock_id": "clock-coverup",
+      "value": 0,
+      "max": 4,
+      "active": false,
+      "last_trigger_event_id": null
+    }
+  ],
+  "open_threads": [
+    {
+      "id": "thread-character-creation",
+      "summary": "Beide Namen und Rollen wählen; anschließend Bindung bestätigen und Würfelmodus klären.",
+      "status": "open",
+      "visibility": "public"
+    }
+  ],
+  "pending_action": null,
+  "pending_roll": null,
+  "challenge": null,
+  "pending_prompt": "Wie heißen eure beiden Helden, und welche Rolle möchte jeder spielen: Schildwächter, Spurenleser, Tüftler, Redner, Kundschafter oder Heiler?",
+  "spotlight": {
+    "last_actor_id": null,
+    "next_actor_id": null
+  },
+  "last_narration": "Vorbereitung abgeschlossen. Noch keine Szene ausgespielt und keine Entscheidung für die Spieler getroffen.",
+  "last_resolution": "Kampagne bereitgestellt; Figurenwahl steht aus."
+}

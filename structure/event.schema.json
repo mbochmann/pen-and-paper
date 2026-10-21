@@ -1,0 +1,229 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Aquila event schema v1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "enum": [
+        1
+      ]
+    },
+    "campaign_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^event-[0-9]{6,}$"
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "type": {
+      "enum": [
+        "setup",
+        "character_choice",
+        "scene",
+        "action",
+        "roll_pending",
+        "roll_resolved",
+        "pause",
+        "resume",
+        "correction",
+        "ending"
+      ]
+    },
+    "scene_before": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "scene_after": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "player_decision": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "string",
+          "minLength": 1
+        }
+      ]
+    },
+    "changes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "entity_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9-]*$"
+      },
+      "uniqueItems": true
+    },
+    "rolls": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "roll_id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]*$"
+          },
+          "actor_id": {
+            "enum": [
+              "pc-1",
+              "pc-2"
+            ]
+          },
+          "source": {
+            "enum": [
+              "physical",
+              "tool"
+            ]
+          },
+          "attribute": {
+            "enum": [
+              "strength",
+              "agility",
+              "wit",
+              "heart"
+            ]
+          },
+          "attribute_value": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 3
+          },
+          "bonus": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "target": {
+            "enum": [
+              7,
+              9,
+              11
+            ]
+          },
+          "original_dice": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 6
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "final_dice": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 6
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "rerolled_index": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "enum": [
+                  0,
+                  1
+                ]
+              }
+            ]
+          },
+          "total": {
+            "type": "integer",
+            "minimum": 2,
+            "maximum": 16
+          },
+          "outcome": {
+            "enum": [
+              "success",
+              "cost_or_decline",
+              "setback"
+            ]
+          }
+        },
+        "required": [
+          "roll_id",
+          "actor_id",
+          "source",
+          "attribute",
+          "attribute_value",
+          "bonus",
+          "target",
+          "original_dice",
+          "final_dice",
+          "rerolled_index",
+          "total",
+          "outcome"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "revealed_clue_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9-]*$"
+      },
+      "uniqueItems": true
+    },
+    "pending_prompt": {
+      "type": "string",
+      "minLength": 1
+    },
+    "supersedes_event_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^event-[0-9]{6,}$"
+      },
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "schema_version",
+    "campaign_id",
+    "id",
+    "revision",
+    "at",
+    "type",
+    "scene_before",
+    "scene_after",
+    "summary",
+    "player_decision",
+    "changes",
+    "entity_ids",
+    "rolls",
+    "revealed_clue_ids",
+    "pending_prompt",
+    "supersedes_event_ids"
+  ],
+  "additionalProperties": false
+}
