@@ -1,21 +1,20 @@
 {
   "schema_version": 1,
   "campaign_id": "aquila-001",
-  "revision": 5,
-  "last_event_id": "event-000005",
-  "updated_at": "2026-10-21T16:16:24.875Z",
+  "revision": 6,
+  "last_event_id": "event-000006",
+  "updated_at": "2026-10-21T16:21:35.701Z",
   "phase": "playing",
   "session": 1,
   "game_time": {
     "day": 1,
-    "phase": 0,
-    "label": "Tag 1, Vormittag vor den Adlerspielen"
+    "phase": 1,
+    "label": "Tag 1, Vormittag; erste parallele Reisephase (Cäsar etwa 30, Augustus etwa 45 Minuten)"
   },
-  "scene_id": "scene-01",
-  "location_id": "loc-forum",
+  "scene_id": "scene-03",
+  "location_id": "loc-gate",
   "present_npc_ids": [
-    "npc-livia",
-    "npc-bato"
+    "npc-gatekeeper"
   ],
   "settings": {
     "dice_mode": "tool",
@@ -59,6 +58,16 @@
           "name": "Reisemantel",
           "slots": 1,
           "item_id": null
+        },
+        {
+          "name": "Leih-Brieftaube 1 mit Transportkorb und Zetteln",
+          "slots": 1,
+          "item_id": "item-pigeon-1"
+        },
+        {
+          "name": "Leih-Brieftaube 2 mit Transportkorb und Zetteln",
+          "slots": 1,
+          "item_id": "item-pigeon-2"
         }
       ],
       "personal_goal": null,
@@ -100,6 +109,16 @@
           "name": "Übungsstab",
           "slots": 1,
           "item_id": null
+        },
+        {
+          "name": "Leih-Brieftaube 3 mit Transportkorb und Zetteln",
+          "slots": 1,
+          "item_id": "item-pigeon-3"
+        },
+        {
+          "name": "Leih-Brieftaube 4 mit Transportkorb und Zetteln",
+          "slots": 1,
+          "item_id": "item-pigeon-4"
         }
       ],
       "personal_goal": null,
@@ -132,6 +151,24 @@
       ],
       "revealed_text": "Livia berichtet mündlich, Neria habe gestern Abend einen alten Wasserabzweig beim Steinbruch prüfen wollen und sei noch nicht zurück. Die schriftliche Notiz wurde weder gezeigt noch gelesen; ihr weiterer Inhalt ist unbekannt.",
       "interpretation": "observation"
+    },
+    {
+      "clue_id": "clue-flow",
+      "discovered_event_id": "event-000006",
+      "known_by": [
+        "pc-1"
+      ],
+      "revealed_text": "Cäsar hört bei Ankunft am Mühlentor Wasser oben im Aquädukt rauschen. Er hat die Kontrollöffnung noch nicht geprüft; genaue Wassermenge und Verlauf nicht bestätigt.",
+      "interpretation": "observation"
+    },
+    {
+      "clue_id": "clue-diversion",
+      "discovered_event_id": "event-000006",
+      "known_by": [
+        "pc-2"
+      ],
+      "revealed_text": "Augustus sieht bei seiner Ankunft im alten Steinbruch klares Wasser in ein Becken laufen. Er kennt noch weder Zuflussweg noch Grund dafür; absichtliche Umleitung nicht nachgewiesen.",
+      "interpretation": "observation"
     }
   ],
   "party_hypotheses": [],
@@ -139,14 +176,14 @@
     {
       "npc_id": "npc-livia",
       "attitude": "open",
-      "location_id": "loc-forum",
-      "notes": "Hat beiden Wasserweg Morgenquelle–Aquädukt–Mühlentor–Stadt sowie Weg zum Steinbruch über den Hafen erklärt. Berichtet, dass ihre Meisterin Neria seit dem geplanten Prüfgang zum alten Abzweig am Vorabend nicht zurück ist. Möchte Ursache klären und Meisterin finden. Reise noch nicht vereinbart."
+      "location_id": "loc-workshop",
+      "notes": "Hat vier Werkstatt-Heimkehrtauben samt Körben und Zetteln kostenlos verliehen, je zwei pro Held. Kennt geplante Zielorte. Hat mit dem Bäcker die Brunnenabdeckung geschlossen und ist zum Empfangen von Nachrichten in ihre Werkstatt zurückgekehrt. Noch keine Nachricht erhalten."
     },
     {
       "npc_id": "npc-neria",
       "attitude": "unknown",
       "location_id": "loc-cistern",
-      "notes": "Vorbereiteter Ausgangszustand; der Gruppe noch nicht begegnet."
+      "notes": "Im trockenen Wartungsraum; hat die Ankunft am Steinbruch gehört und nach Hilfe gerufen. Augustus hat die Stimme gehört, aber die Sprecherin noch nicht gesehen oder identifiziert. Keine Rettung oder Sachauskunft erfolgt."
     },
     {
       "npc_id": "npc-marcellus",
@@ -176,13 +213,19 @@
       "npc_id": "npc-bato",
       "attitude": "open",
       "location_id": "loc-forum",
-      "notes": "Cäsar äußert Zuversicht in Augustus und schlägt bei Bedarf den Fluss vor. Der Bäcker erwägt das als Notbehelf, braucht dafür aber einen Wagen. Noch kein Wagen besorgt, kein Abtransport und kein neuer Auftrag der Helden. Sein Name noch unbekannt."
+      "notes": "Cäsar äußert Zuversicht in Augustus und schlägt bei Bedarf den Fluss vor. Der Bäcker erwägt das als Notbehelf, braucht dafür aber einen Wagen. Noch kein Wagen besorgt, kein Abtransport und kein neuer Auftrag der Helden. Sein Name noch unbekannt. Hat mit Livia nach deren Leihgabe die Brunnenabdeckung wieder eingesetzt; bleibt am Forum."
     },
     {
       "npc_id": "npc-flavia",
       "attitude": "open",
       "location_id": "loc-baths",
       "notes": "Vorbereiteter Ausgangszustand; der Gruppe noch nicht begegnet."
+    },
+    {
+      "npc_id": "npc-gatekeeper",
+      "attitude": "neutral",
+      "location_id": "loc-gate",
+      "notes": "Kontrolliert Zutritt zur Wartungstreppe; fragt Cäsar nach Anliegen und Taubenkörben. Keine Feindseligkeit oder Kampfhandlung. Kennt die Helden und Livias Auftrag noch nicht."
     }
   ],
   "world_changes": [
@@ -225,6 +268,70 @@
       "visibility": "public",
       "key": "water-route-known",
       "value": true
+    },
+    {
+      "id": "change-000006-1",
+      "text": "Cäsar hat das Mühlentor erreicht; allein mit neutraler Wache an Wartungstreppe.",
+      "source_event_id": "event-000006",
+      "visibility": "public",
+      "key": "pc-1-location",
+      "value": "loc-gate"
+    },
+    {
+      "id": "change-000006-2",
+      "text": "Augustus hat den Steinbruch erreicht; allein, ohne zusätzliche Untersuchung am Hafen.",
+      "source_event_id": "event-000006",
+      "visibility": "public",
+      "key": "pc-2-location",
+      "value": "loc-quarry"
+    },
+    {
+      "id": "change-000006-3",
+      "text": "Cäsars Teil-Szene: Wasserrauschen und Zutrittsfrage.",
+      "source_event_id": "event-000006",
+      "visibility": "public",
+      "key": "pc-1-scene",
+      "value": "scene-03"
+    },
+    {
+      "id": "change-000006-4",
+      "text": "Augustus' Teil-Szene: Wasserbecken und noch nicht zugeordneter Ruf aus tieferer Öffnung.",
+      "source_event_id": "event-000006",
+      "visibility": "public",
+      "key": "pc-2-scene",
+      "value": "scene-05"
+    },
+    {
+      "id": "change-000006-5",
+      "text": "Alle vier geliehenen Tauben kehren zu Livias Werkstatt zurück; keine direkte Verbindung zwischen wandernden Helden, keine Nachricht gesendet.",
+      "source_event_id": "event-000006",
+      "visibility": "public",
+      "key": "pigeon-home",
+      "value": "loc-workshop"
+    },
+    {
+      "id": "change-000006-6",
+      "text": "Livia und der Bäcker haben vor Aufbruch die Abdeckung wieder geschlossen.",
+      "source_event_id": "event-000006",
+      "visibility": "public",
+      "key": "fountain-cover-open",
+      "value": false
+    },
+    {
+      "id": "change-000006-7",
+      "text": "Cäsars kurze Ablenkung endet mit seinem Aufbruch.",
+      "source_event_id": "event-000006",
+      "visibility": "public",
+      "key": "crowd-distracted",
+      "value": false
+    },
+    {
+      "id": "change-000006-8",
+      "text": "Beide Wege ausdrücklich gewählt. Parallele Reise kostet gemeinsam eine Zeitphase, nicht eine Phase pro Figur.",
+      "source_event_id": "event-000006",
+      "visibility": "public",
+      "key": "party-split",
+      "value": true
     }
   ],
   "quests": [
@@ -262,10 +369,10 @@
   "clocks": [
     {
       "clock_id": "clock-shortage",
-      "value": 0,
+      "value": 1,
       "max": 6,
       "active": true,
-      "last_trigger_event_id": null
+      "last_trigger_event_id": "event-000006"
     },
     {
       "clock_id": "clock-coverup",
@@ -284,7 +391,7 @@
     },
     {
       "id": "thread-fountain",
-      "summary": "Brunnenabdeckung offen. Kein Zufluss; Sand ähnelt Steinbruchsand. Wasserweg erklärt. Mühlentor bietet Kontrollstelle, Steinbruch möglichen Zusammenhang. Beide entscheiden über nächsten Schritt.",
+      "summary": "Kein Zufluss am Forum. Abdeckung von Livia und Bäcker geschlossen. Getrennte Ermittlung am Mühlentor und Steinbruch läuft.",
       "status": "open",
       "visibility": "public"
     },
@@ -293,16 +400,28 @@
       "summary": "Livia vermisst die Rückkehr ihrer Meisterin Neria vom Prüfgang zum alten Abzweig beim Steinbruch. Aufenthaltsort und Grund ihres Ausbleibens unbekannt.",
       "status": "open",
       "visibility": "public"
+    },
+    {
+      "id": "thread-gatekeeper",
+      "summary": "Cäsar steht vor der Wartungstreppe. Die Wache fragt nach Anliegen und Taubenkörben; Antwort offen.",
+      "status": "open",
+      "visibility": "public"
+    },
+    {
+      "id": "thread-quarry-call",
+      "summary": "Augustus hört einen Hilferuf aus tieferer Öffnung beim Steinbruch. Quelle des Rufs noch nicht identifiziert; Annäherung offen.",
+      "status": "open",
+      "visibility": "public"
     }
   ],
   "pending_action": null,
   "pending_roll": null,
   "challenge": null,
-  "pending_prompt": "Wollt ihr zum Mühlentor, zum Steinbruch oder zunächst noch etwas anderes klären?",
+  "pending_prompt": "Cäsar: Was antwortest du der Wache? Augustus: Wie gehst du dem Ruf nach?",
   "spotlight": {
-    "last_actor_id": "pc-1",
-    "next_actor_id": "pc-2"
+    "last_actor_id": "pc-2",
+    "next_actor_id": "pc-1"
   },
-  "last_narration": "Livia kniet sich neben die offene Rinne und zeichnet mit dem Finger Linien in den Staub.\n\n„Die Morgenquelle liegt oben in den Hügeln. Ihr Wasser fließt durch den Aquädukt – die lange steinerne Wasserleitung. Beim Mühlentor können wir nachsehen, ob noch etwas in Richtung Stadt fließt. Von dort führen Leitungen zu den Brunnen und zum Badehaus.“\n\nSie zieht eine zweite Linie.\n\n„Der alte Steinbruch liegt auf der anderen Seite, hinter dem Flusshafen. Dort wurden früher Steine für die Stadt geschlagen. Wenn ihr am Hafen dem Karrenweg folgt, erreicht ihr ihn nach ungefähr einer halben Stunde.“\n\nIhr Finger bleibt auf der Zeichnung liegen.\n\n„Meine Meisterin Neria wollte gestern Abend einen alten Wasserabzweig beim Steinbruch prüfen. Sie ist noch nicht zurück.“ Livia sieht euch an. „Ich hatte gehofft, sie wäre nur früh wieder an die Arbeit gegangen. Aber jetzt …“\n\nSie wischt sich die staubigen Hände an der Tunika ab.\n\n„Zum Mühlentor brauchen wir von hier ungefähr eine halbe Stunde. Dort könnten wir den Zufluss prüfen. Zum Steinbruch wäre es über den Hafen etwa eine Dreiviertelstunde. Vielleicht finden wir dort Neria.“",
-  "last_resolution": "Cäsars Fragen beantwortet: Wasserweg und zwei Reisewege erläutert; Livia berichtet von Nerias geplantem Prüfgang zum alten Abzweig am Steinbruch und ihrer ausstehenden Rückkehr. Noch keine Reise beschlossen oder begonnen."
+  "last_narration": "Livia organisiert vier Brieftauben aus dem Schlag ihrer nahen Werkstatt. Jeder von euch erhält zwei Vögel in kleinen Transportkörben samt Nachrichtenzetteln.\n\n„Sie fliegen zu meiner Werkstatt zurück“, erklärt sie. „Schreibt euren Standort dazu. Dann weiß ich, wo ihr Hilfe braucht. Sie finden nicht den jeweils anderen von euch.“ Sie bleibt als Empfängerin in der Stadt. Bevor ihr aufbrecht, setzt sie mit dem Bäcker die Brunnenplatte wieder ein.\n\nDie Körbe belegen eure jeweils zwei freien Ausrüstungsplätze. Ihr reist gleichzeitig; für eure Wege vergeht insgesamt eine Zeitphase.\n\n**Cäsar – am Mühlentor**\n\nNach etwa einer halben Stunde erreichst du die hohen Steinbögen des Aquädukts. Über dir hörst du deutlich Wasser rauschen. Eine schmale Wartungstreppe führt zu einer Kontrollöffnung. Davor steht eine Wache mit einem Speer.\n\n„Halt. Was möchtest du bei der Wasserleitung?“ Ihr Blick fällt auf deine Taubenkörbe. „Und was haben die damit zu tun?“\n\n**Augustus – am Steinbruch**\n\nDu gehst am Hafen vorbei und folgst dem Karrenweg. Nach etwa einer Dreiviertelstunde erreichst du die hellen Felswände. Rote Erde knirscht unter deinen Sandalen. Frische Wagenspuren führen zwischen die Steine.\n\nHinter einer niedrigen Mauer siehst du klares Wasser in ein großes Becken fließen.\n\nDann hörst du eine Stimme aus einer tiefer liegenden Öffnung:\n\n„He! Ist da jemand? Hier unten!“",
+  "last_resolution": "Vier geliehene Heimkehrtauben mit Ziel Livias Werkstatt ausgegeben; Gruppe reist getrennt. Cäsar am Mühlentor vor einer Wache, Augustus am Steinbruch bei Wasserbecken und unbekanntem Hilferuf. Noch keine neuen Reaktionen entschieden."
 }

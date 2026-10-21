@@ -1,6 +1,6 @@
 # Cäsar und Augustus
 
-Stand: Speicherpunkt 5. Aktuelle veränderliche Werte stehen verbindlich in `state/current.json`; dieses Blatt bei Änderungen aktualisieren.
+Stand: Speicherpunkt 6. Aktuelle veränderliche Werte stehen verbindlich in `state/current.json`; dieses Blatt bei Änderungen aktualisieren.
 
 | Eigenschaft | Cäsar – Redner | Augustus – Schildwächter |
 |---|---:|---:|
@@ -16,11 +16,11 @@ Stand: Speicherpunkt 5. Aktuelle veränderliche Werte stehen verbindlich in `sta
 
 **Augustus – Dazwischen!:** Einmal pro Szene kannst du 1 Mutverlust deines erreichbaren Gefährten verhindern. Talent noch verfügbar.
 
-**Cäsars Ausrüstung:** Wasserflasche, Reiseproviant, Wachstafel mit Griffel, Reisemantel. 4 von 6 Plätzen.
+**Cäsars Ausrüstung:** Wasserflasche, Reiseproviant, Wachstafel mit Griffel, Reisemantel; zwei Leih-Brieftauben mit Transportkörben und Nachrichtenzetteln (Vögel 1 und 2). 6 von 6 Plätzen.
 
-**Augustus’ Ausrüstung:** Wasserflasche, Reiseproviant, kleiner Schild, Übungsstab. 4 von 6 Plätzen.
+**Augustus’ Ausrüstung:** Wasserflasche, Reiseproviant, kleiner Schild, Übungsstab; zwei Leih-Brieftauben mit Transportkörben und Nachrichtenzetteln (Vögel 3 und 4). 6 von 6 Plätzen.
 
-**Gemeinsam:** 12 Sesterzen. Keine weiteren Abenteuergegenstände.
+**Gemeinsam:** 12 Sesterzen. Alle vier Tauben kehren zu Livias Werkstatt zurück; noch keine versendet.
 
 **Vorgeschichte:** Beide kennen sich aus dem Rednerstudium. Augustus musste es abbrechen, weil er darin nicht gut war. Das ist Teil der Geschichte und verursacht keine zusätzlichen Abzüge auf seine Werte.
 

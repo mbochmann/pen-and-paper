@@ -449,6 +449,46 @@
       "source": "gm/improvisation.md",
       "origin": "prepared",
       "introduced_by_event_id": null
+    },
+    {
+      "id": "item-pigeon-1",
+      "kind": "item",
+      "name": "Leih-Brieftaube 1 mit Transportkorb und Zetteln",
+      "source": "gm/pigeons.md",
+      "origin": "improvised",
+      "introduced_by_event_id": "event-000006"
+    },
+    {
+      "id": "item-pigeon-2",
+      "kind": "item",
+      "name": "Leih-Brieftaube 2 mit Transportkorb und Zetteln",
+      "source": "gm/pigeons.md",
+      "origin": "improvised",
+      "introduced_by_event_id": "event-000006"
+    },
+    {
+      "id": "item-pigeon-3",
+      "kind": "item",
+      "name": "Leih-Brieftaube 3 mit Transportkorb und Zetteln",
+      "source": "gm/pigeons.md",
+      "origin": "improvised",
+      "introduced_by_event_id": "event-000006"
+    },
+    {
+      "id": "item-pigeon-4",
+      "kind": "item",
+      "name": "Leih-Brieftaube 4 mit Transportkorb und Zetteln",
+      "source": "gm/pigeons.md",
+      "origin": "improvised",
+      "introduced_by_event_id": "event-000006"
+    },
+    {
+      "id": "npc-gatekeeper",
+      "kind": "npc",
+      "name": "Wache an der Wartungstreppe (Name unbekannt)",
+      "source": "gm/pigeons.md",
+      "origin": "improvised",
+      "introduced_by_event_id": "event-000006"
     }
   ],
   "facts": [
