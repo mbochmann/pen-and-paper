@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "campaign_id": "aquila-001",
-  "revision": 3,
-  "last_event_id": "event-000003",
-  "updated_at": "2026-10-21T16:06:09+00:00",
+  "revision": 4,
+  "last_event_id": "event-000004",
+  "updated_at": "2026-10-21T16:11:49.131Z",
   "phase": "playing",
   "session": 1,
   "game_time": {
@@ -120,7 +120,7 @@
         "pc-1",
         "pc-2"
       ],
-      "revealed_text": "Beim Versiegen des Adlerbrunnens tritt mit dem letzten Wasserschwall roter Sand aus. Herkunft und Bedeutung sind noch unbekannt.",
+      "revealed_text": "Beim Versiegen des Adlerbrunnens trat roter Sand aus. Livia zeigt ihn beiden und sagt, sie kenne solchen Sand vom alten Steinbruch, während an der Morgenquelle heller Fels liege. Wie der Sand in den Brunnen kam und ob der Steinbruch mit dem Ausfall zusammenhängt, ist unklar.",
       "interpretation": "observation"
     }
   ],
@@ -130,7 +130,7 @@
       "npc_id": "npc-livia",
       "attitude": "open",
       "location_id": "loc-forum",
-      "notes": "Hat Augustus die zwei Griffmulden an der Abdeckung gezeigt und bietet an, sie gemeinsam anzuheben und neben der Öffnung abzulegen. Wartet auf seine Entscheidung."
+      "notes": "Hat mit Augustus die Abdeckung abgehoben. Sichtbarer Einlauf ohne Zufluss und keine Verstopfung im geöffneten Bereich. Zeigt beiden roten Sand, den sie vom alten Steinbruch kennt; Zusammenhang nur Vermutung. Herkunft des Brunnennachschubs: Morgenquelle genannt."
     },
     {
       "npc_id": "npc-neria",
@@ -166,7 +166,7 @@
       "npc_id": "npc-bato",
       "attitude": "open",
       "location_id": "loc-forum",
-      "notes": "Hat sich an Cäsar gewandt und gefragt, ob er und Augustus den Brunnen reparieren können; ohne Wasser könne er morgen kein Brot backen. Sein Name wurde noch nicht genannt."
+      "notes": "Cäsar äußert Zuversicht in Augustus und schlägt bei Bedarf den Fluss vor. Der Bäcker erwägt das als Notbehelf, braucht dafür aber einen Wagen. Noch kein Wagen besorgt, kein Abtransport und kein neuer Auftrag der Helden. Sein Name noch unbekannt."
     },
     {
       "npc_id": "npc-flavia",
@@ -190,6 +190,22 @@
       "source_event_id": "event-000003",
       "visibility": "public",
       "key": "fountain-cover-open",
+      "value": false
+    },
+    {
+      "id": "change-000004-cover",
+      "text": "Augustus und Livia haben die Steinabdeckung gemeinsam sicher neben der Öffnung abgelegt. Der schmale Wartungseinlauf ist zugänglich.",
+      "source_event_id": "event-000004",
+      "visibility": "public",
+      "key": "fountain-cover-open",
+      "value": true
+    },
+    {
+      "id": "change-000004-inlet",
+      "text": "Im geöffneten Bereich ist keine Verstopfung sichtbar. Die Rinne ist noch feucht, doch aus der Zuleitung kommt kein frisches Wasser. Die genaue Ursache ist unbekannt.",
+      "source_event_id": "event-000004",
+      "visibility": "public",
+      "key": "fountain-inlet-flow",
       "value": false
     }
   ],
@@ -250,7 +266,7 @@
     },
     {
       "id": "thread-fountain",
-      "summary": "Abdeckung noch geschlossen. Livia hat Augustus eine einfache gemeinsame Hebemethode gezeigt. Cäsar beschäftigt die nahen Schaulustigen; der Bäcker fragt ihn nach den Reparaturaussichten.",
+      "summary": "Brunnenabdeckung geöffnet. Im sichtbaren Bereich keine Verstopfung, aber kein Zufluss. Livia nennt die Morgenquelle als Wasserversorgung und vermutet eine Verbindung zwischen rotem Sand und altem Steinbruch. Nächster Ansatz frei.",
       "status": "open",
       "visibility": "public"
     }
@@ -258,11 +274,11 @@
   "pending_action": null,
   "pending_roll": null,
   "challenge": null,
-  "pending_prompt": "Augustus, hebst du mit Livia die Platte an? Cäsar, was antwortest du dem Bäcker?",
+  "pending_prompt": "Was macht ihr als Nächstes? Ihr könnt Livia nach dem Steinbruch oder dem Wasserweg fragen – oder etwas anderes versuchen.",
   "spotlight": {
     "last_actor_id": "pc-2",
     "next_actor_id": "pc-1"
   },
-  "last_narration": "Cäsar zieht die Aufmerksamkeit der nächsten Schaulustigen auf sich. Mehrere wenden sich vom Brunnen ab und hören ihm zu. Das verschafft Augustus und Livia etwas Platz. Für diese kurze Ablenkung ist kein Würfelwurf nötig.\n\nDer Bäcker kommt mit dem zerzausten Lorbeerkranz in der Hand näher. „Gehört der kräftige Mann zu dir?“, fragt er Cäsar und deutet auf Augustus. „Meinst du, ihr bekommt den Brunnen wieder hin? Ohne Wasser kann ich morgen kein Brot backen.“\n\nWährenddessen streicht Livia den Staub vom Rand der Steinplatte. Darunter kommen zwei breite Griffmulden zum Vorschein.\n\n„Hier können wir anpacken“, erklärt sie Augustus. „Du auf dieser Seite, ich gegenüber. Wir heben sie gemeinsam ein Stück an und setzen sie daneben auf dem Pflaster ab. Allein ist sie mir zu schwer.“\n\nSie geht auf die andere Seite und wartet, bis du bereit bist. Die Platte ist noch geschlossen.",
-  "last_resolution": "Cäsar lenkt die nahe stehenden Schaulustigen kurz ab. Augustus erhält auf seine Frage eine Erklärung zum gemeinsamen Anheben. Die Platte bleibt geschlossen; keine Hebehandlung vorweggenommen."
+  "last_narration": "„Ich denke, er kriegt das hin. Ansonsten nimm den Fluss“, antwortet Cäsar.\n\nDer Bäcker nickt nachdenklich. „Als Notbehelf … ja. Ich müsste nur einen Wagen auftreiben. Mit einzelnen Krügen bin ich den ganzen Tag unterwegs.“\n\n„Auf drei“, sagt Livia zu Augustus. „Eins, zwei – drei!“\n\nGemeinsam hebt ihr die Steinplatte aus ihrer Fassung. Sie ist schwer, aber mit Livias Hilfe kannst du sie sicher auf dem Pflaster absetzen. Kein Würfelwurf nötig.\n\nDarunter liegt eine schmale, gemauerte Wasserrinne. Die Steine glänzen noch feucht, doch aus der Zuleitung kommt kein frisches Wasser nach.\n\nLivia beugt sich vor. „Hier ist nichts verstopft. Es kommt einfach nichts mehr an.“ Sie richtet sich wieder auf und zeigt euch etwas von dem roten Sand aus dem Brunnenbecken auf ihrer Handfläche.\n\n„Merkwürdig. Solchen Sand kenne ich vom alten Steinbruch. Bei unserer Morgenquelle gibt es dagegen hellen Fels.“\n\nSie blickt von Cäsar zu Augustus. „Vielleicht hat das miteinander zu tun. Aber wie der Sand hierherkommt, weiß ich nicht.“",
+  "last_resolution": "Cäsar schlägt dem Bäcker den Fluss als Notbehelf vor; dieser erwägt einen Wagen. Augustus hebt mit Livia die Platte sicher ab. Kein Zufluss sichtbar; Livia erkennt eine Ähnlichkeit des roten Sands mit dem am alten Steinbruch, ohne Ursache zu kennen."
 }

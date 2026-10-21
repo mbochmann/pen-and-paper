@@ -1,13 +1,17 @@
-# Übergabe – Revision 3
+# Übergabe – Revision 4
 
-- Letztes Event: `event-000003`; Sitzung 1, `scene-01`, `loc-forum`, Zeitphase 0.
-- Cäsar (Redner) lenkt nahe Schaulustige ab; die unkomplizierte kurze Ablenkung gelang ohne Wurf. Keine konkreten Worte erfunden.
-- Augustus (Schildwächter) hat nur nach dem Anheben gefragt. Livia zeigt zwei Griffmulden und bietet an, gegenüber anzupacken und die Platte gemeinsam daneben abzulegen. **Platte noch geschlossen.** Nicht als bereits gehoben erzählen.
-- Der namenstechnisch noch unbekannte Bäcker fragt Cäsar, ob er und Augustus den Brunnen wieder hinbekommen. Er braucht morgen Wasser zum Brotbacken.
-- Keine neue Kernspur. Roter Sand weiterhin sichtbar, Herkunft unbekannt. Kein Wissen unter der Abdeckung vorwegnehmen.
-- Beide 4 Mut, 2 Glück; 12 gemeinsame Sesterzen. Uhren aktiv bei 0. Keine Talente verbraucht, keine offene Probe.
-- Nächste mögliche Hebehandlung mit Livia ist normale gemeinsame Hilfe und benötigt keinen Wurf. Bei anderer riskanter Idee erst Einsatz erklären.
+- Letztes Event: `event-000004`; Sitzung 1, `scene-01`, `loc-forum`, Tag 1 Vormittag, Phase 0.
+- Cäsar (Redner) hat dem Bäcker Zuversicht in Augustus zugesprochen und den Fluss als Notbehelf genannt. Der Bäcker erwägt einen Wagen; er ist weiterhin hier, hat nichts beschafft und keinen Auftrag erteilt.
+- Augustus (Schildwächter) hat die Steinplatte mit Livia angehoben und sicher daneben abgelegt. Normale gemeinsame Hilfe, kein Wurf. **Platte offen.**
+- Sichtbarer Brunnenzulauf: feuchte Rinne, keine sichtbare Verstopfung, kein frisches Wasser. Keine Ursache daraus als bewiesen ableiten.
+- Livia zeigt beiden roten Sand und sagt, sie kenne solchen vom alten Steinbruch; bei der Morgenquelle sei heller Fels. Zusammenhang ausdrücklich unklar. Beide konnten die Erklärung hören.
+- Keine Wagenbeobachtung, kein Täter, keine fehlende Wassermeisterin und keine weiteren Hintergründe enthüllt. Livias Beruf noch nicht formell erläutert. Bäckername unbekannt.
+- Beide 4 Mut/2 Glück; 12 gemeinsame Sesterzen, Talente verfügbar; Uhren aktiv bei 0. Keine offene Probe und keine eigenmächtig festgelegte nächste Spielerhandlung.
 
 ## Exakte nächste Frage
 
-Augustus, hebst du mit Livia die Platte an? Cäsar, was antwortest du dem Bäcker?
+Was macht ihr als Nächstes? Ihr könnt Livia nach dem Steinbruch oder dem Wasserweg fragen – oder etwas anderes versuchen.
+
+## Spielleitung
+
+Weiter nach gewähltem Ansatz: Livia kann Wasserweg und bekannte Orte erklären, bei passender Nachfrage von Neria erzählen. Unter der Abdeckung gibt es keine neue Zufallsfalle. Kernhinweise ohne unnötige Proben zugänglich halten. Öffnung bei Verlassen der Stelle von Livia sichern lassen und diesen Vorgang dann erzählen, nicht jetzt vorwegnehmen.

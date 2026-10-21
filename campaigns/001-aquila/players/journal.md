@@ -1,15 +1,17 @@
 # Unser Abenteuerjournal
 
-**Speicherpunkt 3 – Platz am Brunnen.**
+**Speicherpunkt 4 – Unter der Steinplatte.**
 
-Cäsar und Augustus kennen sich aus dem Rednerstudium. Auf dem Forum von Valdora ist kurz vor den Adlerspielen der Adlerbrunnen versiegt; zuletzt kam roter Sand heraus. Seine Herkunft ist unbekannt.
+Cäsar und Augustus stehen mit Livia am ausgefallenen Adlerbrunnen auf dem Forum. Beide kennen sich aus dem Rednerstudium; Cäsar ist Redner, Augustus Schildwächter.
 
-Cäsar hat einige Schaulustige abgelenkt, damit am Brunnen Platz entsteht. Ein Bäcker fragt ihn, ob die beiden den Brunnen reparieren können: Ohne Wasser könne er morgen kein Brot backen.
+Cäsar hat dem Bäcker gesagt, er traue Augustus die Reparatur zu; andernfalls könne der Bäcker den Fluss nutzen. Der Bäcker erwägt dafür einen Wagen. Es wurde noch nichts organisiert.
 
-Augustus hat Livia gefragt, wie man die Steinabdeckung anheben könnte. Sie zeigt zwei Griffmulden und bietet an, gegenüber anzupacken und die Platte gemeinsam daneben abzusetzen. **Die Platte wurde noch nicht angehoben.**
+Augustus und Livia haben die Steinabdeckung gemeinsam sicher abgehoben. Darunter liegt eine noch feuchte Rinne. Im sichtbaren Bereich ist nichts verstopft, aber aus der Zuleitung kommt kein frisches Wasser.
 
-Beide Helden haben weiterhin 4 Mut und 2 Glück, die gemeinsame Geldbörse 12 Sesterzen. Keine Würfelprobe und kein Zeitphasenschritt.
+**Unser Hinweis:** Livia kennt roten Sand wie den aus dem Brunnen vom alten Steinbruch. Bei der Morgenquelle, die den Brunnen versorgt, gebe es hingegen hellen Fels. Ob und wie das zusammenhängt, ist offen.
 
-**Nächste Frage:** Augustus, hebst du mit Livia die Platte an? Cäsar, was antwortest du dem Bäcker?
+Beide weiterhin 4 Mut und 2 Glück; 12 gemeinsame Sesterzen. Kein Würfelwurf nötig, keine Zeitphase verbraucht.
+
+**Nächste Frage:** Was macht ihr als Nächstes? Ihr könnt Livia nach dem Steinbruch oder dem Wasserweg fragen – oder etwas anderes versuchen.
 
 [Figurenblatt](party.md)
