@@ -21,3 +21,7 @@ flowchart TD
 | Hafen ↔ alter Steinbruch | etwa 30 Minuten, eine Zeitphase |
 
 Der Weg zum Steinbruch ist allgemein bekannt; was sich dort befindet, wisst ihr noch nicht. Neue Orte ergänzen wir erst, wenn eure Figuren davon erfahren. Aus einer Kartenlinie folgt keine geheime Wasserverbindung.
+
+## Von Livia erklärt – Speicherpunkt 5
+
+Das Wasser kommt aus der Morgenquelle, läuft durch den Aquädukt und wird über Leitungen beim Mühlentor in die Stadt geführt. Dort kann der Zufluss kontrolliert werden. Zum Mühlentor etwa 30 Minuten, zum Steinbruch über den Hafen insgesamt etwa 45 Minuten. Eine Verbindung der aktuellen Störung zum Steinbruch ist noch nicht bewiesen.

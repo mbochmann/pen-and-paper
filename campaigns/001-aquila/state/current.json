@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "campaign_id": "aquila-001",
-  "revision": 4,
-  "last_event_id": "event-000004",
-  "updated_at": "2026-10-21T16:11:49.131Z",
+  "revision": 5,
+  "last_event_id": "event-000005",
+  "updated_at": "2026-10-21T16:16:24.875Z",
   "phase": "playing",
   "session": 1,
   "game_time": {
@@ -122,6 +122,16 @@
       ],
       "revealed_text": "Beim Versiegen des Adlerbrunnens trat roter Sand aus. Livia zeigt ihn beiden und sagt, sie kenne solchen Sand vom alten Steinbruch, während an der Morgenquelle heller Fels liege. Wie der Sand in den Brunnen kam und ob der Steinbruch mit dem Ausfall zusammenhängt, ist unklar.",
       "interpretation": "observation"
+    },
+    {
+      "clue_id": "clue-note",
+      "discovered_event_id": "event-000005",
+      "known_by": [
+        "pc-1",
+        "pc-2"
+      ],
+      "revealed_text": "Livia berichtet mündlich, Neria habe gestern Abend einen alten Wasserabzweig beim Steinbruch prüfen wollen und sei noch nicht zurück. Die schriftliche Notiz wurde weder gezeigt noch gelesen; ihr weiterer Inhalt ist unbekannt.",
+      "interpretation": "observation"
     }
   ],
   "party_hypotheses": [],
@@ -130,7 +140,7 @@
       "npc_id": "npc-livia",
       "attitude": "open",
       "location_id": "loc-forum",
-      "notes": "Hat mit Augustus die Abdeckung abgehoben. Sichtbarer Einlauf ohne Zufluss und keine Verstopfung im geöffneten Bereich. Zeigt beiden roten Sand, den sie vom alten Steinbruch kennt; Zusammenhang nur Vermutung. Herkunft des Brunnennachschubs: Morgenquelle genannt."
+      "notes": "Hat beiden Wasserweg Morgenquelle–Aquädukt–Mühlentor–Stadt sowie Weg zum Steinbruch über den Hafen erklärt. Berichtet, dass ihre Meisterin Neria seit dem geplanten Prüfgang zum alten Abzweig am Vorabend nicht zurück ist. Möchte Ursache klären und Meisterin finden. Reise noch nicht vereinbart."
     },
     {
       "npc_id": "npc-neria",
@@ -207,12 +217,20 @@
       "visibility": "public",
       "key": "fountain-inlet-flow",
       "value": false
+    },
+    {
+      "id": "change-000005-route",
+      "text": "Livia erläutert beiden den regulären Wasserweg: Morgenquelle, Aquädukt, Kontrolle beim Mühlentor, Stadtleitungen. Mühlentor etwa 30 Minuten vom Forum; Steinbruch über Hafen insgesamt etwa 45 Minuten. Noch keine Reise und keine Verbindung zur aktuellen Ursache bewiesen.",
+      "source_event_id": "event-000005",
+      "visibility": "public",
+      "key": "water-route-known",
+      "value": true
     }
   ],
   "quests": [
     {
       "quest_id": "quest-investigate",
-      "status": "unseen",
+      "status": "active",
       "reward_granted": false
     },
     {
@@ -266,7 +284,13 @@
     },
     {
       "id": "thread-fountain",
-      "summary": "Brunnenabdeckung geöffnet. Im sichtbaren Bereich keine Verstopfung, aber kein Zufluss. Livia nennt die Morgenquelle als Wasserversorgung und vermutet eine Verbindung zwischen rotem Sand und altem Steinbruch. Nächster Ansatz frei.",
+      "summary": "Brunnenabdeckung offen. Kein Zufluss; Sand ähnelt Steinbruchsand. Wasserweg erklärt. Mühlentor bietet Kontrollstelle, Steinbruch möglichen Zusammenhang. Beide entscheiden über nächsten Schritt.",
+      "status": "open",
+      "visibility": "public"
+    },
+    {
+      "id": "thread-neria",
+      "summary": "Livia vermisst die Rückkehr ihrer Meisterin Neria vom Prüfgang zum alten Abzweig beim Steinbruch. Aufenthaltsort und Grund ihres Ausbleibens unbekannt.",
       "status": "open",
       "visibility": "public"
     }
@@ -274,11 +298,11 @@
   "pending_action": null,
   "pending_roll": null,
   "challenge": null,
-  "pending_prompt": "Was macht ihr als Nächstes? Ihr könnt Livia nach dem Steinbruch oder dem Wasserweg fragen – oder etwas anderes versuchen.",
+  "pending_prompt": "Wollt ihr zum Mühlentor, zum Steinbruch oder zunächst noch etwas anderes klären?",
   "spotlight": {
-    "last_actor_id": "pc-2",
-    "next_actor_id": "pc-1"
+    "last_actor_id": "pc-1",
+    "next_actor_id": "pc-2"
   },
-  "last_narration": "„Ich denke, er kriegt das hin. Ansonsten nimm den Fluss“, antwortet Cäsar.\n\nDer Bäcker nickt nachdenklich. „Als Notbehelf … ja. Ich müsste nur einen Wagen auftreiben. Mit einzelnen Krügen bin ich den ganzen Tag unterwegs.“\n\n„Auf drei“, sagt Livia zu Augustus. „Eins, zwei – drei!“\n\nGemeinsam hebt ihr die Steinplatte aus ihrer Fassung. Sie ist schwer, aber mit Livias Hilfe kannst du sie sicher auf dem Pflaster absetzen. Kein Würfelwurf nötig.\n\nDarunter liegt eine schmale, gemauerte Wasserrinne. Die Steine glänzen noch feucht, doch aus der Zuleitung kommt kein frisches Wasser nach.\n\nLivia beugt sich vor. „Hier ist nichts verstopft. Es kommt einfach nichts mehr an.“ Sie richtet sich wieder auf und zeigt euch etwas von dem roten Sand aus dem Brunnenbecken auf ihrer Handfläche.\n\n„Merkwürdig. Solchen Sand kenne ich vom alten Steinbruch. Bei unserer Morgenquelle gibt es dagegen hellen Fels.“\n\nSie blickt von Cäsar zu Augustus. „Vielleicht hat das miteinander zu tun. Aber wie der Sand hierherkommt, weiß ich nicht.“",
-  "last_resolution": "Cäsar schlägt dem Bäcker den Fluss als Notbehelf vor; dieser erwägt einen Wagen. Augustus hebt mit Livia die Platte sicher ab. Kein Zufluss sichtbar; Livia erkennt eine Ähnlichkeit des roten Sands mit dem am alten Steinbruch, ohne Ursache zu kennen."
+  "last_narration": "Livia kniet sich neben die offene Rinne und zeichnet mit dem Finger Linien in den Staub.\n\n„Die Morgenquelle liegt oben in den Hügeln. Ihr Wasser fließt durch den Aquädukt – die lange steinerne Wasserleitung. Beim Mühlentor können wir nachsehen, ob noch etwas in Richtung Stadt fließt. Von dort führen Leitungen zu den Brunnen und zum Badehaus.“\n\nSie zieht eine zweite Linie.\n\n„Der alte Steinbruch liegt auf der anderen Seite, hinter dem Flusshafen. Dort wurden früher Steine für die Stadt geschlagen. Wenn ihr am Hafen dem Karrenweg folgt, erreicht ihr ihn nach ungefähr einer halben Stunde.“\n\nIhr Finger bleibt auf der Zeichnung liegen.\n\n„Meine Meisterin Neria wollte gestern Abend einen alten Wasserabzweig beim Steinbruch prüfen. Sie ist noch nicht zurück.“ Livia sieht euch an. „Ich hatte gehofft, sie wäre nur früh wieder an die Arbeit gegangen. Aber jetzt …“\n\nSie wischt sich die staubigen Hände an der Tunika ab.\n\n„Zum Mühlentor brauchen wir von hier ungefähr eine halbe Stunde. Dort könnten wir den Zufluss prüfen. Zum Steinbruch wäre es über den Hafen etwa eine Dreiviertelstunde. Vielleicht finden wir dort Neria.“",
+  "last_resolution": "Cäsars Fragen beantwortet: Wasserweg und zwei Reisewege erläutert; Livia berichtet von Nerias geplantem Prüfgang zum alten Abzweig am Steinbruch und ihrer ausstehenden Rückkehr. Noch keine Reise beschlossen oder begonnen."
 }

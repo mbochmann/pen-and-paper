@@ -1,17 +1,19 @@
 # Unser Abenteuerjournal
 
-**Speicherpunkt 4 – Unter der Steinplatte.**
+**Speicherpunkt 5 – Zwei Spuren.**
 
-Cäsar und Augustus stehen mit Livia am ausgefallenen Adlerbrunnen auf dem Forum. Beide kennen sich aus dem Rednerstudium; Cäsar ist Redner, Augustus Schildwächter.
+Cäsar und Augustus stehen mit Livia am Forum. Die Brunnenabdeckung ist geöffnet. Die Rinne ist feucht, im sichtbaren Bereich unverstopft; es kommt kein frisches Wasser an. Roter Sand ähnelt laut Livia dem Sand vom alten Steinbruch. Der Zusammenhang ist ungeklärt.
 
-Cäsar hat dem Bäcker gesagt, er traue Augustus die Reparatur zu; andernfalls könne der Bäcker den Fluss nutzen. Der Bäcker erwägt dafür einen Wagen. Es wurde noch nichts organisiert.
+Auf Cäsars Fragen erklärt Livia:
 
-Augustus und Livia haben die Steinabdeckung gemeinsam sicher abgehoben. Darunter liegt eine noch feuchte Rinne. Im sichtbaren Bereich ist nichts verstopft, aber aus der Zuleitung kommt kein frisches Wasser.
+- Das Wasser kommt aus der Morgenquelle und fließt über den Aquädukt sowie Leitungen beim Mühlentor zu den Brunnen und zum Badehaus. Am Mühlentor lässt sich der Zufluss prüfen; etwa 30 Minuten Weg.
+- Zum alten Steinbruch gelangt man über den Flusshafen, insgesamt ungefähr 45 Minuten vom Forum.
+- Ihre Meisterin Neria wollte gestern Abend einen alten Wasserabzweig am Steinbruch prüfen und ist noch nicht zurück. Wir kennen weder ihren aktuellen Ort noch den Grund ihres Ausbleibens. Diese Auskunft stammt aus Livias Erzählung; eine schriftliche Notiz haben wir nicht gesehen.
 
-**Unser Hinweis:** Livia kennt roten Sand wie den aus dem Brunnen vom alten Steinbruch. Bei der Morgenquelle, die den Brunnen versorgt, gebe es hingegen hellen Fels. Ob und wie das zusammenhängt, ist offen.
+Der Bäcker erwägt auf Cäsars Vorschlag hin Flusswasser als Notbehelf, braucht dafür aber einen Wagen. Noch nichts organisiert.
 
-Beide weiterhin 4 Mut und 2 Glück; 12 gemeinsame Sesterzen. Kein Würfelwurf nötig, keine Zeitphase verbraucht.
+Wir haben noch keinen Reiseweg gewählt. Beide 4 Mut und 2 Glück; gemeinsame 12 Sesterzen. Kein Wurf und kein Zeitphasenschritt.
 
-**Nächste Frage:** Was macht ihr als Nächstes? Ihr könnt Livia nach dem Steinbruch oder dem Wasserweg fragen – oder etwas anderes versuchen.
+**Nächste Frage:** Wollt ihr zum Mühlentor, zum Steinbruch oder zunächst noch etwas anderes klären?
 
-[Figurenblatt](party.md)
+[Figurenblatt](party.md) · [Bekannte Karte](map.md)
