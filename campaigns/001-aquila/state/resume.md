@@ -1,14 +1,13 @@
-# Übergabe – Revision 6
+# Übergabe – Revision 7
 
-- Letztes Event: `event-000006`; Sitzung 1; Gruppe getrennt. Globaler Spotlight `scene-03` / `loc-gate`, Cäsar. Augustus parallel `scene-05` / `loc-quarry`.
-- Beide Orte ausdrücklich gewählt. Die kurze Werkstatt-Leihgabe und parallele Reise sind erledigt; keine eigenmächtige weitere Handlung. Eine Zeitphase vergangen, Knappheit 1/6, Vertuschung 0/4.
-- Je zwei geliehene Brieftauben samt Körben/Zetteln, vier registrierte Item-IDs. Je 6/6 Plätze; keine Kosten. Alle fliegen zu Livias Werkstatt. Noch keine Nachricht geschickt. Livia nach Schließen der Abdeckung mit dem Bäcker in Werkstatt, Bäcker weiter Forum.
-- Cäsar hört Wasser oben im Aquädukt (nur Rohbeobachtung von clue-flow). Neutrale Wache vor Wartungstreppe fragt Anliegen und Zweck der Taubenkörbe. Noch kein Zugang, keine Probe, kein Wort für Cäsar erfunden.
-- Augustus sah beim Durchgang am Hafen keine ausgespielten neuen Hinweise. Am Steinbruch rote Erde, frische Wagenspuren, sichtbarer Wasserzulauf ins Becken (nur Rohbeobachtung von clue-diversion, keine bewiesene Sabotage). Unbekannte Stimme ruft aus tieferer Öffnung. Er hat Neria noch nicht identifiziert, keinen Raum betreten und niemanden gerettet.
-- Wissen getrennt halten; `known_by` beachten. Neue Beobachtungen nicht automatisch in jeweils anderen Dialog übernehmen. Keine Aktbelohnung ausgelöst.
-- Beide 4 Mut/2 Glück, 12 gemeinsame Sesterzen; Aufteilung der Münzen noch nicht festgelegt, bei nötiger Ausgabe abstimmen. Talente unverbraucht. Keine offene Probe.
-- Kurze Handlungsblöcke abwechseln; Ankünfte zeitlich leicht versetzt, keine Warteentscheidung für Cäsar annehmen. Details in `gm/pigeons.md`.
+- Letztes Event: `event-000007`; zwei parallele Szenen, globaler Einstieg `scene-03` / `loc-gate`, Cäsar. Augustus `scene-05`, am sicheren Rand über `loc-cistern` im Steinbruch; nicht hinabgeklettert.
+- Cäsar wollte die Wache durch Erlerntes überzeugen. Als normale Redekunst und sachliche Erklärung (Brunnenausfall, Hilfe für Livia) ausgeführt. Wache erlaubt Inspektion unter Begleitung. Kein Wurf, kein automatischer Talentverbrauch. Er hat noch weder Kontrollöffnung noch Prüfkasten untersucht. Wache will Schäden vermeiden.
+- Augustus ruft, folgt Antwort sicher zur Öffnung und sieht Neria: trockener Wartungsraum etwa eine Körperlänge tiefer, kaputter Steg, Knöchel schmerzt, Lampe, geschlossene seitliche Wartungstür. Sie ist sicher und ansprechbar. Noch nicht gerettet.
+- Neria hat verstellte Schieber und Umleitung hierher statt Stadt benannt sowie morgens gehörte Wagen. `clue-neria` nur Augustus. Kein Tätername, keine vollständige Bedienanleitung. Keine Blockade von Hinweisen hinter Rettungsprobe.
+- Erster Meilenstein erreicht: `quest-investigate` completed/reward_granted. Beide jetzt 1 Fortschrittspunkt, Glück 2. Nicht erneut gewähren. Wissen weiter getrennt; Cäsar und Livia nicht informiert.
+- Rettung aktiv, konkrete Methode offen. Sichere Materiallösung ohne Wurf; riskante Improvisation erst mit angekündigter Probe/Kosten. Verfügbare Vorräte tatsächlich prüfen: kein Seil bei Augustus; 2 Taubenkörbe, Stab, Schild usw. Seitentür oder Leiter als alternative Wege zugänglich. Keine magisch neu auftauchende Ausrüstung.
+- Mut beide 4, Glück beide 2, je 6/6 Plätze und je 2 Tauben unverbraucht; 12 gemeinsame Sesterzen. Knappheit 1/6, Vertuschung 0/4, keine weitere Phase.
 
 ## Exakte nächste Frage
 
-Cäsar: Was antwortest du der Wache? Augustus: Wie gehst du dem Ruf nach?
+Cäsar: Was möchtest du an der Wasserleitung untersuchen? Augustus: Wie möchtest du Neria heraushelfen?

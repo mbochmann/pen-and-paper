@@ -1,6 +1,6 @@
 # Cäsar und Augustus
 
-Stand: Speicherpunkt 6. Aktuelle veränderliche Werte stehen verbindlich in `state/current.json`; dieses Blatt bei Änderungen aktualisieren.
+Stand: Speicherpunkt 7. Aktuelle veränderliche Werte stehen verbindlich in `state/current.json`; dieses Blatt bei Änderungen aktualisieren.
 
 | Eigenschaft | Cäsar – Redner | Augustus – Schildwächter |
 |---|---:|---:|
@@ -10,7 +10,7 @@ Stand: Speicherpunkt 6. Aktuelle veränderliche Werte stehen verbindlich in `sta
 | Herz | +2 | +1 |
 | Mut | 4 / 4 | 4 / 4 |
 | Glück | 2 / 2 | 2 / 2 |
-| Fortschrittspunkte | 0 | 0 |
+| Fortschrittspunkte | 1 | 1 |
 
 **Cäsar – Ein offenes Ohr:** Einmal pro Szene hört ein ansprechbarer Mensch euch ungestört an und nennt einen wahren persönlichen Beweggrund. Das zwingt ihn nicht, euch zu glauben. Talent noch verfügbar.
 

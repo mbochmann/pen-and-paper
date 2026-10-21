@@ -1,17 +1,15 @@
 # Unser Abenteuerjournal
 
-**Speicherpunkt 6 – Getrennte Wege.**
+**Speicherpunkt 7 – Neria gefunden.**
 
-Livia hat jedem von uns zwei Brieftauben in kleinen Körben samt Nachrichtenzetteln geliehen. **Alle vier fliegen zu ihrer Werkstatt zurück.** Sie erreichen nicht direkt den jeweils anderen Helden. Livia wartet in der Werkstatt auf Nachrichten. Noch keine Taube wurde losgeschickt. Beide Inventare belegen 6 von 6 Plätzen.
+**Cäsar am Mühlentor:** Seine Redekunst überzeugt die Wache, eine Inspektion unter ihrer Begleitung zu erlauben. Sie will Schäden an der Anlage verhindern. Kontrollöffnung und Prüfkasten können untersucht werden; das ist noch nicht passiert. Sein besonderes Talent bleibt verfügbar.
 
-Die Brunnenabdeckung ist wieder geschlossen. Wir sind getrennt aufgebrochen. Für die gleichzeitigen Wege ist eine gemeinsame Zeitphase vergangen.
+**Augustus am Steinbruch:** Er hat auf den Ruf geantwortet und die Person vom sicheren Rand aus geortet. Es ist Neria. Sie sitzt nach einem Stegbruch mit schmerzendem Knöchel in einem trockenen Wartungsraum, etwa eine Körperlänge unter ihm. Dort ist sie sicher. Eine geschlossene seitliche Tür ist erkennbar. Rettungsmethode noch offen.
 
-**Cäsars Wissen:** Am Mühlentor rauscht Wasser oben im Aquädukt. Eine Wache steht vor der Wartungstreppe und fragt nach seinem Anliegen und den Taubenkörben. Er hat noch nicht geantwortet und die Anlage nicht untersucht.
+Neria berichtet Augustus: Jemand hat die Schieber verstellt; das Wasser läuft ins Steinbruchbecken statt zur Stadt. Heute früh hörte sie Wagen am Becken. Täter und genauer Mechanismus sind noch nicht geklärt. **Cäsar und Livia kennen diese Aussage noch nicht.** Keine Taube versendet.
 
-**Augustus' Wissen:** Im alten Steinbruch liegen rote Erde und frische Wagenspuren. Klares Wasser fließt in ein Becken. Aus einer tieferen Öffnung ruft jemand nach Hilfe. Er weiß noch nicht, wer dort ist oder weshalb das Wasser ins Becken läuft.
+**Ermittlungsmeilenstein:** Die konkrete Spur zur Umleitung bringt beiden einmalig 1 Fortschrittspunkt; Glück auf 2. Beide haben weiterhin 4 Mut, je zwei Tauben und 6/6 Ausrüstungsplätze. Gemeinsame Kasse 12 Sesterzen. Kein Wurf, kein weiterer Zeitphasenschritt.
 
-Diese Beobachtungen wurden noch nicht zwischen unseren Figuren ausgetauscht. Beide 4 Mut und 2 Glück; gemeinsame 12 Sesterzen. Kein Würfelwurf.
+**Nächste Frage:** Cäsar: Was möchtest du an der Wasserleitung untersuchen? Augustus: Wie möchtest du Neria heraushelfen?
 
-**Nächste Frage:** Cäsar: Was antwortest du der Wache? Augustus: Wie gehst du dem Ruf nach?
-
-[Figurenblatt](party.md) · [Bekannte Karte](map.md)
+[Figurenblatt](party.md)

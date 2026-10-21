@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "campaign_id": "aquila-001",
-  "revision": 6,
-  "last_event_id": "event-000006",
-  "updated_at": "2026-10-21T16:21:35.701Z",
+  "revision": 7,
+  "last_event_id": "event-000007",
+  "updated_at": "2026-10-21T16:28:12.211Z",
   "phase": "playing",
   "session": 1,
   "game_time": {
@@ -35,7 +35,7 @@
       },
       "courage": 4,
       "luck": 2,
-      "advancement": 0,
+      "advancement": 1,
       "talent_used": false,
       "rally_used": false,
       "equipment": [
@@ -86,7 +86,7 @@
       },
       "courage": 4,
       "luck": 2,
-      "advancement": 0,
+      "advancement": 1,
       "talent_used": false,
       "rally_used": false,
       "equipment": [
@@ -167,7 +167,16 @@
       "known_by": [
         "pc-2"
       ],
-      "revealed_text": "Augustus sieht bei seiner Ankunft im alten Steinbruch klares Wasser in ein Becken laufen. Er kennt noch weder Zuflussweg noch Grund dafür; absichtliche Umleitung nicht nachgewiesen.",
+      "revealed_text": "Augustus sieht klares Wasser im Steinbruchbecken. Die dort angetroffene Wassermeisterin Neria berichtet von verstellten Schiebern und einer Umleitung hierher statt zur Stadt. Damit gibt es eine begründete konkrete Spur eines menschlichen Eingriffs; Verantwortlicher und genauer Mechanismus noch nicht selbst geprüft.",
+      "interpretation": "observation"
+    },
+    {
+      "clue_id": "clue-neria",
+      "discovered_event_id": "event-000007",
+      "known_by": [
+        "pc-2"
+      ],
+      "revealed_text": "Neria identifiziert sich gegenüber Augustus. Nach Stegbruch sitzt sie mit schmerzendem Knöchel sicher im trockenen Wartungsraum fest. Sie sagt, jemand habe Schieber verstellt, sodass Wasser ins Steinbruchbecken statt zur Stadt laufe; heute früh habe sie Wagen am Becken gehört. Kein Tätername genannt.",
       "interpretation": "observation"
     }
   ],
@@ -181,9 +190,9 @@
     },
     {
       "npc_id": "npc-neria",
-      "attitude": "unknown",
+      "attitude": "open",
       "location_id": "loc-cistern",
-      "notes": "Im trockenen Wartungsraum; hat die Ankunft am Steinbruch gehört und nach Hilfe gerufen. Augustus hat die Stimme gehört, aber die Sprecherin noch nicht gesehen oder identifiziert. Keine Rettung oder Sachauskunft erfolgt."
+      "notes": "Augustus hat sie vom Rand aus geortet und als Neria kennengelernt. Sitzt sicher mit schmerzendem Knöchel im trockenen Raum nach Stegbruch. Hat verstellte Schieber und Wasserumleitung zum Becken sowie morgens gehörte Wagen genannt. Noch nicht gerettet. Cäsar weiß von diesem Gespräch nichts."
     },
     {
       "npc_id": "npc-marcellus",
@@ -225,7 +234,7 @@
       "npc_id": "npc-gatekeeper",
       "attitude": "neutral",
       "location_id": "loc-gate",
-      "notes": "Kontrolliert Zutritt zur Wartungstreppe; fragt Cäsar nach Anliegen und Taubenkörben. Keine Feindseligkeit oder Kampfhandlung. Kennt die Helden und Livias Auftrag noch nicht."
+      "notes": "Cäsar hat Brunnenausfall und Hilfe für Livia erklärt. Gestattet Inspektion unter eigener Begleitung und nennt Schutz vor Beschädigung als Motiv. Treppe frei; noch keine konkrete Untersuchung oder unbeaufsichtigte Erlaubnis."
     }
   ],
   "world_changes": [
@@ -332,17 +341,41 @@
       "visibility": "public",
       "key": "party-split",
       "value": true
+    },
+    {
+      "id": "change-000007-gate-inspection-permitted",
+      "text": "Wache erlaubt Cäsar Inspektion unter Begleitung; noch keine Untersuchung ausgeführt.",
+      "source_event_id": "event-000007",
+      "visibility": "public",
+      "key": "gate-inspection-permitted",
+      "value": true
+    },
+    {
+      "id": "change-000007-neria-located",
+      "text": "Nur Augustus hat Neria im trockenen Wartungsraum lokalisiert und angesprochen. Sie ist sicher, aber noch nicht befreit.",
+      "source_event_id": "event-000007",
+      "visibility": "public",
+      "key": "neria-located",
+      "value": true
+    },
+    {
+      "id": "change-000007-act-one-completed",
+      "text": "Konkrete Spur zur gezielten Umleitung durch Nerias Aussage und sichtbaren Wasserzulauf. Akt I einmalig abgeschlossen; beide Figuren +1 Fortschrittspunkt, Glück auf 2. Figurenwissen bleibt getrennt.",
+      "source_event_id": "event-000007",
+      "visibility": "public",
+      "key": "act-one-completed",
+      "value": true
     }
   ],
   "quests": [
     {
       "quest_id": "quest-investigate",
-      "status": "active",
-      "reward_granted": false
+      "status": "completed",
+      "reward_granted": true
     },
     {
       "quest_id": "quest-rescue",
-      "status": "unseen",
+      "status": "active",
       "reward_granted": false
     },
     {
@@ -397,31 +430,31 @@
     },
     {
       "id": "thread-neria",
-      "summary": "Livia vermisst die Rückkehr ihrer Meisterin Neria vom Prüfgang zum alten Abzweig beim Steinbruch. Aufenthaltsort und Grund ihres Ausbleibens unbekannt.",
+      "summary": "Augustus hat Neria gefunden; schmerzender Knöchel nach Stegbruch, sicher im trockenen Raum. Rettungsmethode offen. Cäsar und Livia noch nicht informiert.",
       "status": "open",
       "visibility": "public"
     },
     {
       "id": "thread-gatekeeper",
-      "summary": "Cäsar steht vor der Wartungstreppe. Die Wache fragt nach Anliegen und Taubenkörben; Antwort offen.",
-      "status": "open",
+      "summary": "Cäsar darf unter Begleitung der Wache zur Inspektion. Konkreter Untersuchungsansatz noch offen.",
+      "status": "resolved",
       "visibility": "public"
     },
     {
       "id": "thread-quarry-call",
-      "summary": "Augustus hört einen Hilferuf aus tieferer Öffnung beim Steinbruch. Quelle des Rufs noch nicht identifiziert; Annäherung offen.",
-      "status": "open",
+      "summary": "Augustus hat die Rufende als Neria im trockenen Wartungsraum identifiziert.",
+      "status": "resolved",
       "visibility": "public"
     }
   ],
   "pending_action": null,
   "pending_roll": null,
   "challenge": null,
-  "pending_prompt": "Cäsar: Was antwortest du der Wache? Augustus: Wie gehst du dem Ruf nach?",
+  "pending_prompt": "Cäsar: Was möchtest du an der Wasserleitung untersuchen? Augustus: Wie möchtest du Neria heraushelfen?",
   "spotlight": {
     "last_actor_id": "pc-2",
     "next_actor_id": "pc-1"
   },
-  "last_narration": "Livia organisiert vier Brieftauben aus dem Schlag ihrer nahen Werkstatt. Jeder von euch erhält zwei Vögel in kleinen Transportkörben samt Nachrichtenzetteln.\n\n„Sie fliegen zu meiner Werkstatt zurück“, erklärt sie. „Schreibt euren Standort dazu. Dann weiß ich, wo ihr Hilfe braucht. Sie finden nicht den jeweils anderen von euch.“ Sie bleibt als Empfängerin in der Stadt. Bevor ihr aufbrecht, setzt sie mit dem Bäcker die Brunnenplatte wieder ein.\n\nDie Körbe belegen eure jeweils zwei freien Ausrüstungsplätze. Ihr reist gleichzeitig; für eure Wege vergeht insgesamt eine Zeitphase.\n\n**Cäsar – am Mühlentor**\n\nNach etwa einer halben Stunde erreichst du die hohen Steinbögen des Aquädukts. Über dir hörst du deutlich Wasser rauschen. Eine schmale Wartungstreppe führt zu einer Kontrollöffnung. Davor steht eine Wache mit einem Speer.\n\n„Halt. Was möchtest du bei der Wasserleitung?“ Ihr Blick fällt auf deine Taubenkörbe. „Und was haben die damit zu tun?“\n\n**Augustus – am Steinbruch**\n\nDu gehst am Hafen vorbei und folgst dem Karrenweg. Nach etwa einer Dreiviertelstunde erreichst du die hellen Felswände. Rote Erde knirscht unter deinen Sandalen. Frische Wagenspuren führen zwischen die Steine.\n\nHinter einer niedrigen Mauer siehst du klares Wasser in ein großes Becken fließen.\n\nDann hörst du eine Stimme aus einer tiefer liegenden Öffnung:\n\n„He! Ist da jemand? Hier unten!“",
-  "last_resolution": "Vier geliehene Heimkehrtauben mit Ziel Livias Werkstatt ausgegeben; Gruppe reist getrennt. Cäsar am Mühlentor vor einer Wache, Augustus am Steinbruch bei Wasserbecken und unbekanntem Hilferuf. Noch keine neuen Reaktionen entschieden."
+  "last_narration": "**Cäsar – am Mühlentor**\n\nDu setzt deine Redekunst ein und erklärst ruhig euer Anliegen: Der Brunnen ist ausgefallen, und du hilfst Livia, die Ursache zu finden.\n\nDie Wache hört zu. „Livia? Dann sag das doch gleich. Ich muss verhindern, dass jemand hier oben etwas beschädigt.“ Sie gibt die Treppe frei. „Du darfst nachsehen. Ich komme mit.“\n\nDein sachliches Auftreten genügt; dafür brauchst du weder einen Würfelwurf noch dein besonderes Talent zu verbrauchen. Oben liegen die Kontrollöffnung und ein kleiner Prüfkasten.\n\n**Augustus – am Steinbruch**\n\nAuf deinen Ruf kommt sofort eine Antwort: „Beim zerbrochenen Steg! Schau über die Kante!“\n\nDu folgst der Stimme und entdeckst eine Frau in einem trockenen Wartungsraum, ungefähr eine Körperlänge unter dir. Neben ihr steht eine Lampe. Sie hält ihren Knöchel; hinter ihr erkennst du eine geschlossene seitliche Tür.\n\n„Ich bin Neria. Der Steg ist unter mir gebrochen. Mein Fuß macht nicht mit, aber hier unten bin ich sicher.“\n\nSie deutet zum Wasserbecken. „Jemand hat die Schieber verstellt. Das Wasser läuft jetzt hierher statt zur Stadt! Und heute früh habe ich Wagen am Becken gehört.“\n\nSie schaut zu dir hinauf. „Kannst du mir heraushelfen?“",
+  "last_resolution": "Cäsar erhält durch sachliche Redekunst Zugang unter Begleitung der Wache. Augustus ortet Neria sicher im trockenen Wartungsraum und erfährt von den verstellten Schiebern; Rettungsmethode noch offen. Erster Ermittlungsmeilenstein erreicht."
 }
