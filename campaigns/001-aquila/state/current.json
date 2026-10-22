@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "campaign_id": "aquila-001",
-  "revision": 19,
-  "last_event_id": "event-000019",
-  "updated_at": "2026-10-22T05:33:36.332Z",
+  "revision": 20,
+  "last_event_id": "event-000020",
+  "updated_at": "2026-10-22T05:38:39.484Z",
   "phase": "playing",
   "session": 1,
   "game_time": {
@@ -211,6 +211,16 @@
       ],
       "revealed_text": "Beide lesen bei Publius unter Aufsicht das Original: Reserveauftrag von gestern vor Schließung des Wasseramts; Auftraggeber Verwaltung G.Marcellus; Sextus soll Steinbruchbecken füllen, drei Wasserwagen vor Sonnenaufgang bereitstellen. Abrechnung nach verkauften Krügen; fortgesetzte Versorgung morgen dem Rat vorlegen. Vorschuss ausgezahlt, Amtsmarke Marcellus. Auftrag damit vor Brunnenausfall. Keine Anweisung zur Sperrung der Stadtleitung und kein Name des Schieberbedieners im Eintrag. Original verbleibt bei Publius; keine Abschrift.",
       "interpretation": "confirmed"
+    },
+    {
+      "clue_id": "clue-confession",
+      "discovered_event_id": "event-000020",
+      "known_by": [
+        "pc-1",
+        "pc-2"
+      ],
+      "revealed_text": "Marcellus gesteht beiden im Büro: Die Umleitung war seine Anordnung; der Keil hielt RESERVE offen, STADT wurde geschlossen. Wasser sollte ins Steinbruchbecken und von dort verkauft werden, damit er einen dauerhaften Versorgungsauftrag vom Rat erhält. Er gesteht Verantwortung für die Manipulation, nicht ausdrücklich eigene Handgriffe. Keine Aussage zu Livias Arbeitsanweisung. Cassia noch nicht anwesend.",
+      "interpretation": "confirmed"
     }
   ],
   "party_hypotheses": [],
@@ -231,7 +241,7 @@
       "npc_id": "npc-marcellus",
       "attitude": "distant",
       "location_id": "loc-harbor",
-      "notes": "Im Hafen-Verwaltungsgebäude persönlich von beiden Helden angesprochen. Bestätigt wahrheitsgemäß gestrige Besichtigung des Verteilerhauses; stellt Zweck beschönigend als Reservevorsorge dar. Kennt jetzt ihr gezieltes Interesse am eigenen Verteilerbesuch, aber nicht ihre Reparatur, den Keilbefund, Zeugengespräche oder die gelesene Abrechnung. Kein Geständnis, keine Aktenänderung oder Nachricht ausgespielt. Fragt nach ungewöhnlichen Feststellungen."
+      "notes": "Von Cäsar konkret mit Keil/Schiebern befragt. Herzprobe12 gegen9: gesteht beiden wahrheitsgemäß, die Umleitung angeordnet zu haben: Reserve mit Keil offen, Stadtleitung zu; Wasserverkauf vom Steinbruch und dauerhafter Vertrag als Ziel. Kein Eingeständnis eigener physischer Bedienung. Kennt jetzt ihren technischen Befund, aber nicht automatisch alle früheren Gespräche oder die Dokumenteneinsicht. Fragt nach ihrem weiteren Umgang. Noch kein offizielles Verfahren, keine Flucht/Beweisvernichtung/Abmachung."
     },
     {
       "npc_id": "npc-sextus",
@@ -988,6 +998,38 @@
       "key": "marcellus-distributor-visit",
       "value": "yesterday",
       "text": "Bisher offene persönliche Anwesenheit konkretisiert: Marcellus hat das Verteilerhaus gestern tatsächlich besichtigt. Er verharmlost seine bekannte Absicht als Vorsorge. Physischer Schieberbediener weiterhin nicht festgelegt; keine Änderung der vorbereiteten Täterschaft."
+    },
+    {
+      "id": "change-000020-1",
+      "source_event_id": "event-000020",
+      "visibility": "public",
+      "key": "marcellus-informed-of-technical-findings",
+      "value": true,
+      "text": "Cäsar bringt Holzkeil und manipulierte Schieber zur Sprache. Marcellus kennt nun diese Befunde. Kein automatisch weiterer Wissenstransfer."
+    },
+    {
+      "id": "change-000020-2",
+      "source_event_id": "event-000020",
+      "visibility": "public",
+      "key": "marcellus-confessed",
+      "value": true,
+      "text": "Marcellus gesteht vor beiden Helden die Anordnung der Umleitung und das Motiv Wasserverkauf/Folgeauftrag. Kein Geständnis über eigene Handgriffe oder Livias Arbeitsanweisung."
+    },
+    {
+      "id": "change-000020-3",
+      "source_event_id": "event-000020",
+      "visibility": "public",
+      "key": "responsibility-established",
+      "value": true,
+      "text": "Verantwortung für Umleitung durch überzeugendes Geständnis geklärt. quest-accountability abgeschlossen, keine eigene Belohnung. Offizielle Behandlung und gewählte Hauptlösung noch offen."
+    },
+    {
+      "id": "change-000020-4",
+      "source_event_id": "event-000020",
+      "visibility": "public",
+      "key": "confession-witnesses",
+      "value": "pc-1,pc-2",
+      "text": "Beide Helden hören Geständnis; Cassia nicht anwesend. Keine weiteren Mithörer ohne ausgespielte Ursache."
     }
   ],
   "quests": [
@@ -1013,7 +1055,7 @@
     },
     {
       "quest_id": "quest-accountability",
-      "status": "active",
+      "status": "completed",
       "reward_granted": false
     },
     {
@@ -1089,7 +1131,13 @@
     },
     {
       "id": "thread-responsibility",
-      "summary": "Originalauftrag mit Datum/Verkaufsplan gelesen, Sextus nennt Marcellus als Auftraggeber. Marcellus bestätigt nun gestrigen Verteilerbesuch und stellt Reservevorsorge als Grund dar. Technische Befunde und gelesener Auftrag ihm noch nicht vorgehalten; seine Rückfrage offen.",
+      "summary": "Marcellus gesteht beiden die Anordnung der Umleitung aus Profit-/Vertragsinteresse. Verantwortlichkeit geklärt; wie sie vorgehen (Cassia, Wiedergutmachung oder eigener Plan), ist offen.",
+      "status": "resolved",
+      "visibility": "public"
+    },
+    {
+      "id": "thread-confession-response",
+      "summary": "Beide Helden haben Marcellus' Geständnis gehört. Cassia noch nicht informiert, keine Sanktion oder Vereinbarung. Augustus und Cäsar entscheiden jetzt über weiteres Vorgehen.",
       "status": "open",
       "visibility": "public"
     }
@@ -1097,11 +1145,11 @@
   "pending_action": null,
   "pending_roll": null,
   "challenge": null,
-  "pending_prompt": "Was antwortet ihr Marcellus – sprecht ihr ihn auf die Schieber, den vorab erteilten Wasserauftrag oder etwas anderes an?",
+  "pending_prompt": "Augustus: Wie reagierst du auf das Geständnis? Cäsar: Was möchtest du jetzt von Marcellus verlangen?",
   "spotlight": {
-    "last_actor_id": "pc-2",
-    "next_actor_id": "pc-1"
+    "last_actor_id": "pc-1",
+    "next_actor_id": "pc-2"
   },
-  "last_narration": "Publius weist euch zu einer weiteren Tür im Verwaltungsgebäude. Dahinter sitzt ein Mann in einer sorgfältig gefalteten Toga. Auf seinem Tisch liegen Wachstafeln und mehrere Münzen, ordentlich nebeneinander ausgerichtet.\n\n„Gaius Marcellus“, stellt er sich vor. „Was führt euch zu mir?“\n\nIhr fragt nach dem Verteilerhaus. Er legt den Griffel beiseite.\n\n„Ja. Ich habe die Anlage gestern besichtigt. Wir brauchen eine Wasserreserve für die Stadt. Als Verwalter sehe ich mir solche Einrichtungen selbstverständlich an.“\n\nEr blickt von Cäsar zu Augustus.\n\n„Warum interessiert euch mein Besuch? Habt ihr dort etwas Ungewöhnliches festgestellt?“\n\n**Marcellus bestätigt damit selbst einen Besuch am Verteilerhaus. Über die gesperrte Stadtleitung oder den Holzkeil hat er noch nichts gesagt.**",
-  "last_resolution": "Beide suchen Marcellus im Hafen-Verwaltungsgebäude auf. Er bestätigt eigenen Besuch im Verteilerhaus gestern und begründet ihn mit Reserveplanung. Noch kein Sabotagegeständnis. Er erfährt durch direkte Nachfrage erstmals von ihrem Interesse an seinem Verteilerbesuch; Vertuschungsuhr0 auf1, keine Schwellenfolge. Keine zusätzliche Phase/Probe."
+  "last_narration": "**Cäsars Herzprobe: 5 + 5 + 2 = 12 · Ziel: 9 – gelungen.**\n\nDu lässt Marcellus mit seiner allgemeinen Erklärung nicht davonkommen. Ruhig lenkst du das Gespräch auf den Holzkeil, den geschlossenen Stadtschieber und die Frage, wer diese Eingriffe veranlasst hat.\n\nMarcellus richtet eine Münze auf seinem Tisch gerade. Dann hält seine Hand inne.\n\n„Die Umleitung war meine Anordnung.“\n\nEr spricht jetzt leiser.\n\n„Der Keil sollte die Reserve-Schütze offen halten. Die Stadtleitung wurde dafür geschlossen. Das Wasser sollte zum Steinbruch fließen, damit wir es mit den Wagen verkaufen konnten.“\n\nSein Blick sinkt auf die Münzen.\n\n„Wenn meine Wagen die Versorgung gerettet hätten, hätte der Rat mir den dauerhaften Auftrag gegeben. Ich wollte beweisen, dass die Stadt mich braucht.“\n\n**Damit gesteht Marcellus, die Manipulation veranlasst zu haben.** Er sagt nicht, dass er die Schieber eigenhändig bedient hat. Ihr beide habt seine Erklärung gehört; Cassia ist noch nicht dabei.\n\n„Was habt ihr jetzt mit mir vor?“, fragt er.",
+  "last_resolution": "Cäsar befragt Marcellus mit Redekunst zu Keil und Schiebermanipulation. Werkzeugwurf5/5+Herz2=12 gegen9, Erfolg. Marcellus gesteht Anordnung der Umleitung mit blockierter Reserve und geschlossener Stadtleitung, Wasserverkauf und gewünschten Folgeauftrag als Motiv. Keine Behauptung eigenhändiger Schieberbedienung. Verantwortung geklärt, Umgang damit offen."
 }

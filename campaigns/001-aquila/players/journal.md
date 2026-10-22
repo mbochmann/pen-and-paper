@@ -1,15 +1,15 @@
 # Unser Abenteuerjournal
 
-**Speicherpunkt 19 – Marcellus war im Verteilerhaus.**
+**Speicherpunkt 20 – Marcellus gesteht.**
 
-Publius weist Cäsar und Augustus zum Büro des Verwalters im selben Hafengebäude. Marcellus bestätigt auf direkte Nachfrage, dass er das Verteilerhaus gestern besichtigt habe. Als Grund nennt er die Planung einer Wasserreserve. Über die gesperrte Stadtleitung oder den Holzkeil sagt er nichts; er fragt, was die Helden dort festgestellt haben.
+Cäsar befragt Marcellus mit Redekunst nach Holzkeil und Schiebern. Herzprobe:5 +5 +2 =12 gegen9, Erfolg. Kein Glückspunkt oder Talent verbraucht.
 
-Die Helden haben ihm noch keine technischen Beobachtungen oder Dokumentenfunde vorgehalten. Sein Besuch ist damit durch seine eigene Aussage bekannt, aber kein Geständnis der Sabotage.
+Marcellus gesteht beiden, die Umleitung angeordnet zu haben. Der Keil sollte die Reserve-Schütze offen halten, die Stadtleitung wurde dafür geschlossen. Das Wasser sollte zum Steinbruch und anschließend verkauft werden. Mit seinen Wasserwagen wollte er sich als Retter der Versorgung darstellen und einen dauerhaften Auftrag des Rates bekommen.
 
-Bereits bekannt: Sextus nennt Marcellus als Auftraggeber. Der bei Publius gelesene Originalauftrag wurde vor dem Brunnenausfall erteilt und sieht Wasserverkauf sowie eine fortgesetzte Versorgung vor. Original bei Publius, keine Abschrift. [Gelesener Auftrag](handouts/reserveauftrag.md).
+Das Geständnis belegt seine Verantwortung für die Manipulation. Er sagt nicht, dass er die Schieber eigenhändig bedient hat. Cassia hat die Erklärung noch nicht gehört; die Helden entscheiden jetzt über ihr weiteres Vorgehen. Noch keine Vereinbarung oder Strafe.
 
-Wasser gesichert, Neria bei Livia am Forum. Je4 Mut,2 Glück,2 unverbrauchte Fortschrittspunkte;11 gemeinsame Sesterzen. Keine neue Zeitphase oder Probe.
+Beide im Hafenbüro. Wasser gesichert, Neria bei Livia am Forum. Je4 Mut,2 Glück,2 unverbrauchte Fortschrittspunkte;11 gemeinsame Sesterzen. Keine neue Zeitphase oder Belohnung.
 
-**Nächste Frage:** Was antwortet ihr Marcellus – sprecht ihr ihn auf die Schieber, den vorab erteilten Wasserauftrag oder etwas anderes an?
+**Nächste Frage:** Augustus: Wie reagierst du auf das Geständnis? Cäsar: Was möchtest du jetzt von Marcellus verlangen?
 
 [Figurenblatt](party.md)

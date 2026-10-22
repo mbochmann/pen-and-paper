@@ -497,6 +497,14 @@
       "source": "gm/carters.md",
       "origin": "improvised",
       "introduced_by_event_id": "event-000016"
+    },
+    {
+      "id": "clue-confession",
+      "kind": "clue",
+      "name": "Marcellus gesteht die angeordnete Umleitung",
+      "source": "gm/act-3.md",
+      "origin": "improvised",
+      "introduced_by_event_id": "event-000020"
     }
   ],
   "facts": [

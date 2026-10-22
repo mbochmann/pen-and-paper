@@ -1,33 +1,39 @@
-# Wiederaufnahme – Revision 19
+# Wiederaufnahme – Revision 20
 
-Letztes Ereignis: event-000019. Keine offene Probe.
+Letztes Ereignis: event-000020. Probe vollständig aufgelöst, nicht erneut würfeln.
 
-Beide suchen Marcellus im Hafen-Verwaltungsgebäude auf. Er bestätigt eigenen Besuch im Verteilerhaus gestern und begründet ihn mit Reserveplanung. Noch kein Sabotagegeständnis. Er erfährt durch direkte Nachfrage erstmals von ihrem Interesse an seinem Verteilerbesuch; Vertuschungsuhr0 auf1, keine Schwellenfolge. Keine zusätzliche Phase/Probe.
+Cäsar befragt Marcellus mit Redekunst zu Keil und Schiebermanipulation. Werkzeugwurf5/5+Herz2=12 gegen9, Erfolg. Marcellus gesteht Anordnung der Umleitung mit blockierter Reserve und geschlossener Stadtleitung, Wasserverkauf und gewünschten Folgeauftrag als Motiv. Keine Behauptung eigenhändiger Schieberbedienung. Verantwortung geklärt, Umgang damit offen.
 
-Beide bei Marcellus im Büro innerhalb Hafengebäude, loc-harbor/scene-04. Publius im anderen Verwaltungsraum, Originalauftrag dort. Sextus/Fuhrleute draußen bei Wagen. Livia/Neria am Forum. Keine anderen automatischen Mithörer.
+Beide bei Marcellus im Hafenbüro, scene-04. Geständnis beide gehört, Cassia nicht anwesend; kein automatisch weiteres Publikum. quest-accountability abgeschlossen ohne Belohnung. quest-finale weiterhin unseen/unbelohnt: erst Entscheidung und unmittelbare Folgen ausspielen. Keine neuen Beweise verlangen, um Verantwortung anzuerkennen. Geständnis umfasst angeordnete technische Manipulation und Gewinn-/Vertragsmotiv, nicht Livias veränderte Anweisung oder physische Eigenhändigkeit. Letzteres nicht stillschweigend behaupten.
 
-Marcellus bestätigt gestrige Besichtigung. GM: wahr, erstmals festgelegt; nennt Reservevorsorge als beschönigendes Motiv. Weiterhin Planer der absichtlichen Umleitung nach Kanon, physischer Schieberbediener nicht bestimmt. Spielern keine Geständnisse oder Beobachtungen zuschreiben. Er weiß nur von ihrer gezielten Nachfrage, nicht automatisch von Reparatur, Holzkeil, Zeugen oder Dokumenteneinsicht. Nächster Wortwechsel entscheidet, was offengelegt wird. Vertuschungsuhr in scene-04 bereits einmal erhöht; nicht nochmals für jeden Dialog erhöhen. Keine Schwellenfolge bisher.
+Herzprobe ausdrücklich vorab Ziel9/Erfolg/Teilerfolg/Misserfolg angesagt. Tatsächlicher Einzelwurf python.secrets:5/5 +2=12. Kein Glück oder Talent verbraucht, kein Assistenzbonus. Redekunst als Cäsar gedeutet; bei Korrektur des Spielers transparent korrigieren, nicht still neu würfeln. Spotlight jetzt Augustus.
 
-Spieler besitzen genug bekannte Linien für sachliche Untersuchung durch Cassia: eigene Beobachtung der Umleitung und vorab datierter Verkaufsauftrag mit Marcellus' Marke; Sextus bestätigt Auftraggeber. Keine zusätzliche künstliche Beweisschranke. Bisher keine offizielle Untersuchung oder Einigung; keine neue Belohnung.
+Marcellus kennt jetzt den Keil-/Schieberbefund, nicht automatisch die Dokumenteneinsicht oder Reparatur. Es gab noch keine Vereinbarung, Verhaftung, Nachricht an Cassia, Flucht, Aktenvernichtung oder Auszahlung. Vertuschungsuhr1 aktiv, in scene-04 bereits ausgelöst: keine weitere Erhöhung in diesem Dialog. Wasser gesichert.
 
-Zeitphase5; Knappheitsuhr3 inaktiv, Vertuschungsuhr1 aktiv. Je4 Mut/2 Glück/2 unverbrauchte Fortschrittspunkte;11 gemeinsame Sesterzen. Inventar/Tauben unverändert. Keil im Verteilerhaus, keine Abschrift des Auftrags.
+Zeitphase5; Knappheitsuhr3 inaktiv. Je4 Mut/2 Glück/2 unverbrauchte Fortschrittspunkte;11 gemeinsame Sesterzen. Inventar unverändert. Auftrag bei Publius, keine Abschrift; Keil im Verteilerhaus. Livia/Neria am Forum.
 
 ## Zuletzt erzählt
 
-Publius weist euch zu einer weiteren Tür im Verwaltungsgebäude. Dahinter sitzt ein Mann in einer sorgfältig gefalteten Toga. Auf seinem Tisch liegen Wachstafeln und mehrere Münzen, ordentlich nebeneinander ausgerichtet.
+**Cäsars Herzprobe: 5 + 5 + 2 = 12 · Ziel: 9 – gelungen.**
 
-„Gaius Marcellus“, stellt er sich vor. „Was führt euch zu mir?“
+Du lässt Marcellus mit seiner allgemeinen Erklärung nicht davonkommen. Ruhig lenkst du das Gespräch auf den Holzkeil, den geschlossenen Stadtschieber und die Frage, wer diese Eingriffe veranlasst hat.
 
-Ihr fragt nach dem Verteilerhaus. Er legt den Griffel beiseite.
+Marcellus richtet eine Münze auf seinem Tisch gerade. Dann hält seine Hand inne.
 
-„Ja. Ich habe die Anlage gestern besichtigt. Wir brauchen eine Wasserreserve für die Stadt. Als Verwalter sehe ich mir solche Einrichtungen selbstverständlich an.“
+„Die Umleitung war meine Anordnung.“
 
-Er blickt von Cäsar zu Augustus.
+Er spricht jetzt leiser.
 
-„Warum interessiert euch mein Besuch? Habt ihr dort etwas Ungewöhnliches festgestellt?“
+„Der Keil sollte die Reserve-Schütze offen halten. Die Stadtleitung wurde dafür geschlossen. Das Wasser sollte zum Steinbruch fließen, damit wir es mit den Wagen verkaufen konnten.“
 
-**Marcellus bestätigt damit selbst einen Besuch am Verteilerhaus. Über die gesperrte Stadtleitung oder den Holzkeil hat er noch nichts gesagt.**
+Sein Blick sinkt auf die Münzen.
+
+„Wenn meine Wagen die Versorgung gerettet hätten, hätte der Rat mir den dauerhaften Auftrag gegeben. Ich wollte beweisen, dass die Stadt mich braucht.“
+
+**Damit gesteht Marcellus, die Manipulation veranlasst zu haben.** Er sagt nicht, dass er die Schieber eigenhändig bedient hat. Ihr beide habt seine Erklärung gehört; Cassia ist noch nicht dabei.
+
+„Was habt ihr jetzt mit mir vor?“, fragt er.
 
 ## Exakte offene Frage
 
-Was antwortet ihr Marcellus – sprecht ihr ihn auf die Schieber, den vorab erteilten Wasserauftrag oder etwas anderes an?
+Augustus: Wie reagierst du auf das Geständnis? Cäsar: Was möchtest du jetzt von Marcellus verlangen?
