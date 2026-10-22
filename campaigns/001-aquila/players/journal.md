@@ -1,15 +1,15 @@
 # Unser Abenteuerjournal
 
-**Speicherpunkt 17 – Was die Fuhrleute bezeugen können.**
+**Speicherpunkt 18 – Ein Auftrag vor dem Wasserausfall.**
 
-Sextus hat Gaius Marcellus als Auftraggeber für Reservebecken und Wasserwagen genannt. Der Schreiber Publius im Nebenraum führt die schriftlichen Aufträge; noch keine Unterlagen eingesehen.
+Publius zeigt beiden unter Aufsicht das Original des Reserveauftrags. Datum: gestern, vor Schließung des Wasseramts. Auftraggeber: Verwaltung G.Marcellus. Sextus soll das Steinbruchbecken füllen und drei Wasserwagen vor Sonnenaufgang bereitstellen. Bezahlt wird nach verkauften Krügen; fortgesetzte Versorgung soll morgen vor den Rat. Vorschuss ausgezahlt, Amtsmarke Marcellus.
 
-Beide Fuhrleute bestätigen gemeinsame Steinbruchfahrt, Arbeit bei den Wagen, Sextus beim Zulauf und gemeinsame Rückkehr. Auf genauere Nachfrage verneinen beide einen eigenen Besuch im Verteilerhaus auf dieser Fahrt. Sie haben das Haus nicht überwacht und können nicht sagen, wer sonst dort war. Niemand von ihnen hat die Schieberverstellung gesehen. Ein lückenloses Alibi für Sextus ergibt sich daraus nicht.
+Der Auftrag ging dem Brunnenausfall voraus. Zusammen mit der selbst beobachteten Umleitung ist er ein belastender Hinweis gegen Marcellus. Er benennt jedoch weder den Schieberbediener noch ausdrücklich eine Sperrung der Stadtleitung.
 
-Beide Helden weiterhin am Hafen. Sextus kennt eure technischen Sabotagebefunde noch nicht. Marcellus als Auftraggeber benannt, Verantwortung für die Sabotage noch ungeklärt.
+[Wortlaut des gelesenen Auftrags](handouts/reserveauftrag.md). Original weiterhin bei Publius, keine Abschrift angefertigt. Beide im Verwaltungsraum bei ihm; Sextus und Fuhrleute bei den Wagen. Weitere Entscheidung offen, kein offizielles Verfahren eröffnet.
 
-Wasser gesichert, Neria bei Livia am Forum. Je4 Mut,2 Glück,2 unverbrauchte Fortschrittspunkte;11 gemeinsame Sesterzen. Keine neue Zeitphase oder Probe.
+Wasser gesichert, Neria bei Livia am Forum. Je4 Mut,2 Glück,2 unverbrauchte Fortschrittspunkte;11 gemeinsame Sesterzen. Keine Probe, keine neue Zeitphase.
 
-**Nächste Frage:** Was möchtet ihr als Nächstes prüfen oder fragen?
+**Nächste Frage:** Cäsar und Augustus: Was fragt ihr Publius oder was möchtet ihr mit diesem Fund tun?
 
 [Figurenblatt](party.md)

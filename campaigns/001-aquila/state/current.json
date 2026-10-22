@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "campaign_id": "aquila-001",
-  "revision": 17,
-  "last_event_id": "event-000017",
-  "updated_at": "2026-10-22T05:25:49.549Z",
+  "revision": 18,
+  "last_event_id": "event-000018",
+  "updated_at": "2026-10-22T05:29:17.822Z",
   "phase": "playing",
   "session": 1,
   "game_time": {
@@ -14,9 +14,7 @@
   "scene_id": "scene-04",
   "location_id": "loc-harbor",
   "present_npc_ids": [
-    "npc-sextus",
-    "npc-publius",
-    "npc-carters"
+    "npc-publius"
   ],
   "settings": {
     "dice_mode": "tool",
@@ -203,6 +201,16 @@
       ],
       "revealed_text": "Sextus bestätigt bezahlten Auftrag für Reservebecken und Wasserwagen. In event-000014/15 schildert er heutige Fahrt zum Steinbruch, Zulaufkontrolle und Rückkehr zum Hafen mit seinen Fuhrleuten; heute kein Verteilerbesuch und keine Schieber bedient. In event-000016 nennt er Gaius Marcellus, den Verwalter, als Auftraggeber und Publius als Schreiber für die Aufträge. Zwei anwesende Fuhrleute bestätigen gemeinsame Steinbruchfahrt, Wagen am Becken, Sextus beim Zulauf und gemeinsame Rückkehr. Auf dieser Fahrt kein Verteilerbesuch; sie sahen keine Schieberverstellung. Auftrag noch nicht schriftlich überprüft, Betrag und Datum unbekannt. Sextus kennt technischen Sabotagebefund noch nicht. In event-000017 präzisieren beide Fuhrleute, auf der gemeinsamen Fahrt selbst nicht im Verteilerhaus gewesen zu sein. Sie überwachten das Haus nicht und können keine vollständige Besucherliste oder ein lückenloses Alibi für Sextus liefern. Weiterhin keine beobachtete Schieberverstellung.",
       "interpretation": "observation"
+    },
+    {
+      "clue_id": "clue-ledger",
+      "discovered_event_id": "event-000018",
+      "known_by": [
+        "pc-1",
+        "pc-2"
+      ],
+      "revealed_text": "Beide lesen bei Publius unter Aufsicht das Original: Reserveauftrag von gestern vor Schließung des Wasseramts; Auftraggeber Verwaltung G.Marcellus; Sextus soll Steinbruchbecken füllen, drei Wasserwagen vor Sonnenaufgang bereitstellen. Abrechnung nach verkauften Krügen; fortgesetzte Versorgung morgen dem Rat vorlegen. Vorschuss ausgezahlt, Amtsmarke Marcellus. Auftrag damit vor Brunnenausfall. Keine Anweisung zur Sperrung der Stadtleitung und kein Name des Schieberbedieners im Eintrag. Original verbleibt bei Publius; keine Abschrift.",
+      "interpretation": "confirmed"
     }
   ],
   "party_hypotheses": [],
@@ -235,7 +243,7 @@
       "npc_id": "npc-publius",
       "attitude": "neutral",
       "location_id": "loc-harbor",
-      "notes": "Schreiber im angrenzenden Verwaltungsraum. Sextus hat ihn namentlich genannt und auf seine Aufträge verwiesen. Noch nicht angesprochen, keine Unterlagen eingesehen."
+      "notes": "Im Verwaltungsraum am Hafen. Zeigt auf Bitte freiwillig den konkreten Reserveauftrag unter Aufsicht, Original bleibt hier. Beide lesen Datum, Auftraggeber, Wagenauftrag, Verkauf/Vertragsplan und Vorschuss. Kein Dokument ausgeliehen, keine Abschrift. Nicht über technische Sabotage informiert; weitere Fragen offen."
     },
     {
       "npc_id": "npc-cassia",
@@ -908,6 +916,38 @@
       "key": "carters-distributor-testimony",
       "value": "no-own-visit-no-surveillance",
       "text": "Beide Fuhrleute grenzen ihre Aussage ein: eigener Aufenthalt bei Wagen am Steinbruch, auf dieser Fahrt kein eigener Verteilerbesuch. Haus nicht überwacht, keine sichere Auskunft über sämtliche anderen Besucher; keine Schieberverstellung beobachtet."
+    },
+    {
+      "id": "change-000018-1",
+      "source_event_id": "event-000018",
+      "visibility": "public",
+      "key": "ledger-inspected",
+      "value": true,
+      "text": "Publius erlaubt freiwillig beaufsichtigte Einsicht in den konkreten Reserveauftrag. Kein umfassender Aktenzugang oder Besitzwechsel."
+    },
+    {
+      "id": "change-000018-2",
+      "source_event_id": "event-000018",
+      "visibility": "public",
+      "key": "ledger-copy-made",
+      "value": false,
+      "text": "Auftrag vollständig gelesen, aber weder Original mitgenommen noch Abschrift erstellt."
+    },
+    {
+      "id": "change-000018-3",
+      "source_event_id": "event-000018",
+      "visibility": "public",
+      "key": "marcellus-prior-water-order-known",
+      "value": true,
+      "text": "Beide kennen nun datierten Originalauftrag mit Marcellus' Amtsmarke, Verkaufsabrechnung und geplanter Fortsetzung vor dem Rat. Zusammenhang mit bekannter Umleitung belastend, kein schriftliches Sabotagegeständnis."
+    },
+    {
+      "id": "change-000018-4",
+      "source_event_id": "event-000018",
+      "visibility": "public",
+      "key": "party-harbor-position",
+      "value": "administrative-room",
+      "text": "Beide im angrenzenden Verwaltungsraum bei Publius; Sextus und Fuhrleute bleiben bei den Wagen. Keine zusätzliche Reisephase, Szene bleibt scene-04."
     }
   ],
   "quests": [
@@ -1009,7 +1049,7 @@
     },
     {
       "id": "thread-responsibility",
-      "summary": "Sextus nennt Marcellus als Auftraggeber. Fuhrleute bestätigen Steinbruchfahrt, aber keine Beobachtung der Schieberverstellung oder lückenloses Sextus-Alibi. Schriftlicher Auftrag bei Publius noch ungelesen. Sextus kennt technischen Sabotagebefund noch nicht.",
+      "summary": "Beide lasen Publius' Originalauftrag: Marcellus bestellte Reservefüllung/Wasserwagen schon gestern, Abrechnung nach verkauften Krügen und Fortsetzung vor dem Rat. Zusammen mit technischer Umleitung belastende Linien; keine Person beim Schieberverstellen beobachtet. Original bei Publius, keine Abschrift, nächste Entscheidung offen.",
       "status": "open",
       "visibility": "public"
     }
@@ -1017,11 +1057,11 @@
   "pending_action": null,
   "pending_roll": null,
   "challenge": null,
-  "pending_prompt": "Was möchtet ihr als Nächstes prüfen oder fragen?",
+  "pending_prompt": "Cäsar und Augustus: Was fragt ihr Publius oder was möchtet ihr mit diesem Fund tun?",
   "spotlight": {
     "last_actor_id": "pc-2",
     "next_actor_id": "pc-1"
   },
-  "last_narration": "Die Fuhrfrau zieht das Seil näher zu sich.\n\n„Ich war bei den Wagen am Steinbruch. Ins Verteilerhaus bin ich auf dieser Fahrt nicht gegangen. Sextus ging zum Zulauf des Beckens; danach sind wir gemeinsam zurückgefahren.“\n\nDer Fuhrmann ergänzt: „Ich ebenfalls nicht. Aber wir haben dort auch nicht Wache gehalten. Ich kann euch sagen, wo wir gearbeitet haben – nicht, wer sonst im Verteilerhaus ein und aus gegangen ist.“\n\nAuf eure Nachfrage nach den Schiebern schütteln beide den Kopf. Keiner von ihnen hat gesehen, wer sie verstellt hat.\n\n**Ihre Aussagen bestätigen die gemeinsame Fahrt zum Steinbruch. Ein lückenloses Alibi für Sextus oder einen Hinweis auf die Person an den Schiebern liefern sie euch damit nicht.**\n\nDer von Sextus genannte Auftraggeber bleibt **Marcellus**. Den schriftlichen Auftrag verwaltet **Publius** im Nebenraum.",
-  "last_resolution": "Fuhrfrau und Fuhrmann zu Verteilerhaus nachbefragt. Beide verneinen eigenen Besuch auf der gemeinsamen Steinbruchfahrt. Sie arbeiteten an Wagen und überwachten das Verteilerhaus nicht; keine Aussage über alle anderen Besucher oder lückenloses Sextus-Alibi. Keine Schieberverstellung gesehen. Zeit und Ressourcen unverändert."
+  "last_narration": "Ihr tretet in den Verwaltungsraum. Publius legt seinen Griffel ab, als ihr nach dem Auftrag für Sextus fragt.\n\n„Ansehen könnt ihr ihn. Die Tafeln bleiben aber hier.“\n\nEr schlägt die zusammengebundenen Wachstafeln auf und dreht den Eintrag zu euch. Neben dem Text erkennt ihr die Amtsmarke des Verwalters.\n\n> **Reserveauftrag – gestern, vor Schließung des Wasseramts**\n>\n> Auftraggeber: Verwaltung G. Marcellus\n>\n> An Sextus: Reservebecken Steinbruch füllen. Drei Wasserwagen vor Sonnenaufgang bereitstellen. Abrechnung nach verkauften Krügen. Fortgesetzte Versorgung soll dem Rat morgen zur Entscheidung vorgelegt werden.\n>\n> Vorschuss ausgezahlt. Amtsmarke Marcellus.\n\n**Der Auftrag wurde also schon vor dem Brunnenausfall erteilt.** Die Verwaltung plante bereits, Wasser zu verkaufen und dem Rat eine fortgesetzte Versorgung vorzuschlagen.\n\nZusammen mit der von euch beobachteten Umleitung ist das ein belastender Hinweis gegen Marcellus. Wer die Schieber tatsächlich verstellt hat, steht hier allerdings nicht.\n\nPublius lässt die Tafel vor euch liegen. „Was genau möchtet ihr dazu wissen?“",
+  "last_resolution": "Beide betreten den angrenzenden Verwaltungsraum und sehen mit Publius' Zustimmung den Reserveauftrag ein. Gestern datiert, G.Marcellus als Auftraggeber, drei Wagen vor Sonnenaufgang, Abrechnung pro verkauftem Krug, geplante fortgesetzte Versorgung vor Rat und Vorschuss. Original bleibt bei Publius, keine Abschrift angefertigt. Keine Probe/Phase."
 }

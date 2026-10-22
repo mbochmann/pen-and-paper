@@ -1,29 +1,37 @@
-# Wiederaufnahme – Revision 17
+# Wiederaufnahme – Revision 18
 
-Letztes Ereignis: event-000017. Keine offene Probe.
+Letztes Ereignis: event-000018. Keine offene Probe.
 
-Fuhrfrau und Fuhrmann zu Verteilerhaus nachbefragt. Beide verneinen eigenen Besuch auf der gemeinsamen Steinbruchfahrt. Sie arbeiteten an Wagen und überwachten das Verteilerhaus nicht; keine Aussage über alle anderen Besucher oder lückenloses Sextus-Alibi. Keine Schieberverstellung gesehen. Zeit und Ressourcen unverändert.
+Beide betreten den angrenzenden Verwaltungsraum und sehen mit Publius' Zustimmung den Reserveauftrag ein. Gestern datiert, G.Marcellus als Auftraggeber, drei Wagen vor Sonnenaufgang, Abrechnung pro verkauftem Krug, geplante fortgesetzte Versorgung vor Rat und Vorschuss. Original bleibt bei Publius, keine Abschrift angefertigt. Keine Probe/Phase.
 
-Spielstand16 aus Sprachrunde wurde bereits auf Remote gespeichert und unverändert übernommen, nicht erneut abgespielt. Beide Helden am Hafen bei Sextus und zwei Fuhrleuten (npc-carters, Frau/Mann, Namen unbekannt). Publius namentlich bekannt im Nebenraum. Marcellus laut Sextus Auftraggeber für Reservebecken/Wasserwagen; keine schriftliche Prüfung, kein bewiesener Zusammenhang zur Sabotage. Sextus wurde über technischen Sabotagebefund noch nicht informiert.
+Beide im Verwaltungsraum am Hafen bei Publius, Szene scene-04. Sextus/Fuhrleute draußen bei Wagen; nicht automatisch Mithörer. Konkreter Einblick freiwillig und beaufsichtigt; keine heimliche Aktennahme. Voller Eintrag siehe players/handouts/reserveauftrag.md. Dieser Lesetext verleiht keine Ingame-Abschrift. Zwei unabhängige Linien für sachliche Prüfung gegen Marcellus vorhanden: beobachtete Umleitung und vorher datierter Verkaufs-/Reserveauftrag mit direktem Namensbezug; Sextus' Aussage stützt Auftraggeber. Kein schriftlicher Befehl zur Stadtsperrung, keine Feststellung des physischen Schieberbedieners.
 
-Fuhrleute sahen keine Schieberverstellung. Sie bestätigen gemeinsame Steinbruchfahrt und Rückkehr, keinen eigenen Verteilerbesuch auf dieser Fahrt. Sie haben das Haus nicht überwacht; ihre Aussage nicht zu einem vollständigen Alibi oder einer Besucherliste ausweiten. Kein neuer Verdächtiger und kein erfundener Widerspruch. GM: Sextus war heute tatsächlich nicht am Verteiler (event-000014), Fuhrleute sagen Wahrheit. Wer Nerias Namensruf äußerte, bleibt offen.
+Noch keine weitere Spielerentscheidung, Beschuldigung, offizielle Untersuchung oder Nachricht an Marcellus. Publius und Sextus kennen die technischen Sabotagebefunde weiterhin nicht. Cassia kann bei Vorlage der Linien nach act-3 handeln; keine zusätzliche Beweispflicht erfinden. quest-accountability aktiv, keine neue Belohnung. Livia/Neria am Forum, Wasser gesichert.
 
-Livia/Neria am Forum, Knöchel verletzt, Wasser gesichert. Keine Nachricht an Marcellus. Zeitphase5; Knappheitsuhr3 inaktiv, Vertuschungsuhr0. Je4 Mut/2 Glück/2 unverbrauchte Fortschrittspunkte;11 gemeinsame Sesterzen. Ausrüstung/Tauben unverändert, Keil im Verteilerhaus. Kein neuer Aktabschluss.
+Zeitphase5, Knappheitsuhr3 inaktiv, Vertuschungsuhr0. Je4 Mut/2 Glück/2 unverbrauchte Fortschrittspunkte;11 gemeinsame Sesterzen. Inventar/Tauben unverändert. Keil im Verteilerhaus.
 
 ## Zuletzt erzählt
 
-Die Fuhrfrau zieht das Seil näher zu sich.
+Ihr tretet in den Verwaltungsraum. Publius legt seinen Griffel ab, als ihr nach dem Auftrag für Sextus fragt.
 
-„Ich war bei den Wagen am Steinbruch. Ins Verteilerhaus bin ich auf dieser Fahrt nicht gegangen. Sextus ging zum Zulauf des Beckens; danach sind wir gemeinsam zurückgefahren.“
+„Ansehen könnt ihr ihn. Die Tafeln bleiben aber hier.“
 
-Der Fuhrmann ergänzt: „Ich ebenfalls nicht. Aber wir haben dort auch nicht Wache gehalten. Ich kann euch sagen, wo wir gearbeitet haben – nicht, wer sonst im Verteilerhaus ein und aus gegangen ist.“
+Er schlägt die zusammengebundenen Wachstafeln auf und dreht den Eintrag zu euch. Neben dem Text erkennt ihr die Amtsmarke des Verwalters.
 
-Auf eure Nachfrage nach den Schiebern schütteln beide den Kopf. Keiner von ihnen hat gesehen, wer sie verstellt hat.
+> **Reserveauftrag – gestern, vor Schließung des Wasseramts**
+>
+> Auftraggeber: Verwaltung G. Marcellus
+>
+> An Sextus: Reservebecken Steinbruch füllen. Drei Wasserwagen vor Sonnenaufgang bereitstellen. Abrechnung nach verkauften Krügen. Fortgesetzte Versorgung soll dem Rat morgen zur Entscheidung vorgelegt werden.
+>
+> Vorschuss ausgezahlt. Amtsmarke Marcellus.
 
-**Ihre Aussagen bestätigen die gemeinsame Fahrt zum Steinbruch. Ein lückenloses Alibi für Sextus oder einen Hinweis auf die Person an den Schiebern liefern sie euch damit nicht.**
+**Der Auftrag wurde also schon vor dem Brunnenausfall erteilt.** Die Verwaltung plante bereits, Wasser zu verkaufen und dem Rat eine fortgesetzte Versorgung vorzuschlagen.
 
-Der von Sextus genannte Auftraggeber bleibt **Marcellus**. Den schriftlichen Auftrag verwaltet **Publius** im Nebenraum.
+Zusammen mit der von euch beobachteten Umleitung ist das ein belastender Hinweis gegen Marcellus. Wer die Schieber tatsächlich verstellt hat, steht hier allerdings nicht.
+
+Publius lässt die Tafel vor euch liegen. „Was genau möchtet ihr dazu wissen?“
 
 ## Exakte offene Frage
 
-Was möchtet ihr als Nächstes prüfen oder fragen?
+Cäsar und Augustus: Was fragt ihr Publius oder was möchtet ihr mit diesem Fund tun?
