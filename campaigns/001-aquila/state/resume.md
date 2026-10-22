@@ -1,29 +1,27 @@
-# Wiederaufnahme – Revision 15
+# Wiederaufnahme – Revision 16
 
-Letztes Ereignis: event-000015. Keine offene Probe.
+Letztes Ereignis: event-000016. Keine offene Probe.
 
-Ortsangabe geklärt: Nerias Namensruf stammt vom Steinbruch. Sextus verneint erneut heutigen Verteilerbesuch und erklärt, am Steinbruch mit seinen Fuhrleuten gewesen zu sein. Diese brachten Wagen ans Becken, während er Zulauf kontrollierte. Angebot, auch sie zu befragen; keine unabhängige Bestätigung. Keine Probe/Zeitkosten.
+Sextus nennt Gaius Marcellus als Auftraggeber und verweist auf Schreiber Publius. Zwei Fuhrleute am Hafen bestätigen gemeinsame Steinbruchfahrt, Arbeitsaufteilung und Rückkehr, aber keine Beobachtung der Schieberverstellung. Keine Probe, Zeit- oder Ressourcenänderung.
 
-Beide Helden bei Sextus am Hafen, scene-04. Publius im angrenzenden Raum sichtbar, Name unbekannt. Livia/Neria am Forum, Knöchel verletzt. Cassia/Bato dort. Marcellus nicht begegnet oder informiert.
-
-GM: Sextus' verbindliche Tagesroute: morgens Steinbruch, danach Hafen; heute nicht im Verteilerhaus, heute selbst keine Schieber bedient. Seine vorbereiteten Fuhrleute waren am Steinbruch dabei und brachten Wagen ans Becken, während er den Zulauf prüfte. Noch keine einzelnen Personen, Namen, Zahl oder jetzige Aufenthaltsorte konkretisiert. Keine Befragung dieser Leute erfolgt. Wer genau den von Neria gehörten Ruf äußerte, bleibt offen. Nicht nachträglich behaupten, der Ruf sei am Verteiler gewesen. Keine künstliche falsche Fährte aus Spieler-Verwechslung.
-
-Figuren kennen nur Sextus' Zeugenaussage. Er kennt die technische Sabotage noch nicht; Auftraggeber noch nicht genannt. Bei direkter Frage danach sachgerecht antworten, keine künstliche Sperre. Bei Erklärung des Befunds erkennt er Zusammenhang und benennt Auftraggeber gemäß act-2 ohne Pflichtwurf. clue-sextus weiterhin nur Teilinhalt freigegeben. Unterlagen ungelesen.
-
-Zeitphase5; Knappheitsuhr3 inaktiv, Vertuschungsuhr0. Je4 Mut/2 Glück/2 unverbrauchte Fortschrittspunkte,11 gemeinsame Sesterzen. Ausrüstung/Tauben unverändert. Keil im Verteilerhaus.
+Beide Helden am Hafen, scene-04. Marcellus als Auftraggeber bekannt, noch kein Beweis für Sabotage. Publius namentlich bekannt, Unterlagen ungelesen. Sextus kennt Sabotagebefund nicht. Fuhrleute registriert in gm/carters.md. Keine Nachricht an Marcellus, keine Uhrenänderung. Livia und Neria am Forum, Wasserversorgung gesichert. Zeitphase 5, je 4 Mut/2 Glück/2 Fortschrittspunkte, 11 Sesterzen; Ausrüstung unverändert.
 
 ## Zuletzt erzählt
 
-**Zur Erinnerung:** Neria hörte den Namen Sextus **am Steinbruch**, nicht am Verteilerhaus.
+„Gaius Marcellus, der Verwalter“, antwortet Sextus. „Von ihm kam der Auftrag: Reservebecken füllen und Wasserwagen bereithalten.“ Er deutet zur offenen Tür. „Publius führt die Aufträge. Wenn ihr etwas Schriftliches sehen wollt, fragt ihn.“
 
-Sextus antwortet: „Am Verteilerhaus war ich heute nicht – weder allein noch mit jemandem. Am Steinbruch waren meine Fuhrleute bei mir. Sie haben die Wagen ans Becken gebracht, während ich nach dem Zulauf gesehen habe.“
+Dann ruft er zwei Fuhrleute herüber, die bei den Wagen stehen. Ihr befragt sie zu ihrem Morgen am Steinbruch.
 
-Er deutet auf die Wasserwagen.
+Eine Fuhrfrau legt ein zusammengerolltes Seil ab. „Wir sind mit Sextus hingefahren. Wir brachten die Wagen ans Becken, während er zum Zulauf ging. Anschließend sind wir zusammen zum Hafen zurück.“
 
-„Wir waren dort wegen des Reserveauftrags. Meine Leute könnt ihr ebenfalls dazu befragen.“
+Ihr Kollege nickt. „Zum Verteilerhaus sind wir auf dieser Fahrt nicht gegangen. Ich war bei den Wagen. Wer an den Schiebern gearbeitet hat, habe ich nicht gesehen.“
 
-Damit nennt er mögliche weitere Zeugen. Ob seine Darstellung stimmt und wer den Auftrag erteilt hat, habt ihr noch nicht überprüft.
+Die Aussagen passen zu Sextus’ Beschreibung. Sie bestätigen seine Begleitung am Steinbruch, erklären aber noch nicht, wer die Stadtleitung gesperrt hat.
+
+Aus dem Nebenraum kratzt ein Griffel über Wachs. Ihr habt jetzt einen Namen und eine Möglichkeit, Sextus’ Aussage anhand des schriftlichen Auftrags zu prüfen.
+
+Cäsar und Augustus: Möchtet ihr Publius um Einsicht in den Auftrag bitten oder Sextus zuerst von den blockierten Schiebern erzählen?
 
 ## Exakte offene Frage
 
-Möchtet ihr Sextus nach seinem Auftraggeber fragen, seine Fuhrleute befragen oder ihm von den blockierten Schiebern erzählen?
+Cäsar und Augustus: Möchtet ihr Publius um Einsicht in den Auftrag bitten oder Sextus zuerst von den blockierten Schiebern erzählen?

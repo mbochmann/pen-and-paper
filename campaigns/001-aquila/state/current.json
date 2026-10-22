@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "campaign_id": "aquila-001",
-  "revision": 15,
-  "last_event_id": "event-000015",
-  "updated_at": "2026-10-21T17:20:27.901Z",
+  "revision": 16,
+  "last_event_id": "event-000016",
+  "updated_at": "2026-10-22T05:17:33.512Z",
   "phase": "playing",
   "session": 1,
   "game_time": {
@@ -15,7 +15,8 @@
   "location_id": "loc-harbor",
   "present_npc_ids": [
     "npc-sextus",
-    "npc-publius"
+    "npc-publius",
+    "npc-carters"
   ],
   "settings": {
     "dice_mode": "tool",
@@ -200,7 +201,7 @@
         "pc-1",
         "pc-2"
       ],
-      "revealed_text": "Sextus bestätigt am Hafen lediglich den bezahlten Auftrag: Reservebecken füllen, Wasserwagen bereithalten. Auftraggeber, Bezahlung und Zeitpunkt noch nicht erfragt/genannt. Kein Eingeständnis bewusster Sabotage. Die vollständige vorbereitete Aussage ist noch nicht freigegeben. In event-000014 sagt Sextus: heute nicht im Verteilerhaus, morgens Zulauf am Steinbruch kontrolliert, danach mit Wagen zum Hafen zurück; heute keine Schieber bedient. Diese Tagesroute ist für die Helden unbestätigte Zeugenaussage. In event-000015 ergänzt er: Fuhrleute begleiteten ihn am Steinbruch und brachten Wagen ans Becken, während er Zulauf prüfte; sie können ebenfalls befragt werden. Noch keine unabhängige Bestätigung, keine Namen/Anzahl/Standorte genannt.",
+      "revealed_text": "Sextus bestätigt bezahlten Auftrag für Reservebecken und Wasserwagen. In event-000014/15 schildert er heutige Fahrt zum Steinbruch, Zulaufkontrolle und Rückkehr zum Hafen mit seinen Fuhrleuten; heute kein Verteilerbesuch und keine Schieber bedient. In event-000016 nennt er Gaius Marcellus, den Verwalter, als Auftraggeber und Publius als Schreiber für die Aufträge. Zwei anwesende Fuhrleute bestätigen gemeinsame Steinbruchfahrt, Wagen am Becken, Sextus beim Zulauf und gemeinsame Rückkehr. Auf dieser Fahrt kein Verteilerbesuch; sie sahen keine Schieberverstellung. Auftrag noch nicht schriftlich überprüft, Betrag und Datum unbekannt. Sextus kennt technischen Sabotagebefund noch nicht.",
       "interpretation": "observation"
     }
   ],
@@ -228,13 +229,13 @@
       "npc_id": "npc-sextus",
       "attitude": "neutral",
       "location_id": "loc-harbor",
-      "notes": "Am Hafen bei Wasserwagen von beiden Helden angesprochen. Hat sich als Sextus vorgestellt und sagt, er werde für Füllen des Reservebeckens und Bereithalten der Wagen bezahlt. Noch kein Auftraggeber genannt; keine Erklärung der absichtlichen Stadtumleitung durch Helden gehört. Neutral, gesprächsbereit. Antwort in event-000014: Heute nicht im Verteilerhaus; morgens Zulauf zum Reservebecken im Steinbruch kontrolliert, dann mit Wagen zum Hafen zurück. Heute selbst keine Schieber bedient. Diese erstmals konkretisierte Tagesroute ist GM-seitig wahr, für Helden nur Aussage. Weiterhin keine Schilderung der Stadtumleitung erhalten, Auftraggeber noch nicht genannt. In event-000015 erklärt er: am Steinbruch mit eigenen Fuhrleuten, die Wagen ans Becken brachten, während er den Zulauf kontrollierte. Bietet deren Befragung an. Diese Arbeitsaufteilung ist als GM-Fakt konkretisiert; die Spieler kennen bisher nur seine Aussage. Keine Namen, Anzahl oder heutigen Aufenthaltsorte der Leute genannt."
+      "notes": "Gesprächsbereit am Hafen. Wahrheitsgemäße Tagesroute wie event-000014/15. Nennt nun Marcellus als Auftraggeber für Reservebecken und Wagen und verweist für Schriftliches auf Publius. Kennt die absichtliche Stadtumleitung noch nicht. Keine Behauptung, Sabotage selbst gesehen zu haben."
     },
     {
       "npc_id": "npc-publius",
       "attitude": "neutral",
       "location_id": "loc-harbor",
-      "notes": "Im angrenzenden Verwaltungsraum am Hafen, durch offene Tür als schreibender Mann sichtbar. Name den Helden unbekannt; kein Gespräch, keine Abrechnung eingesehen."
+      "notes": "Schreiber im angrenzenden Verwaltungsraum. Sextus hat ihn namentlich genannt und auf seine Aufträge verwiesen. Noch nicht angesprochen, keine Unterlagen eingesehen."
     },
     {
       "npc_id": "npc-cassia",
@@ -259,6 +260,12 @@
       "attitude": "neutral",
       "location_id": "loc-gate",
       "notes": "Ist nach Cäsars Inspektion am Mühlentor geblieben. Hat den Wartungsweg gezeigt, aber keine zusätzliche Begleitung oder Ermittlungen übernommen."
+    },
+    {
+      "npc_id": "npc-carters",
+      "attitude": "neutral",
+      "location_id": "loc-harbor",
+      "notes": "Zwei Fuhrleute, eine Frau und ein Mann, von Sextus herbeigerufen und von beiden Helden befragt. Bestätigen gemeinsame Steinbruchfahrt, Arbeit an Wagen, Sextus am Zulauf und gemeinsame Rückkehr. Kein Verteilerbesuch auf dieser Fahrt; keine Schieberverstellung gesehen. Namen unbekannt. Wissen nicht, wer Sabotage veranlasste."
     }
   ],
   "world_changes": [
@@ -877,6 +884,22 @@
       "key": "sextus-quarry-companions",
       "value": "own-carters",
       "text": "Die bereits vorbereiteten, bislang namenlosen Fuhrleute waren bei der morgendlichen Steinbruchkontrolle dabei und brachten die Wagen ans Becken. Keine neue Täterschaft oder unabhängige Aussage etabliert; wer genau den von Neria gehörten Ruf äußerte, ist weiterhin nicht festgelegt."
+    },
+    {
+      "id": "change-000016-interviews",
+      "source_event_id": "event-000016",
+      "visibility": "public",
+      "key": "harbor-interviews",
+      "value": true,
+      "text": "Sextus nennt Gaius Marcellus als Auftraggeber und verweist auf Schreiber Publius. Zwei Fuhrleute am Hafen bestätigen gemeinsame Steinbruchfahrt, Arbeitsaufteilung und Rückkehr, aber keine Beobachtung der Schieberverstellung. Keine Probe, Zeit- oder Ressourcenänderung."
+    },
+    {
+      "id": "change-000016-carters",
+      "source_event_id": "event-000016",
+      "visibility": "gm",
+      "key": "carters-established",
+      "value": true,
+      "text": "Zwei der bereits vorbereiteten Fuhrleute konkretisiert, Frau und Mann, am Hafen anwesend. Aussagen wahr, kein vollständiges Tagesalibi behauptet. Urheber des gehörten Namensrufs weiterhin offen. Marcellus nicht über Befragung informiert."
     }
   ],
   "quests": [
@@ -978,7 +1001,7 @@
     },
     {
       "id": "thread-responsibility",
-      "summary": "Sextus nennt eigene Fuhrleute als Begleiter am Steinbruch und mögliche Zeugen. Heutigen Verteilerbesuch verneint er. Name gerufen laut Neria am Steinbruch; noch keine Zeugenkontrolle oder Erklärung der Sabotage an Sextus. Auftraggeber unbekannt.",
+      "summary": "Sextus nennt Marcellus als Auftraggeber; Fuhrleute bestätigen Steinbruchfahrt. Schriftliche Prüfung bei Publius möglich, noch nicht erfolgt. Sextus kennt Sabotage noch nicht; Verantwortlichkeit für Schieberverstellung ungeklärt.",
       "status": "open",
       "visibility": "public"
     }
@@ -986,11 +1009,11 @@
   "pending_action": null,
   "pending_roll": null,
   "challenge": null,
-  "pending_prompt": "Möchtet ihr Sextus nach seinem Auftraggeber fragen, seine Fuhrleute befragen oder ihm von den blockierten Schiebern erzählen?",
+  "pending_prompt": "Cäsar und Augustus: Möchtet ihr Publius um Einsicht in den Auftrag bitten oder Sextus zuerst von den blockierten Schiebern erzählen?",
   "spotlight": {
     "last_actor_id": "pc-2",
     "next_actor_id": "pc-1"
   },
-  "last_narration": "**Zur Erinnerung:** Neria hörte den Namen Sextus **am Steinbruch**, nicht am Verteilerhaus.\n\nSextus antwortet: „Am Verteilerhaus war ich heute nicht – weder allein noch mit jemandem. Am Steinbruch waren meine Fuhrleute bei mir. Sie haben die Wagen ans Becken gebracht, während ich nach dem Zulauf gesehen habe.“\n\nEr deutet auf die Wasserwagen.\n\n„Wir waren dort wegen des Reserveauftrags. Meine Leute könnt ihr ebenfalls dazu befragen.“\n\nDamit nennt er mögliche weitere Zeugen. Ob seine Darstellung stimmt und wer den Auftrag erteilt hat, habt ihr noch nicht überprüft.",
-  "last_resolution": "Ortsangabe geklärt: Nerias Namensruf stammt vom Steinbruch. Sextus verneint erneut heutigen Verteilerbesuch und erklärt, am Steinbruch mit seinen Fuhrleuten gewesen zu sein. Diese brachten Wagen ans Becken, während er Zulauf kontrollierte. Angebot, auch sie zu befragen; keine unabhängige Bestätigung. Keine Probe/Zeitkosten."
+  "last_narration": "„Gaius Marcellus, der Verwalter“, antwortet Sextus. „Von ihm kam der Auftrag: Reservebecken füllen und Wasserwagen bereithalten.“ Er deutet zur offenen Tür. „Publius führt die Aufträge. Wenn ihr etwas Schriftliches sehen wollt, fragt ihn.“\n\nDann ruft er zwei Fuhrleute herüber, die bei den Wagen stehen. Ihr befragt sie zu ihrem Morgen am Steinbruch.\n\nEine Fuhrfrau legt ein zusammengerolltes Seil ab. „Wir sind mit Sextus hingefahren. Wir brachten die Wagen ans Becken, während er zum Zulauf ging. Anschließend sind wir zusammen zum Hafen zurück.“\n\nIhr Kollege nickt. „Zum Verteilerhaus sind wir auf dieser Fahrt nicht gegangen. Ich war bei den Wagen. Wer an den Schiebern gearbeitet hat, habe ich nicht gesehen.“\n\nDie Aussagen passen zu Sextus’ Beschreibung. Sie bestätigen seine Begleitung am Steinbruch, erklären aber noch nicht, wer die Stadtleitung gesperrt hat.\n\nAus dem Nebenraum kratzt ein Griffel über Wachs. Ihr habt jetzt einen Namen und eine Möglichkeit, Sextus’ Aussage anhand des schriftlichen Auftrags zu prüfen.\n\nCäsar und Augustus: Möchtet ihr Publius um Einsicht in den Auftrag bitten oder Sextus zuerst von den blockierten Schiebern erzählen?",
+  "last_resolution": "Sextus nennt Gaius Marcellus als Auftraggeber und verweist auf Schreiber Publius. Zwei Fuhrleute am Hafen bestätigen gemeinsame Steinbruchfahrt, Arbeitsaufteilung und Rückkehr, aber keine Beobachtung der Schieberverstellung. Keine Probe, Zeit- oder Ressourcenänderung."
 }

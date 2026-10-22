@@ -1,15 +1,13 @@
 # Unser Abenteuerjournal
 
-**Speicherpunkt 15 – Begleiter am Steinbruch.**
+**Speicherpunkt 16 – Der Auftraggeber der Wasserwagen.**
 
-Neria hörte Sextus' Namen am Steinbruch, nicht am Verteilerhaus. Sextus verneint einen heutigen Besuch im Verteilerhaus – allein oder mit Begleitung.
+Sextus nennt Gaius Marcellus als Auftraggeber und verweist auf Schreiber Publius. Zwei Fuhrleute am Hafen bestätigen gemeinsame Steinbruchfahrt, Arbeitsaufteilung und Rückkehr, aber keine Beobachtung der Schieberverstellung. Keine Probe, Zeit- oder Ressourcenänderung.
 
-Er sagt, am Steinbruch seien seine Fuhrleute bei ihm gewesen. Sie brachten die Wagen ans Becken, während er den Zulauf prüfte. Er bietet an, auch sie zu befragen. Das ist bisher nur seine Darstellung; weitere Zeugen wurden nicht befragt. Wer genau den von Neria gehörten Ruf äußerte, ist unbekannt.
+Sextus nennt Publius als Schreiber, der die Aufträge führt. Unterlagen noch nicht gelesen. Seine Leute bestätigen die gemeinsame Fahrt, aber haben niemanden an den Schiebern beobachtet. Marcellus als Auftraggeber der Wasserwagen benannt; eine Verantwortung für die Sabotage ist damit noch nicht bewiesen.
 
-Sextus bestätigt bereits den bezahlten Reserve-/Wagenauftrag. Auftraggeber weiterhin unbekannt. Die Helden haben ihm die Sabotage noch nicht erklärt. Unterlagen im angrenzenden Verwaltungsraum noch ungelesen.
+Beide Helden am Hafen. Wasser gesichert, Neria bei Livia am Forum. Je 4 Mut, 2 Glück und 2 unverbrauchte Fortschrittspunkte; gemeinsam 11 Sesterzen.
 
-Beide Helden am Hafen. Livia bei Neria am Forum, Wasserversorgung gesichert. Je 4 Mut, 2 Glück, 2 unverbrauchte Fortschrittspunkte; gemeinsam 11 Sesterzen. Keine neue Zeitphase oder Probe.
-
-**Nächste Frage:** Möchtet ihr Sextus nach seinem Auftraggeber fragen, seine Fuhrleute befragen oder ihm von den blockierten Schiebern erzählen?
+**Nächste Frage:** Cäsar und Augustus: Möchtet ihr Publius um Einsicht in den Auftrag bitten oder Sextus zuerst von den blockierten Schiebern erzählen?
 
 [Figurenblatt](party.md)

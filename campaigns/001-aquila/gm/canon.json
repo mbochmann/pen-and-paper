@@ -489,6 +489,14 @@
       "source": "gm/pigeons.md",
       "origin": "improvised",
       "introduced_by_event_id": "event-000006"
+    },
+    {
+      "id": "npc-carters",
+      "kind": "npc",
+      "name": "Zwei Fuhrleute von Sextus (Namen unbekannt)",
+      "source": "gm/carters.md",
+      "origin": "improvised",
+      "introduced_by_event_id": "event-000016"
     }
   ],
   "facts": [
