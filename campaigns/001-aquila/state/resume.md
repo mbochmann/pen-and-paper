@@ -1,27 +1,29 @@
-# Wiederaufnahme – Revision 16
+# Wiederaufnahme – Revision 17
 
-Letztes Ereignis: event-000016. Keine offene Probe.
+Letztes Ereignis: event-000017. Keine offene Probe.
 
-Sextus nennt Gaius Marcellus als Auftraggeber und verweist auf Schreiber Publius. Zwei Fuhrleute am Hafen bestätigen gemeinsame Steinbruchfahrt, Arbeitsaufteilung und Rückkehr, aber keine Beobachtung der Schieberverstellung. Keine Probe, Zeit- oder Ressourcenänderung.
+Fuhrfrau und Fuhrmann zu Verteilerhaus nachbefragt. Beide verneinen eigenen Besuch auf der gemeinsamen Steinbruchfahrt. Sie arbeiteten an Wagen und überwachten das Verteilerhaus nicht; keine Aussage über alle anderen Besucher oder lückenloses Sextus-Alibi. Keine Schieberverstellung gesehen. Zeit und Ressourcen unverändert.
 
-Beide Helden am Hafen, scene-04. Marcellus als Auftraggeber bekannt, noch kein Beweis für Sabotage. Publius namentlich bekannt, Unterlagen ungelesen. Sextus kennt Sabotagebefund nicht. Fuhrleute registriert in gm/carters.md. Keine Nachricht an Marcellus, keine Uhrenänderung. Livia und Neria am Forum, Wasserversorgung gesichert. Zeitphase 5, je 4 Mut/2 Glück/2 Fortschrittspunkte, 11 Sesterzen; Ausrüstung unverändert.
+Spielstand16 aus Sprachrunde wurde bereits auf Remote gespeichert und unverändert übernommen, nicht erneut abgespielt. Beide Helden am Hafen bei Sextus und zwei Fuhrleuten (npc-carters, Frau/Mann, Namen unbekannt). Publius namentlich bekannt im Nebenraum. Marcellus laut Sextus Auftraggeber für Reservebecken/Wasserwagen; keine schriftliche Prüfung, kein bewiesener Zusammenhang zur Sabotage. Sextus wurde über technischen Sabotagebefund noch nicht informiert.
+
+Fuhrleute sahen keine Schieberverstellung. Sie bestätigen gemeinsame Steinbruchfahrt und Rückkehr, keinen eigenen Verteilerbesuch auf dieser Fahrt. Sie haben das Haus nicht überwacht; ihre Aussage nicht zu einem vollständigen Alibi oder einer Besucherliste ausweiten. Kein neuer Verdächtiger und kein erfundener Widerspruch. GM: Sextus war heute tatsächlich nicht am Verteiler (event-000014), Fuhrleute sagen Wahrheit. Wer Nerias Namensruf äußerte, bleibt offen.
+
+Livia/Neria am Forum, Knöchel verletzt, Wasser gesichert. Keine Nachricht an Marcellus. Zeitphase5; Knappheitsuhr3 inaktiv, Vertuschungsuhr0. Je4 Mut/2 Glück/2 unverbrauchte Fortschrittspunkte;11 gemeinsame Sesterzen. Ausrüstung/Tauben unverändert, Keil im Verteilerhaus. Kein neuer Aktabschluss.
 
 ## Zuletzt erzählt
 
-„Gaius Marcellus, der Verwalter“, antwortet Sextus. „Von ihm kam der Auftrag: Reservebecken füllen und Wasserwagen bereithalten.“ Er deutet zur offenen Tür. „Publius führt die Aufträge. Wenn ihr etwas Schriftliches sehen wollt, fragt ihn.“
+Die Fuhrfrau zieht das Seil näher zu sich.
 
-Dann ruft er zwei Fuhrleute herüber, die bei den Wagen stehen. Ihr befragt sie zu ihrem Morgen am Steinbruch.
+„Ich war bei den Wagen am Steinbruch. Ins Verteilerhaus bin ich auf dieser Fahrt nicht gegangen. Sextus ging zum Zulauf des Beckens; danach sind wir gemeinsam zurückgefahren.“
 
-Eine Fuhrfrau legt ein zusammengerolltes Seil ab. „Wir sind mit Sextus hingefahren. Wir brachten die Wagen ans Becken, während er zum Zulauf ging. Anschließend sind wir zusammen zum Hafen zurück.“
+Der Fuhrmann ergänzt: „Ich ebenfalls nicht. Aber wir haben dort auch nicht Wache gehalten. Ich kann euch sagen, wo wir gearbeitet haben – nicht, wer sonst im Verteilerhaus ein und aus gegangen ist.“
 
-Ihr Kollege nickt. „Zum Verteilerhaus sind wir auf dieser Fahrt nicht gegangen. Ich war bei den Wagen. Wer an den Schiebern gearbeitet hat, habe ich nicht gesehen.“
+Auf eure Nachfrage nach den Schiebern schütteln beide den Kopf. Keiner von ihnen hat gesehen, wer sie verstellt hat.
 
-Die Aussagen passen zu Sextus’ Beschreibung. Sie bestätigen seine Begleitung am Steinbruch, erklären aber noch nicht, wer die Stadtleitung gesperrt hat.
+**Ihre Aussagen bestätigen die gemeinsame Fahrt zum Steinbruch. Ein lückenloses Alibi für Sextus oder einen Hinweis auf die Person an den Schiebern liefern sie euch damit nicht.**
 
-Aus dem Nebenraum kratzt ein Griffel über Wachs. Ihr habt jetzt einen Namen und eine Möglichkeit, Sextus’ Aussage anhand des schriftlichen Auftrags zu prüfen.
-
-Cäsar und Augustus: Möchtet ihr Publius um Einsicht in den Auftrag bitten oder Sextus zuerst von den blockierten Schiebern erzählen?
+Der von Sextus genannte Auftraggeber bleibt **Marcellus**. Den schriftlichen Auftrag verwaltet **Publius** im Nebenraum.
 
 ## Exakte offene Frage
 
-Cäsar und Augustus: Möchtet ihr Publius um Einsicht in den Auftrag bitten oder Sextus zuerst von den blockierten Schiebern erzählen?
+Was möchtet ihr als Nächstes prüfen oder fragen?

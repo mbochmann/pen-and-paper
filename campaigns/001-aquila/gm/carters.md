@@ -1,3 +1,5 @@
 # Fuhrleute am Hafen – SPOILER
 
 In event-000016 konkretisierte zwei Angehörige von Sextus' bereits vorbereiteten Fuhrleuten: eine Frau und ein Mann, Namen unbekannt, zusammen npc-carters. Sie stehen nach gemeinsamer Rückkehr vom Steinbruch bei den Hafenwagen. Sextus ruft sie auf Wunsch der Helden herbei. Sie wollen ihre Arbeit erledigen und beantworten sachliche Fragen. Sie bestätigen die gemeinsame Fahrt, Wagen ans Becken, Sextus am Zulauf und gemeinsame Rückkehr. Auf dieser Fahrt kein Verteilerbesuch. Keine beobachtete Schieberverstellung, keine Kenntnis von Sabotageveranlasser. Kein lückenloses Alibi für Sextus über den ganzen Tag. Urheber von Nerias Namensruf nicht festgelegt.
+
+In event-000017 genauer befragt: Beide verneinen eigenen Verteilerbesuch auf dieser Fahrt. Sie überwachten das Haus nicht und können nicht alle anderen Besucher benennen. Kein neuer Augenzeugenbeleg für Schieberverstellung, kein lückenloses Sextus-Alibi.
