@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "campaign_id": "aquila-001",
-  "revision": 18,
-  "last_event_id": "event-000018",
-  "updated_at": "2026-10-22T05:29:17.822Z",
+  "revision": 19,
+  "last_event_id": "event-000019",
+  "updated_at": "2026-10-22T05:33:36.332Z",
   "phase": "playing",
   "session": 1,
   "game_time": {
@@ -14,7 +14,7 @@
   "scene_id": "scene-04",
   "location_id": "loc-harbor",
   "present_npc_ids": [
-    "npc-publius"
+    "npc-marcellus"
   ],
   "settings": {
     "dice_mode": "tool",
@@ -231,7 +231,7 @@
       "npc_id": "npc-marcellus",
       "attitude": "distant",
       "location_id": "loc-harbor",
-      "notes": "Vorbereiteter Ausgangszustand; der Gruppe noch nicht begegnet."
+      "notes": "Im Hafen-Verwaltungsgebäude persönlich von beiden Helden angesprochen. Bestätigt wahrheitsgemäß gestrige Besichtigung des Verteilerhauses; stellt Zweck beschönigend als Reservevorsorge dar. Kennt jetzt ihr gezieltes Interesse am eigenen Verteilerbesuch, aber nicht ihre Reparatur, den Keilbefund, Zeugengespräche oder die gelesene Abrechnung. Kein Geständnis, keine Aktenänderung oder Nachricht ausgespielt. Fragt nach ungewöhnlichen Feststellungen."
     },
     {
       "npc_id": "npc-sextus",
@@ -948,6 +948,46 @@
       "key": "party-harbor-position",
       "value": "administrative-room",
       "text": "Beide im angrenzenden Verwaltungsraum bei Publius; Sextus und Fuhrleute bleiben bei den Wagen. Keine zusätzliche Reisephase, Szene bleibt scene-04."
+    },
+    {
+      "id": "change-000019-1",
+      "source_event_id": "event-000019",
+      "visibility": "public",
+      "key": "party-harbor-position",
+      "value": "marcellus-office",
+      "text": "Publius weist beide zum Büro des Verwalters im selben Hafengebäude. Kurzer Ortswechsel ohne Reisephase, scene-04 bleibt."
+    },
+    {
+      "id": "change-000019-2",
+      "source_event_id": "event-000019",
+      "visibility": "public",
+      "key": "marcellus-met",
+      "value": true,
+      "text": "Marcellus stellt sich vor und beantwortet die Frage nach dem Verteilerhaus."
+    },
+    {
+      "id": "change-000019-3",
+      "source_event_id": "event-000019",
+      "visibility": "public",
+      "key": "marcellus-visit-statement",
+      "value": "yesterday",
+      "text": "Marcellus bestätigt beiden eine gestrige Besichtigung des Verteilerhauses und nennt Reserveplanung als Zweck. Keine eigene Schieberbedienung eingeräumt."
+    },
+    {
+      "id": "change-000019-4",
+      "source_event_id": "event-000019",
+      "visibility": "public",
+      "key": "marcellus-aware-of-inquiry",
+      "value": true,
+      "text": "Durch direkte Nachfrage erfährt Marcellus vom gezielten Interesse beider an seinem Besuch; keine konkreten Beweise von Spielern vorgelegt."
+    },
+    {
+      "id": "change-000019-visit-truth",
+      "source_event_id": "event-000019",
+      "visibility": "gm",
+      "key": "marcellus-distributor-visit",
+      "value": "yesterday",
+      "text": "Bisher offene persönliche Anwesenheit konkretisiert: Marcellus hat das Verteilerhaus gestern tatsächlich besichtigt. Er verharmlost seine bekannte Absicht als Vorsorge. Physischer Schieberbediener weiterhin nicht festgelegt; keine Änderung der vorbereiteten Täterschaft."
     }
   ],
   "quests": [
@@ -992,10 +1032,10 @@
     },
     {
       "clock_id": "clock-coverup",
-      "value": 0,
+      "value": 1,
       "max": 4,
       "active": true,
-      "last_trigger_event_id": null
+      "last_trigger_event_id": "event-000019"
     }
   ],
   "open_threads": [
@@ -1049,7 +1089,7 @@
     },
     {
       "id": "thread-responsibility",
-      "summary": "Beide lasen Publius' Originalauftrag: Marcellus bestellte Reservefüllung/Wasserwagen schon gestern, Abrechnung nach verkauften Krügen und Fortsetzung vor dem Rat. Zusammen mit technischer Umleitung belastende Linien; keine Person beim Schieberverstellen beobachtet. Original bei Publius, keine Abschrift, nächste Entscheidung offen.",
+      "summary": "Originalauftrag mit Datum/Verkaufsplan gelesen, Sextus nennt Marcellus als Auftraggeber. Marcellus bestätigt nun gestrigen Verteilerbesuch und stellt Reservevorsorge als Grund dar. Technische Befunde und gelesener Auftrag ihm noch nicht vorgehalten; seine Rückfrage offen.",
       "status": "open",
       "visibility": "public"
     }
@@ -1057,11 +1097,11 @@
   "pending_action": null,
   "pending_roll": null,
   "challenge": null,
-  "pending_prompt": "Cäsar und Augustus: Was fragt ihr Publius oder was möchtet ihr mit diesem Fund tun?",
+  "pending_prompt": "Was antwortet ihr Marcellus – sprecht ihr ihn auf die Schieber, den vorab erteilten Wasserauftrag oder etwas anderes an?",
   "spotlight": {
     "last_actor_id": "pc-2",
     "next_actor_id": "pc-1"
   },
-  "last_narration": "Ihr tretet in den Verwaltungsraum. Publius legt seinen Griffel ab, als ihr nach dem Auftrag für Sextus fragt.\n\n„Ansehen könnt ihr ihn. Die Tafeln bleiben aber hier.“\n\nEr schlägt die zusammengebundenen Wachstafeln auf und dreht den Eintrag zu euch. Neben dem Text erkennt ihr die Amtsmarke des Verwalters.\n\n> **Reserveauftrag – gestern, vor Schließung des Wasseramts**\n>\n> Auftraggeber: Verwaltung G. Marcellus\n>\n> An Sextus: Reservebecken Steinbruch füllen. Drei Wasserwagen vor Sonnenaufgang bereitstellen. Abrechnung nach verkauften Krügen. Fortgesetzte Versorgung soll dem Rat morgen zur Entscheidung vorgelegt werden.\n>\n> Vorschuss ausgezahlt. Amtsmarke Marcellus.\n\n**Der Auftrag wurde also schon vor dem Brunnenausfall erteilt.** Die Verwaltung plante bereits, Wasser zu verkaufen und dem Rat eine fortgesetzte Versorgung vorzuschlagen.\n\nZusammen mit der von euch beobachteten Umleitung ist das ein belastender Hinweis gegen Marcellus. Wer die Schieber tatsächlich verstellt hat, steht hier allerdings nicht.\n\nPublius lässt die Tafel vor euch liegen. „Was genau möchtet ihr dazu wissen?“",
-  "last_resolution": "Beide betreten den angrenzenden Verwaltungsraum und sehen mit Publius' Zustimmung den Reserveauftrag ein. Gestern datiert, G.Marcellus als Auftraggeber, drei Wagen vor Sonnenaufgang, Abrechnung pro verkauftem Krug, geplante fortgesetzte Versorgung vor Rat und Vorschuss. Original bleibt bei Publius, keine Abschrift angefertigt. Keine Probe/Phase."
+  "last_narration": "Publius weist euch zu einer weiteren Tür im Verwaltungsgebäude. Dahinter sitzt ein Mann in einer sorgfältig gefalteten Toga. Auf seinem Tisch liegen Wachstafeln und mehrere Münzen, ordentlich nebeneinander ausgerichtet.\n\n„Gaius Marcellus“, stellt er sich vor. „Was führt euch zu mir?“\n\nIhr fragt nach dem Verteilerhaus. Er legt den Griffel beiseite.\n\n„Ja. Ich habe die Anlage gestern besichtigt. Wir brauchen eine Wasserreserve für die Stadt. Als Verwalter sehe ich mir solche Einrichtungen selbstverständlich an.“\n\nEr blickt von Cäsar zu Augustus.\n\n„Warum interessiert euch mein Besuch? Habt ihr dort etwas Ungewöhnliches festgestellt?“\n\n**Marcellus bestätigt damit selbst einen Besuch am Verteilerhaus. Über die gesperrte Stadtleitung oder den Holzkeil hat er noch nichts gesagt.**",
+  "last_resolution": "Beide suchen Marcellus im Hafen-Verwaltungsgebäude auf. Er bestätigt eigenen Besuch im Verteilerhaus gestern und begründet ihn mit Reserveplanung. Noch kein Sabotagegeständnis. Er erfährt durch direkte Nachfrage erstmals von ihrem Interesse an seinem Verteilerbesuch; Vertuschungsuhr0 auf1, keine Schwellenfolge. Keine zusätzliche Phase/Probe."
 }
